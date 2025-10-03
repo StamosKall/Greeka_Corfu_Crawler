@@ -1,19 +1,28 @@
-# Greeka Corfu Hotels Crawler
+# Greeka Corfu Hotels Crawler & Geographic Map Generator
 
-A comprehensive web crawler that extracts hotel information from Greeka's Corfu hotels listing page (https://www.greeka.com/ionian/corfu/hotels/). The crawler automatically navigates through all hotel listings, visits individual hotel pages, and extracts detailed information including ratings, reviews, contact details, and geographic coordinates.
+A comprehensive web crawler and mapping system that extracts hotel information from Greeka's Corfu hotels listing page and generates high-quality geographic maps showing hotel distribution across Corfu island.
 
-## Features
+## 🚀 Features
 
+### 🕷️ **Web Crawling**
 - **Comprehensive Data Extraction**: Extracts hotel name, star rating, review scores, contact information, and coordinates
 - **Advanced Coordinate Extraction**: 99.3% success rate extracting precise latitude/longitude coordinates from map data
 - **Website Detection Enhancement**: Automatically detects and validates official hotel websites
-- **Interactive Map Visualization**: Generates interactive maps showing hotel locations
-- **Data Analysis & Reporting**: Comprehensive data quality analysis and statistics
 - **Robust Error Handling**: Handles network failures, missing data, and parsing errors gracefully
-- **Multiple Output Formats**: Saves data in both CSV and JSON formats
 - **Respectful Crawling**: Implements delays and retry logic to avoid overwhelming the target server
-- **Detailed Logging**: Comprehensive logging for monitoring and debugging
-- **GitHub Actions Integration**: Automated crawling via GitHub Actions with artifact storage
+
+### 🗺️ **Geographic Mapping**
+- **Real Corfu Island Map**: Uses OpenStreetMap data for accurate geographic boundaries
+- **Professional Cartography**: Publication-ready maps with proper styling and legends
+- **Hotel Distribution Visualization**: Color-coded by star rating with size variations
+- **Interactive & Static Formats**: Both PNG images and HTML interactive maps
+- **Strategic Info Positioning**: Statistics and legends positioned in sea areas
+
+### 📊 **Data Analysis**
+- **Comprehensive Statistics**: Detailed analysis of hotel distribution and ratings
+- **Data Quality Reporting**: Coverage analysis and validation metrics
+- **Multiple Output Formats**: CSV, JSON, and visual map formats
+- **Detailed Logging**: Complete audit trail of all operations
 
 ## Data Fields Extracted
 
@@ -32,20 +41,23 @@ For each hotel, the crawler attempts to extract:
 | **longitude** | Geographic longitude coordinate | "19.6858" |
 | **detail_url** | URL of the hotel's detail page | "https://www.greeka.com/ionian/corfu/hotels/..." |
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Greeka_Corfu_Crawler/
 ├── src/                            # Source code
 │   ├── crawler.py                  # Main hotel data crawler
-│   ├── detect_websites.py          # Website detection enhancement
+│   ├── detect_websites.py          # Website detection enhancement  
 │   ├── analyze_data.py             # Data analysis and reporting
-│   └── visualize_map.py            # Interactive map generation
+│   ├── visualize_map.py            # Basic map visualization
+│   ├── ultimate_corfu_map.py       # 🌟 Ultimate map generator with real OSM data
+│   └── cache/                      # Cached data for performance
 ├── data/                           # Data files and outputs
-│   ├── hotels.csv                  # Final hotel dataset (CSV)
-│   ├── hotels.json                 # Final hotel dataset (JSON)
-│   ├── corfu_hotels_map.html       # Interactive map visualization
-│   └── *.log                       # Execution logs
+│   ├── hotels.csv                  # Hotel dataset (CSV format)
+│   ├── hotels.json                 # Hotel dataset (JSON format)
+│   ├── ultimate_corfu_map.png      # 🗺️ High-quality Corfu map with hotels
+│   ├── corfu_hotels_map.html       # Interactive HTML map (backup)
+│   └── real_corfu_hotels_map.html  # Real geographic HTML map (backup)
 ├── config/                         # Configuration files
 │   └── config.ini                  # Configuration settings
 ├── docs/                           # Documentation
@@ -61,83 +73,121 @@ Greeka_Corfu_Crawler/
 └── .gitignore                      # Git ignore patterns
 ```
 
-## How the Crawler Works
+## 🚀 Quick Start
 
-### 1. **Main Listing Page Processing**
-- Fetches the main Greeka Corfu hotels page
-- Parses HTML to extract links to individual hotel detail pages
-- Filters out non-hotel links and duplicates
-
-### 2. **Hotel Detail Page Processing**
-For each hotel link found:
-- Fetches the individual hotel page
-- Extracts hotel information using multiple parsing strategies:
-  - **Name**: From `<h1>` tags or page title
-  - **Star Rating**: From star symbols (★) or rating indicators
-  - **Reviews**: From review score patterns and review count text
-  - **Contact Info**: Phone numbers from `tel:` links and text patterns
-  - **Website**: Official website links (excluding social media)
-  - **Address**: From address/location HTML elements and text patterns
-  - **Coordinates**: From Google Maps embeds and JavaScript variables
-
-### 3. **Data Processing & Storage**
-- Validates and cleans extracted data
-- Saves results in both CSV and JSON formats
-- Generates detailed logs and summary statistics
-
-## Installation & Setup
-
-### Prerequisites
-- Python 3.10 or higher
-- pip (Python package installer)
-
-### Local Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/StamosKall/Greeka_Corfu_Crawler.git
-   cd Greeka_Corfu_Crawler
-   ```
-
-2. **Create a virtual environment (recommended):**
-   ```bash
-   python -m venv venv
-   
-   # On Windows:
-   venv\Scripts\activate
-   
-   # On macOS/Linux:
-   source venv/bin/activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-### Running Locally
-
-Execute the crawler with:
-
+### 1. **Installation**
 ```bash
-cd src
-python crawler.py
+# Clone the repository
+git clone https://github.com/StamosKall/Greeka_Corfu_Crawler.git
+cd Greeka_Corfu_Crawler
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
-The crawler will:
-1. Start by fetching the main Greeka Corfu hotels page
-2. Extract all hotel detail page links
-3. Visit each hotel page and extract information
-4. Save results to `../data/hotels.csv` and `../data/hotels.json`
-5. Display a summary of extracted data
+### 2. **Run Hotel Data Crawler**
+```bash
+# Crawl hotel data from Greeka
+cd src
+python crawler.py
 
-### Output Files
+# Output: hotels.json and hotels.csv in data/ directory
+```
 
-After successful execution, you'll find in the `data/` folder:
+### 3. **Generate Ultimate Corfu Map**
+```bash
+# Create high-quality geographic map
+python ultimate_corfu_map.py
 
-- **`hotels.csv`**: Tabular data in CSV format (Excel-compatible)
+# Output: ultimate_corfu_map.png in data/ directory
+```
+
+### 4. **Additional Tools**
+```bash
+# Analyze data quality and statistics
+python analyze_data.py
+
+# Detect and validate hotel websites  
+python detect_websites.py
+
+# Generate basic visualizations
+python visualize_map.py
+```
+
+## 🗺️ Map Generation Features
+
+### **Ultimate Corfu Map (`ultimate_corfu_map.py`)**
+- **Real Geographic Data**: Downloads actual Corfu boundaries from OpenStreetMap
+- **Street Network**: Includes real roads and paths
+- **Professional Styling**: Publication-ready cartographic design
+- **Smart Positioning**: Info boxes positioned in sea areas only
+- **High Resolution**: 300 DPI PNG suitable for printing
+- **Color Coding**: Hotels colored by star rating (🔴 5-star to 🟡 1-star)
+- **Size Variations**: Marker sizes reflect hotel quality
+
+### **Map Components**
+- **📊 Statistics Box** (Bottom-Left): Hotel counts, data source info
+- **🏨 Legend** (Top-Right): Star rating distribution with counts
+- **🏝️ Island Shape**: Accurate Corfu coastline and geography  
+- **🌊 Sea Background**: Blue background representing Ionian Sea
+- **📍 Hotel Markers**: 141 hotels plotted with precise coordinates
+
+## 🔧 How the System Works
+
+### **Data Extraction Pipeline**
+1. **Web Crawling**: Scrapes hotel data from Greeka.com
+2. **Coordinate Extraction**: 99.3% success rate getting GPS coordinates
+3. **Data Validation**: Cleans and validates all extracted information
+4. **Geographic Mapping**: Overlays hotels on real Corfu map
+
+### **Technology Stack**
+- **Web Scraping**: `requests`, `beautifulsoup4`, `lxml`
+- **Geographic Data**: `osmnx`, `geopandas` (OpenStreetMap integration)
+- **Visualization**: `matplotlib`, `numpy` (cartographic rendering)
+- **Data Processing**: `pandas`, `json` (data manipulation)
+- **Caching**: Smart caching system for improved performance
+
+## 📊 Results & Performance
+
+### **Dataset Overview**
+- **🏨 Total Hotels**: 142 hotels discovered
+- **📍 Geocoding Success**: 141/142 hotels (99.3% coverage)
+- **⭐ Star Rating Distribution**:
+  - 5⭐ Hotels: 0 (0%)
+  - 4⭐ Hotels: 25 (17.7%)
+  - 3⭐ Hotels: 30 (21.3%)
+  - 2⭐ Hotels: 12 (8.5%)
+  - 1⭐ Hotels: 1 (0.7%)
+  - No Rating: 73 (51.8%)
+
+### **Data Quality Metrics**
+- **📞 Phone Numbers**: High extraction rate
+- **🌐 Websites**: Official website detection and validation
+- **📮 Addresses**: Complete location information
+- **⭐ Reviews**: Review scores and counts where available
+- **🗺️ Coordinates**: Precise GPS coordinates for mapping
+
+### **Geographic Coverage**
+- **🏝️ Island-wide**: Hotels distributed across entire Corfu
+- **🏖️ Beach Areas**: Major tourist destinations covered
+- **🏔️ Mountain Regions**: Interior and hillside locations included
+- **🏘️ Town Centers**: Urban hotel concentrations mapped
+
+## 🛠️ System Requirements
+
+### **Prerequisites**
+- Python 3.10 or higher
+- Internet connection for data crawling and map generation
+- ~100MB disk space for dependencies and data
+
+### **Dependencies**
+- `requests` - HTTP client for web scraping
+- `beautifulsoup4` - HTML parsing and extraction
+- `lxml` - Fast XML/HTML parser
+- `matplotlib` - Map visualization and graphics
+- `numpy` - Numerical computations
+- `osmnx` - OpenStreetMap data integration
+- `geopandas` - Geographic data processing
 - **`hotels.json`**: Structured data in JSON format (API-friendly)
 - **`crawler.log`**: Detailed execution log with timestamps
 
@@ -197,57 +247,49 @@ The workflow runs automatically:
 ### Manual Trigger
 
 1. Go to the **Actions** tab in your GitHub repository
-2. Select the **"Greeka Corfu Hotels Crawler"** workflow
-3. Click **"Run workflow"** button
-4. Choose the branch and click **"Run workflow"**
+## 📋 Sample Data Output
 
-### Accessing Results
-
-After workflow completion:
-1. Go to the completed workflow run
-2. Scroll down to **"Artifacts"** section
-3. Download **"hotel-data"** artifact containing:
-   - `hotels.csv`
-   - `hotels.json`
-   - `crawler.log`
-
-## Sample Output
-
-### CSV Format
-```csv
-name,official_website,address,star_rating,review_score,number_of_reviews,phone_number,latitude,longitude,detail_url
-"Delfino Blu Boutique Hotel","https://www.delfinoblu.gr/","Agios Stefanos Avliotes, Corfu","4","4.2","87","+30 26630 51012","39.7912","19.6858","https://www.greeka.com/ionian/corfu/hotels/location-agios-stefanos-avliotes/delfino-blu/"
-"Corfu Palace Hotel","https://www.corfupalace.com/","Garitsa Bay, Corfu Town","5","4.5","156","+30 26610 39485","39.6242","19.9217","https://www.greeka.com/ionian/corfu/hotels/corfu-palace/"
-```
-
-### JSON Format
+### **Hotel Dataset Example**
 ```json
-[
-  {
-    "name": "Delfino Blu Boutique Hotel",
-    "official_website": "https://www.delfinoblu.gr/",
-    "address": "Agios Stefanos Avliotes, Corfu",
-    "star_rating": "4",
-    "review_score": "4.2",
-    "number_of_reviews": "87",
-    "phone_number": "+30 26630 51012",
-    "latitude": "39.7912",
-    "longitude": "19.6858",
-    "detail_url": "https://www.greeka.com/ionian/corfu/hotels/location-agios-stefanos-avliotes/delfino-blu/"
-  }
-]
+{
+  "name": "Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu",
+  "official_website": "https://corfudelfinoblu.reserve-online.net/",
+  "address": "Corfu, Agios Stefanos Avliotes",
+  "star_rating": "4",
+  "review_score": "5.0",
+  "number_of_reviews": "1", 
+  "phone_number": "00302118503006",
+  "latitude": "39.75687374887841",
+  "longitude": "19.644466638565063",
+  "detail_url": "https://www.greeka.com/ionian/corfu/hotels/..."
+}
 ```
 
-## Configuration & Customization
+### **Map Output Example**
+The `ultimate_corfu_map.png` shows:
+- **🏝️ Accurate Corfu island shape** with real coastline
+- **🏨 141 hotel locations** plotted as colored markers
+- **📊 Statistics panel** (bottom-left): Hotel counts and data info
+- **🎨 Legend panel** (top-right): Star rating distribution
+- **🌊 Professional styling** with sea background and clean layout
 
-### Modifying Crawler Behavior
+## ⚙️ Configuration Options
 
-Key parameters in `crawler.py`:
+### **Crawler Settings** (`config/config.ini`)
+```ini
+[crawler]
+base_url = https://www.greeka.com/ionian/corfu/hotels/
+delay_between_requests = 1
+delay_between_hotels = 2
+max_retries = 3
+timeout = 30
+```
 
-```python
-# Request delays (seconds)
-time.sleep(1)      # Between page requests
-time.sleep(2)      # Between hotel processing
+### **Map Customization** (`ultimate_corfu_map.py`)
+- **Colors**: Modify `get_star_color()` function
+- **Sizes**: Adjust marker sizes in scatter plot section
+- **Positioning**: Change info box locations via `bbox_to_anchor`
+- **Resolution**: Modify `dpi` parameter in `savefig()`
 
 # Retry settings
 retries = 3        # Number of retry attempts for failed requests
@@ -305,48 +347,79 @@ The crawler includes robust error handling:
 1. **Respectful Crawling**: Implements delays and user-agent headers
 2. **Multiple Parsing Methods**: Uses various techniques to extract each field
 3. **Coordinate Extraction**: Advanced parsing of Google Maps embeds
-4. **Data Validation**: Cleans and validates extracted information
+## 🔍 Use Cases & Applications
 
-### Dependencies
+### **Tourism & Hospitality**
+- **Market Research**: Analyze hotel distribution and pricing patterns
+- **Competition Analysis**: Study competitor locations and ratings
+- **Tourism Planning**: Identify accommodation gaps and opportunities
 
-- **requests**: HTTP library for web requests
-- **beautifulsoup4**: HTML parsing and navigation
-- **lxml**: Fast XML/HTML parser (BeautifulSoup backend)
+### **Academic & Research**
+- **Geographic Studies**: Tourism distribution analysis
+- **Data Science Projects**: Real-world dataset for analysis
+- **Web Scraping Education**: Learning modern scraping techniques
 
-### Architecture
+### **Business Intelligence**
+- **Location Analytics**: Understand hotel clustering patterns  
+- **Market Mapping**: Visual representation of hospitality landscape
+- **Data Visualization**: Professional cartographic presentations
 
-- **Object-Oriented Design**: Clean, maintainable code structure
-- **Dataclass Models**: Type-safe data representation
-- **Comprehensive Logging**: Detailed execution tracking
-- **Modular Functions**: Easily testable and extensible
+## 🚨 Important Notes
 
-## Legal & Ethical Considerations
+### **Ethical Web Scraping**
+- ✅ **Respectful Delays**: 1-2 second delays between requests
+- ✅ **Public Data Only**: Extracts publicly available information
+- ✅ **No Overloading**: Reasonable request rates to avoid server strain
+- ✅ **Compliance**: Users should review target site's terms of service
 
-- **Respectful Crawling**: Implements appropriate delays between requests
-- **Public Data Only**: Only extracts publicly available information
-- **No Personal Data**: Focuses on business/contact information only
-- **Terms of Service**: Users should review Greeka's ToS before use
+### **Data Accuracy**
+- **Dynamic Content**: Website changes may affect extraction accuracy
+- **Validation Recommended**: Cross-check critical data points
+- **Update Frequency**: Data reflects website state at crawl time
 
-## Contributing
+## 🤝 Contributing
 
+We welcome contributions! Here's how to get involved:
+
+### **Bug Reports**
+- Use GitHub Issues for bug reports
+- Include detailed reproduction steps
+- Provide error messages and logs
+
+### **Feature Requests** 
+- Suggest new functionality via GitHub Issues
+- Explain the use case and expected behavior
+- Consider implementation complexity
+
+### **Code Contributions**
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and add tests
-4. Commit changes: `git commit -am 'Add feature'`
-5. Push to branch: `git push origin feature-name`
-6. Submit a Pull Request
+2. Create feature branch: `git checkout -b feature-name`
+3. Write tests for new functionality
+4. Ensure code follows existing style
+5. Submit Pull Request with clear description
 
-## License
+## 📄 License & Legal
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## Support
+### **Disclaimer**
+This tool is for educational and research purposes. Users are responsible for:
+- Complying with target website's terms of service
+- Following applicable laws and regulations  
+- Using data ethically and responsibly
 
-For issues, questions, or contributions:
-- **GitHub Issues**: Report bugs or request features
-- **Pull Requests**: Contribute improvements
-- **Discussions**: General questions and community support
+## 🙋 Support & Community
+
+- **🐛 Issues**: [GitHub Issues](https://github.com/StamosKall/Greeka_Corfu_Crawler/issues)
+- **💡 Discussions**: [GitHub Discussions](https://github.com/StamosKall/Greeka_Corfu_Crawler/discussions)
+- **📧 Contact**: Open an issue for direct communication
 
 ---
 
-**Disclaimer**: This crawler is for educational and research purposes. Users are responsible for complying with the target website's terms of service and applicable laws.
+<div align="center">
+
+**⭐ Star this repository if you found it useful!** 
+
+Made with ❤️ for the open source community
+
+</div>
