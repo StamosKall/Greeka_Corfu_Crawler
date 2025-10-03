@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Green Hill Apartments in Pelekas, Corfu",
+    "lat": 39.587488,
+    "lon": 19.818541,
+    "rating": "",
+    "code": "GREHILPEL"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Glyfada Beach",
+    "drive_time_minutes": 2.8,
+    "walk_time_minutes": 28.2,
+    "distance_km": 2.35
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

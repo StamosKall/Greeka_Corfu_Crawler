@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Villa Panorea Villas in Moraitika, Corfu",
+    "lat": 39.483009465243605,
+    "lon": 19.927942603826523,
+    "rating": "",
+    "code": "PANVILMOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Messonghi Beach",
+    "drive_time_minutes": 0.3,
+    "walk_time_minutes": 3.1,
+    "distance_km": 0.26
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Angsana Resort & Spa Hotel in Benitses, Corfu",
+    "lat": 39.553416,
+    "lon": 19.909083,
+    "rating": "",
+    "code": "ANGSPABEN"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 4.4,
+    "walk_time_minutes": 44.1,
+    "distance_km": 3.68
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

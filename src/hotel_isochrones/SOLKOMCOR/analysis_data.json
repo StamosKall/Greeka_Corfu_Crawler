@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Solea Apartments in Kommeno, Corfu",
+    "lat": 39.66285173200878,
+    "lon": 19.84356726620103,
+    "rating": "",
+    "code": "SOLKOMCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 2.7,
+    "walk_time_minutes": 27.5,
+    "distance_km": 2.29
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Grecotel Daphnila Bay Hotel in Dassia, Corfu",
+    "lat": 39.666129,
+    "lon": 19.84919,
+    "rating": "4",
+    "code": "GREDAPBAY"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 2.3,
+    "walk_time_minutes": 22.6,
+    "distance_km": 1.88
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

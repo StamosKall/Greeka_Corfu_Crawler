@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Louvre Hotel in Gouvia, Corfu",
+    "lat": 39.652514171912564,
+    "lon": 19.843209425841007,
+    "rating": "3",
+    "code": "LOUGOUCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 4.1,
+    "walk_time_minutes": 41.1,
+    "distance_km": 3.43
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

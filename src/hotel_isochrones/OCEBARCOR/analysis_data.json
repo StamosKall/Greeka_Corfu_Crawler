@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Oceanis Apartments in Barbati, Corfu",
+    "lat": 39.72266511339484,
+    "lon": 19.881632924079895,
+    "rating": "",
+    "code": "OCEBARCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Barbati Beach",
+    "drive_time_minutes": 2.3,
+    "walk_time_minutes": 23.3,
+    "distance_km": 1.94
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

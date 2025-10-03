@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Century Hotel in Acharavi, Corfu",
+    "lat": 39.791715014883806,
+    "lon": 19.820865467190742,
+    "rating": "4",
+    "code": "CENACHCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Acharavi Beach",
+    "drive_time_minutes": 0.4,
+    "walk_time_minutes": 4.2,
+    "distance_km": 0.35
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

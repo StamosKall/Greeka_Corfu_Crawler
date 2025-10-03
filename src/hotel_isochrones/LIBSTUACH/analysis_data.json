@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Liberty's Studios in Acharavi, Corfu",
+    "lat": 39.807349,
+    "lon": 19.83453,
+    "rating": "",
+    "code": "LIBSTUACH"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Acharavi Beach",
+    "drive_time_minutes": 2.5,
+    "walk_time_minutes": 24.8,
+    "distance_km": 2.06
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

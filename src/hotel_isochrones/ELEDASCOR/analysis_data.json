@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Elea Hotel in Dassia, Corfu",
+    "lat": 39.68406979655199,
+    "lon": 19.84098806977272,
+    "rating": "4",
+    "code": "ELEDASCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 0.8,
+    "walk_time_minutes": 7.9,
+    "distance_km": 0.66
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

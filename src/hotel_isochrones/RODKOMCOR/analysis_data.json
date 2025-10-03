@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Rodostamo Hotel in Kommeno, Corfu",
+    "lat": 39.66442671541247,
+    "lon": 19.845975637435913,
+    "rating": "",
+    "code": "RODKOMCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 2.5,
+    "walk_time_minutes": 25.0,
+    "distance_km": 2.09
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

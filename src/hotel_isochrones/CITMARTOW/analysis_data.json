@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "City Marina Hotel in Town, Corfu",
+    "lat": 39.626748785323954,
+    "lon": 19.920673817396164,
+    "rating": "3",
+    "code": "CITMARTOW"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 5.4,
+    "walk_time_minutes": 54.4,
+    "distance_km": 4.54
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

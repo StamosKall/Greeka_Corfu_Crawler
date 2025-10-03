@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Corfu Secret Hotel in Agios Markos, Corfu",
+    "lat": 39.708292,
+    "lon": 19.838095,
+    "rating": "3",
+    "code": "CORSECAGI"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Ipsos Beach",
+    "drive_time_minutes": 0.5,
+    "walk_time_minutes": 5.5,
+    "distance_km": 0.46
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

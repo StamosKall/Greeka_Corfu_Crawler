@@ -1,0 +1,2422 @@
+{
+  "analysis_overview": {
+    "total_hotels_processed": 141,
+    "analysis_date": "2025-10-03 18:36:30",
+    "time_intervals_analyzed": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "beach_accessibility": [
+    {
+      "hotel_name": "Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu",
+      "hotel_code": "DELBLUAGI",
+      "nearest_beach": "Arillas Beach",
+      "drive_time_minutes": 2.8,
+      "walk_time_minutes": 27.8,
+      "distance_km": 2.32
+    },
+    {
+      "hotel_name": "Oceanis Apartments in Barbati, Corfu",
+      "hotel_code": "OCEBARCOR",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 2.3,
+      "walk_time_minutes": 23.3,
+      "distance_km": 1.94
+    },
+    {
+      "hotel_name": "Fedra Mare Apartments in Agios Stefanos Avliotes, Corfu",
+      "hotel_code": "FEDMARAGI",
+      "nearest_beach": "Arillas Beach",
+      "drive_time_minutes": 3.0,
+      "walk_time_minutes": 30.2,
+      "distance_km": 2.52
+    },
+    {
+      "hotel_name": "Spiti Nikos Apartments in Danilia, Corfu",
+      "hotel_code": "SPINIKDAN",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 6.1,
+      "walk_time_minutes": 60.8,
+      "distance_km": 5.07
+    },
+    {
+      "hotel_name": "Stevens on the Hill Apartments in Agios Gordios, Corfu",
+      "hotel_code": "STEHILAGI",
+      "nearest_beach": "Agios Gordios Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 7.0,
+      "distance_km": 0.59
+    },
+    {
+      "hotel_name": "Siora Vittoria Boutique Hotel in Town, Corfu",
+      "hotel_code": "SIOVITBOU",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 4.9,
+      "walk_time_minutes": 48.9,
+      "distance_km": 4.08
+    },
+    {
+      "hotel_name": "Kairaba Mythos Palace Hotel in Kouspades, Corfu",
+      "hotel_code": "KAIMYTPAL",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 4.6,
+      "walk_time_minutes": 46.4,
+      "distance_km": 3.86
+    },
+    {
+      "hotel_name": "Porta Spilea Apartments in Town, Corfu",
+      "hotel_code": "PORSPITOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 5.3,
+      "walk_time_minutes": 53.1,
+      "distance_km": 4.43
+    },
+    {
+      "hotel_name": "Dreams Resort & Spa Hotel in Gouvia, Corfu",
+      "hotel_code": "DRESPAGOU",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 4.3,
+      "walk_time_minutes": 43.4,
+      "distance_km": 3.62
+    },
+    {
+      "hotel_name": "Grecotel Eva Palace Hotel in Kommeno, Corfu",
+      "hotel_code": "GREEVAPAL",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 2.3,
+      "walk_time_minutes": 22.7,
+      "distance_km": 1.89
+    },
+    {
+      "hotel_name": "Grecotel Daphnila Bay Hotel in Dassia, Corfu",
+      "hotel_code": "GREDAPBAY",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 2.3,
+      "walk_time_minutes": 22.6,
+      "distance_km": 1.88
+    },
+    {
+      "hotel_name": "Grecotel Imperial Hotel in Kommeno, Corfu",
+      "hotel_code": "GREIMPKOM",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 2.6,
+      "walk_time_minutes": 25.6,
+      "distance_km": 2.13
+    },
+    {
+      "hotel_name": "Ikos Dassia Hotel in Dassia, Corfu",
+      "hotel_code": "IKODASDAS",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 1.1,
+      "walk_time_minutes": 11.4,
+      "distance_km": 0.95
+    },
+    {
+      "hotel_name": "Aeolos Beach Hotel in Perama, Corfu",
+      "hotel_code": "AEOBEAPER",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 2.6,
+      "walk_time_minutes": 26.3,
+      "distance_km": 2.19
+    },
+    {
+      "hotel_name": "Akrotiri Beach Hotel in Paleokastritsa, Corfu",
+      "hotel_code": "AKRBEAPAL",
+      "nearest_beach": "Paleokastritsa Beach",
+      "drive_time_minutes": 0.6,
+      "walk_time_minutes": 5.6,
+      "distance_km": 0.47
+    },
+    {
+      "hotel_name": "Divani Palace Hotel in Town, Corfu",
+      "hotel_code": "DIVPALTOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 1.8,
+      "walk_time_minutes": 17.6,
+      "distance_km": 1.47
+    },
+    {
+      "hotel_name": "Angsana Resort & Spa Hotel in Benitses, Corfu",
+      "hotel_code": "ANGSPABEN",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 4.4,
+      "walk_time_minutes": 44.1,
+      "distance_km": 3.68
+    },
+    {
+      "hotel_name": "Acanthus Blue Hotel in Town, Corfu",
+      "hotel_code": "ACABLUTOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 3.6,
+      "walk_time_minutes": 35.9,
+      "distance_km": 2.99
+    },
+    {
+      "hotel_name": "Mayor Pelekas Monastery Hotel in Pelekas, Corfu",
+      "hotel_code": "MAYPELMON",
+      "nearest_beach": "Glyfada Beach",
+      "drive_time_minutes": 2.2,
+      "walk_time_minutes": 22.0,
+      "distance_km": 1.83
+    },
+    {
+      "hotel_name": "Holiday Palace Hotel in Kanoni Kassiopi, Corfu",
+      "hotel_code": "HOLPALKAN",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 7.7,
+      "distance_km": 0.64
+    },
+    {
+      "hotel_name": "Corfu Palace Hotel in Town, Corfu",
+      "hotel_code": "CORPALTOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 4.5,
+      "walk_time_minutes": 44.8,
+      "distance_km": 3.73
+    },
+    {
+      "hotel_name": "Elea Hotel in Dassia, Corfu",
+      "hotel_code": "ELEDASCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 7.9,
+      "distance_km": 0.66
+    },
+    {
+      "hotel_name": "Paleo ArtNouveau Hotel in Paleokastritsa, Corfu",
+      "hotel_code": "PALARTPAL",
+      "nearest_beach": "Paleokastritsa Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 7.1,
+      "distance_km": 0.59
+    },
+    {
+      "hotel_name": "Delfinia Hotel in Moraitika, Corfu",
+      "hotel_code": "DELMORCOR",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 7.3,
+      "distance_km": 0.61
+    },
+    {
+      "hotel_name": "Dassia Beach Hotel in Dassia, Corfu",
+      "hotel_code": "DASBEADAS",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 7.8,
+      "distance_km": 0.65
+    },
+    {
+      "hotel_name": "Olivar Suites Hotel in Messonghi, Corfu",
+      "hotel_code": "OLIMESCOR",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 7.9,
+      "distance_km": 0.66
+    },
+    {
+      "hotel_name": "Kontokali Bay Hotel in Kontokali, Corfu",
+      "hotel_code": "KONBAYKON",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 4.7,
+      "walk_time_minutes": 46.7,
+      "distance_km": 3.9
+    },
+    {
+      "hotel_name": "Rodostamo Hotel in Kommeno, Corfu",
+      "hotel_code": "RODKOMCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 2.5,
+      "walk_time_minutes": 25.0,
+      "distance_km": 2.09
+    },
+    {
+      "hotel_name": "Marbella Hotel in Agios Ioannis Peristeron, Corfu",
+      "hotel_code": "MARAGIIOA",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 3.6,
+      "walk_time_minutes": 35.9,
+      "distance_km": 2.99
+    },
+    {
+      "hotel_name": "Atlantica Grand Mediterraneo Hotel in Ermones, Corfu",
+      "hotel_code": "ATLGRAMED",
+      "nearest_beach": "Glyfada Beach",
+      "drive_time_minutes": 7.9,
+      "walk_time_minutes": 79.2,
+      "distance_km": 6.6
+    },
+    {
+      "hotel_name": "Mareblue Beach Hotel in Agios Spiridon, Corfu",
+      "hotel_code": "MARBEAAGI",
+      "nearest_beach": "Kasssiopi Beach",
+      "drive_time_minutes": 3.2,
+      "walk_time_minutes": 31.9,
+      "distance_km": 2.66
+    },
+    {
+      "hotel_name": "Mayor Capo Di Corfu Hotel in Lefkimi, Corfu",
+      "hotel_code": "MAYCAPCOR",
+      "nearest_beach": "Kavos Beach",
+      "drive_time_minutes": 6.5,
+      "walk_time_minutes": 65.2,
+      "distance_km": 5.44
+    },
+    {
+      "hotel_name": "Kerkyra Blue Hotel in Alykes, Corfu",
+      "hotel_code": "KERBLUALY",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 7.2,
+      "walk_time_minutes": 72.1,
+      "distance_km": 6.01
+    },
+    {
+      "hotel_name": "Mega Lithari Villas in Arillas, Corfu",
+      "hotel_code": "MEGLITVIL",
+      "nearest_beach": "Arillas Beach",
+      "drive_time_minutes": 0.6,
+      "walk_time_minutes": 6.1,
+      "distance_km": 0.51
+    },
+    {
+      "hotel_name": "Palms & Spas Suites in Messonghi, Corfu",
+      "hotel_code": "PALSPAMES",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 1.6,
+      "walk_time_minutes": 15.5,
+      "distance_km": 1.29
+    },
+    {
+      "hotel_name": "Sunshine Hotel in Nissaki, Corfu",
+      "hotel_code": "SUNNISCOR",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 4.6,
+      "walk_time_minutes": 46.0,
+      "distance_km": 3.83
+    },
+    {
+      "hotel_name": "Villa The Editor's Villas in Viros, Corfu",
+      "hotel_code": "EDIVILVIR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 3.0,
+      "walk_time_minutes": 29.7,
+      "distance_km": 2.47
+    },
+    {
+      "hotel_name": "LOC Hospitality Suites in Town, Corfu",
+      "hotel_code": "LOCHOSTOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 5.1,
+      "walk_time_minutes": 51.1,
+      "distance_km": 4.26
+    },
+    {
+      "hotel_name": "Domes Miramare Hotel in Moraitika, Corfu",
+      "hotel_code": "DOMMIRMOR",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 1.1,
+      "walk_time_minutes": 11.3,
+      "distance_km": 0.94
+    },
+    {
+      "hotel_name": "Mitsis Roda Beach Hotel in Roda, Corfu",
+      "hotel_code": "MITRODBEA",
+      "nearest_beach": "Roda Beach",
+      "drive_time_minutes": 1.0,
+      "walk_time_minutes": 10.4,
+      "distance_km": 0.87
+    },
+    {
+      "hotel_name": "Acharavi Beach Hotel in Acharavi, Corfu",
+      "hotel_code": "ACHBEAACH",
+      "nearest_beach": "Acharavi Beach",
+      "drive_time_minutes": 0.4,
+      "walk_time_minutes": 3.6,
+      "distance_km": 0.3
+    },
+    {
+      "hotel_name": "Aquamarine Apartments in Nissaki, Corfu",
+      "hotel_code": "AQUNISCOR",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 3.3,
+      "walk_time_minutes": 32.7,
+      "distance_km": 2.72
+    },
+    {
+      "hotel_name": "Aqualand Hotel in Agios Ioannis Afra, Corfu",
+      "hotel_code": "AQUAGIIOA",
+      "nearest_beach": "Glyfada Beach",
+      "drive_time_minutes": 6.7,
+      "walk_time_minutes": 66.6,
+      "distance_km": 5.55
+    },
+    {
+      "hotel_name": "Labranda Sandy Beach Hotel in Agios Georgios Argyradon, Corfu",
+      "hotel_code": "LABSANBEA",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 6.8,
+      "walk_time_minutes": 67.8,
+      "distance_km": 5.65
+    },
+    {
+      "hotel_name": "Ariti Hotel in Town, Corfu",
+      "hotel_code": "ARITOWCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 1.0,
+      "walk_time_minutes": 9.9,
+      "distance_km": 0.82
+    },
+    {
+      "hotel_name": "Albatros Hotel in Moraitika, Corfu",
+      "hotel_code": "ALBMORCOR",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 0.3,
+      "walk_time_minutes": 2.8,
+      "distance_km": 0.23
+    },
+    {
+      "hotel_name": "Saint Nicholas Hotel in Gouvia, Corfu",
+      "hotel_code": "SAINICGOU",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 3.7,
+      "walk_time_minutes": 37.3,
+      "distance_km": 3.11
+    },
+    {
+      "hotel_name": "Messonghi Beach Hotel in Messonghi, Corfu",
+      "hotel_code": "MESBEAMES",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 0.2,
+      "walk_time_minutes": 1.6,
+      "distance_km": 0.13
+    },
+    {
+      "hotel_name": "Archontiko Petrettini Boutique Hotel in Agios Ioannis Afra, Corfu",
+      "hotel_code": "ARCPETBOU",
+      "nearest_beach": "Glyfada Beach",
+      "drive_time_minutes": 6.7,
+      "walk_time_minutes": 66.7,
+      "distance_km": 5.56
+    },
+    {
+      "hotel_name": "Bella Vista Hotel in Benitses, Corfu",
+      "hotel_code": "BELVISBEN",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 5.9,
+      "walk_time_minutes": 59.0,
+      "distance_km": 4.92
+    },
+    {
+      "hotel_name": "Alexandros & Gerekos Apartments in Kontokali, Corfu",
+      "hotel_code": "ALEGERKON",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 4.4,
+      "walk_time_minutes": 43.8,
+      "distance_km": 3.65
+    },
+    {
+      "hotel_name": "Angelina Hotel in Sidari, Corfu",
+      "hotel_code": "ANGSIDCOR",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 0.9,
+      "walk_time_minutes": 8.7,
+      "distance_km": 0.72
+    },
+    {
+      "hotel_name": "Cavalieri Hotel in Town, Corfu",
+      "hotel_code": "CAVTOWCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 4.7,
+      "walk_time_minutes": 47.4,
+      "distance_km": 3.95
+    },
+    {
+      "hotel_name": "Barbati Beach Apartments in Barbati, Corfu",
+      "hotel_code": "BARBEABAR",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 7.2,
+      "distance_km": 0.6
+    },
+    {
+      "hotel_name": "Bella Venezia Hotel in Town, Corfu",
+      "hotel_code": "BELVENTOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 4.7,
+      "walk_time_minutes": 47.1,
+      "distance_km": 3.93
+    },
+    {
+      "hotel_name": "Aquarius Hotel in Moraitika, Corfu",
+      "hotel_code": "AQUMORCOR",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 1.0,
+      "walk_time_minutes": 9.5,
+      "distance_km": 0.79
+    },
+    {
+      "hotel_name": "Corfu Mare Hotel in Town, Corfu",
+      "hotel_code": "CORMARTOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 6.0,
+      "walk_time_minutes": 59.7,
+      "distance_km": 4.98
+    },
+    {
+      "hotel_name": "Apraos Bay Hotel in Kasiopi, Corfu",
+      "hotel_code": "APRBAYKAS",
+      "nearest_beach": "Kasssiopi Beach",
+      "drive_time_minutes": 0.3,
+      "walk_time_minutes": 2.7,
+      "distance_km": 0.22
+    },
+    {
+      "hotel_name": "Benitses Arches Hotel in Benitses, Corfu",
+      "hotel_code": "BENARCBEN",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 5.8,
+      "walk_time_minutes": 58.2,
+      "distance_km": 4.85
+    },
+    {
+      "hotel_name": "Blue Dream Apartments in Velonades, Corfu",
+      "hotel_code": "BLUDREVEL",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 4.6,
+      "walk_time_minutes": 46.4,
+      "distance_km": 3.86
+    },
+    {
+      "hotel_name": "Century Hotel in Acharavi, Corfu",
+      "hotel_code": "CENACHCOR",
+      "nearest_beach": "Acharavi Beach",
+      "drive_time_minutes": 0.4,
+      "walk_time_minutes": 4.2,
+      "distance_km": 0.35
+    },
+    {
+      "hotel_name": "ABC Sweet Rooms Apartments in Sidari, Corfu",
+      "hotel_code": "ABCSWEROO",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 1.8,
+      "walk_time_minutes": 17.6,
+      "distance_km": 1.47
+    },
+    {
+      "hotel_name": "Chrismos Suites in Acharavi, Corfu",
+      "hotel_code": "CHRACHCOR",
+      "nearest_beach": "Kasssiopi Beach",
+      "drive_time_minutes": 0.3,
+      "walk_time_minutes": 2.7,
+      "distance_km": 0.22
+    },
+    {
+      "hotel_name": "City Marina Hotel in Town, Corfu",
+      "hotel_code": "CITMARTOW",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 5.4,
+      "walk_time_minutes": 54.4,
+      "distance_km": 4.54
+    },
+    {
+      "hotel_name": "The Pink Palace Beach Resort Rooms in Agios Gordios, Corfu",
+      "hotel_code": "PINPALBEA",
+      "nearest_beach": "Agios Gordios Beach",
+      "drive_time_minutes": 0.2,
+      "walk_time_minutes": 1.6,
+      "distance_km": 0.13
+    },
+    {
+      "hotel_name": "Debono Hotel in Gouvia, Corfu",
+      "hotel_code": "DEBGOUCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 4.7,
+      "walk_time_minutes": 46.5,
+      "distance_km": 3.88
+    },
+    {
+      "hotel_name": "Corfu Club Hotel in Gouvia, Corfu",
+      "hotel_code": "CORCLUGOU",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 3.0,
+      "walk_time_minutes": 30.4,
+      "distance_km": 2.53
+    },
+    {
+      "hotel_name": "Luxury Villas in Barbati, Corfu",
+      "hotel_code": "LUXVILBAR",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 7.2,
+      "distance_km": 0.6
+    },
+    {
+      "hotel_name": "Ibiscus Rooms in Roda, Corfu",
+      "hotel_code": "IBIROOROD",
+      "nearest_beach": "Roda Beach",
+      "drive_time_minutes": 1.6,
+      "walk_time_minutes": 15.8,
+      "distance_km": 1.31
+    },
+    {
+      "hotel_name": "Glyfa Villas in Barbati, Corfu",
+      "hotel_code": "GLYVILBAR",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 2.6,
+      "walk_time_minutes": 26.5,
+      "distance_km": 2.2
+    },
+    {
+      "hotel_name": "Arion Hotel in Town, Corfu",
+      "hotel_code": "ARITOWCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 3.1,
+      "walk_time_minutes": 31.3,
+      "distance_km": 2.61
+    },
+    {
+      "hotel_name": "Green Hill Apartments in Pelekas, Corfu",
+      "hotel_code": "GREHILPEL",
+      "nearest_beach": "Glyfada Beach",
+      "drive_time_minutes": 2.8,
+      "walk_time_minutes": 28.2,
+      "distance_km": 2.35
+    },
+    {
+      "hotel_name": "Corfu Secret Hotel in Agios Markos, Corfu",
+      "hotel_code": "CORSECAGI",
+      "nearest_beach": "Ipsos Beach",
+      "drive_time_minutes": 0.5,
+      "walk_time_minutes": 5.5,
+      "distance_km": 0.46
+    },
+    {
+      "hotel_name": "Eleni Apartments in Sidari, Corfu",
+      "hotel_code": "ELESIDCOR",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 1.3,
+      "walk_time_minutes": 13.2,
+      "distance_km": 1.1
+    },
+    {
+      "hotel_name": "Dimitra Apartments in Benitses, Corfu",
+      "hotel_code": "DIMBENCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 4.8,
+      "walk_time_minutes": 48.3,
+      "distance_km": 4.02
+    },
+    {
+      "hotel_name": "Coral Beach Hotel in Roda, Corfu",
+      "hotel_code": "CORBEAROD",
+      "nearest_beach": "Roda Beach",
+      "drive_time_minutes": 0.6,
+      "walk_time_minutes": 6.3,
+      "distance_km": 0.53
+    },
+    {
+      "hotel_name": "Evgenios Studios in Kavos, Corfu",
+      "hotel_code": "EVGSTUKAV",
+      "nearest_beach": "Kavos Beach",
+      "drive_time_minutes": 1.0,
+      "walk_time_minutes": 9.6,
+      "distance_km": 0.8
+    },
+    {
+      "hotel_name": "Folies Hotel in Town, Corfu",
+      "hotel_code": "FOLTOWCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 4.4,
+      "walk_time_minutes": 44.0,
+      "distance_km": 3.67
+    },
+    {
+      "hotel_name": "Fouxia Apartments in Perama, Corfu",
+      "hotel_code": "FOUPERCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 1.7,
+      "walk_time_minutes": 16.6,
+      "distance_km": 1.38
+    },
+    {
+      "hotel_name": "Fundana Suites in Paleokastritsa, Corfu",
+      "hotel_code": "FUNPALCOR",
+      "nearest_beach": "Paleokastritsa Beach",
+      "drive_time_minutes": 5.7,
+      "walk_time_minutes": 56.7,
+      "distance_km": 4.72
+    },
+    {
+      "hotel_name": "Golden Sunset Hotel in Boukari, Corfu",
+      "hotel_code": "GOLSUNBOU",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 5.9,
+      "walk_time_minutes": 58.6,
+      "distance_km": 4.89
+    },
+    {
+      "hotel_name": "Island Beach Hotel in Kavos, Corfu",
+      "hotel_code": "ISLBEAKAV",
+      "nearest_beach": "Kavos Beach",
+      "drive_time_minutes": 0.1,
+      "walk_time_minutes": 0.7,
+      "distance_km": 0.06
+    },
+    {
+      "hotel_name": "Helion Apartments in Gouvia, Corfu",
+      "hotel_code": "HELGOUCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 3.5,
+      "walk_time_minutes": 35.0,
+      "distance_km": 2.91
+    },
+    {
+      "hotel_name": "Aegli Hotel in Perama, Corfu",
+      "hotel_code": "AEGPERCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 0.3,
+      "walk_time_minutes": 2.7,
+      "distance_km": 0.22
+    },
+    {
+      "hotel_name": "Hellinis Hotel in Kanoni Kassiopi, Corfu",
+      "hotel_code": "HELKANKAS",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 1.1,
+      "walk_time_minutes": 10.5,
+      "distance_km": 0.88
+    },
+    {
+      "hotel_name": "Iliada Beach Hotel in Gouvia, Corfu",
+      "hotel_code": "ILIBEAGOU",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 3.9,
+      "walk_time_minutes": 38.9,
+      "distance_km": 3.24
+    },
+    {
+      "hotel_name": "Aurora Hotel in Agios Ioannis Peristeron, Corfu",
+      "hotel_code": "AURAGIIOA",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 4.7,
+      "walk_time_minutes": 46.6,
+      "distance_km": 3.89
+    },
+    {
+      "hotel_name": "Villa Infinity Villas in Agios Gordios, Corfu",
+      "hotel_code": "INFVILAGI",
+      "nearest_beach": "Agios Gordios Beach",
+      "drive_time_minutes": 3.7,
+      "walk_time_minutes": 37.0,
+      "distance_km": 3.08
+    },
+    {
+      "hotel_name": "Ipsia Rooms in Paleokastritsa, Corfu",
+      "hotel_code": "IPSROOPAL",
+      "nearest_beach": "Paleokastritsa Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 7.8,
+      "distance_km": 0.65
+    },
+    {
+      "hotel_name": "Christakis Hotel in Sidari, Corfu",
+      "hotel_code": "CHRSIDCOR",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 6.9,
+      "distance_km": 0.58
+    },
+    {
+      "hotel_name": "Irene Apartments in Agios Gordios, Corfu",
+      "hotel_code": "IREAGIGOR",
+      "nearest_beach": "Glyfada Beach",
+      "drive_time_minutes": 1.5,
+      "walk_time_minutes": 15.4,
+      "distance_km": 1.29
+    },
+    {
+      "hotel_name": "Helios Splendid Apartments in Boukari, Corfu",
+      "hotel_code": "HELSPLBOU",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 5.1,
+      "walk_time_minutes": 51.1,
+      "distance_km": 4.26
+    },
+    {
+      "hotel_name": "Kaiser Bridge Hotel in Benitses, Corfu",
+      "hotel_code": "KAIBRIBEN",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 3.2,
+      "walk_time_minutes": 31.7,
+      "distance_km": 2.64
+    },
+    {
+      "hotel_name": "Amalia Complex Apartments in Nissaki, Corfu",
+      "hotel_code": "AMACOMNIS",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 4.2,
+      "walk_time_minutes": 41.9,
+      "distance_km": 3.49
+    },
+    {
+      "hotel_name": "Katia Hotel in Kasiopi, Corfu",
+      "hotel_code": "KATKASCOR",
+      "nearest_beach": "Kasssiopi Beach",
+      "drive_time_minutes": 4.6,
+      "walk_time_minutes": 46.4,
+      "distance_km": 3.87
+    },
+    {
+      "hotel_name": "Lena Mare Hotel in Acharavi, Corfu",
+      "hotel_code": "LENMARACH",
+      "nearest_beach": "Acharavi Beach",
+      "drive_time_minutes": 0.3,
+      "walk_time_minutes": 2.8,
+      "distance_km": 0.23
+    },
+    {
+      "hotel_name": "Livadi Nafsika Hotel in Dassia, Corfu",
+      "hotel_code": "LIVNAFDAS",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 1.3,
+      "walk_time_minutes": 12.8,
+      "distance_km": 1.06
+    },
+    {
+      "hotel_name": "Aronis Apartments in Benitses, Corfu",
+      "hotel_code": "AROBENCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 6.9,
+      "walk_time_minutes": 69.1,
+      "distance_km": 5.75
+    },
+    {
+      "hotel_name": "Egrypos Rooms in Petriti, Corfu",
+      "hotel_code": "EGRROOPET",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 8.3,
+      "walk_time_minutes": 82.7,
+      "distance_km": 6.89
+    },
+    {
+      "hotel_name": "Maria Apartments in Sidari, Corfu",
+      "hotel_code": "MARSIDCOR",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 0.9,
+      "walk_time_minutes": 9.1,
+      "distance_km": 0.76
+    },
+    {
+      "hotel_name": "Louvre Hotel in Gouvia, Corfu",
+      "hotel_code": "LOUGOUCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 4.1,
+      "walk_time_minutes": 41.1,
+      "distance_km": 3.43
+    },
+    {
+      "hotel_name": "Makis Apartments in Moraitika, Corfu",
+      "hotel_code": "MAKMORCOR",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 6.7,
+      "distance_km": 0.56
+    },
+    {
+      "hotel_name": "Lofos Apartments in Agios Stefanos, Corfu",
+      "hotel_code": "LOFAGISTE",
+      "nearest_beach": "Arillas Beach",
+      "drive_time_minutes": 2.7,
+      "walk_time_minutes": 27.4,
+      "distance_km": 2.28
+    },
+    {
+      "hotel_name": "Marias Beach Apartments in Sidari, Corfu",
+      "hotel_code": "MARBEASID",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 7.6,
+      "distance_km": 0.63
+    },
+    {
+      "hotel_name": "Seafront Apartments in Kavos, Corfu",
+      "hotel_code": "SEAKAVCOR",
+      "nearest_beach": "Kavos Beach",
+      "drive_time_minutes": 1.0,
+      "walk_time_minutes": 9.6,
+      "distance_km": 0.8
+    },
+    {
+      "hotel_name": "Marina Apartments in Agios Gordios, Corfu",
+      "hotel_code": "MARAGIGOR",
+      "nearest_beach": "Agios Gordios Beach",
+      "drive_time_minutes": 0.6,
+      "walk_time_minutes": 6.4,
+      "distance_km": 0.54
+    },
+    {
+      "hotel_name": "Royal Hotel in Kanoni Kassiopi, Corfu",
+      "hotel_code": "ROYKANKAS",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 0.9,
+      "walk_time_minutes": 8.6,
+      "distance_km": 0.72
+    },
+    {
+      "hotel_name": "Maltezos Hotel in Gouvia, Corfu",
+      "hotel_code": "MALGOUCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 4.0,
+      "walk_time_minutes": 39.9,
+      "distance_km": 3.33
+    },
+    {
+      "hotel_name": "Ninos on The Beach Studios in Roda, Corfu",
+      "hotel_code": "NINBEASTU",
+      "nearest_beach": "Roda Beach",
+      "drive_time_minutes": 0.9,
+      "walk_time_minutes": 8.8,
+      "distance_km": 0.73
+    },
+    {
+      "hotel_name": "Mediterranean Blue Hotel in Kavos, Corfu",
+      "hotel_code": "MEDBLUKAV",
+      "nearest_beach": "Kavos Beach",
+      "drive_time_minutes": 1.3,
+      "walk_time_minutes": 13.4,
+      "distance_km": 1.11
+    },
+    {
+      "hotel_name": "Mimosa Hotel in Sidari, Corfu",
+      "hotel_code": "MIMSIDCOR",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 0.2,
+      "walk_time_minutes": 2.2,
+      "distance_km": 0.19
+    },
+    {
+      "hotel_name": "Napoleon On The Beach Apartments in Paleokastritsa, Corfu",
+      "hotel_code": "NAPBEAPAL",
+      "nearest_beach": "Paleokastritsa Beach",
+      "drive_time_minutes": 0.5,
+      "walk_time_minutes": 4.9,
+      "distance_km": 0.41
+    },
+    {
+      "hotel_name": "Nissaki Sea View Apartments in Nissaki, Corfu",
+      "hotel_code": "NISSEAVIE",
+      "nearest_beach": "Barbati Beach",
+      "drive_time_minutes": 3.7,
+      "walk_time_minutes": 37.2,
+      "distance_km": 3.1
+    },
+    {
+      "hotel_name": "Liberty's Studios in Acharavi, Corfu",
+      "hotel_code": "LIBSTUACH",
+      "nearest_beach": "Acharavi Beach",
+      "drive_time_minutes": 2.5,
+      "walk_time_minutes": 24.8,
+      "distance_km": 2.06
+    },
+    {
+      "hotel_name": "Oasis Hotel in Perama, Corfu",
+      "hotel_code": "OASPERCOR",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 8.3,
+      "distance_km": 0.69
+    },
+    {
+      "hotel_name": "Panorama Hideaway Apartments in Dassia, Corfu",
+      "hotel_code": "PANHIDDAS",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 1.5,
+      "walk_time_minutes": 14.5,
+      "distance_km": 1.21
+    },
+    {
+      "hotel_name": "Opera Blue Hotel in Gouvia, Corfu",
+      "hotel_code": "OPEBLUGOU",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 4.0,
+      "walk_time_minutes": 39.8,
+      "distance_km": 3.32
+    },
+    {
+      "hotel_name": "Paradise Hotel in Gouvia, Corfu",
+      "hotel_code": "PARGOUCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 3.8,
+      "walk_time_minutes": 37.8,
+      "distance_km": 3.15
+    },
+    {
+      "hotel_name": "Villa Pelekas Villas in Pelekas, Corfu",
+      "hotel_code": "PELVILPEL",
+      "nearest_beach": "Glyfada Beach",
+      "drive_time_minutes": 4.0,
+      "walk_time_minutes": 40.1,
+      "distance_km": 3.34
+    },
+    {
+      "hotel_name": "Olga Hotel in Agios Stefanos Avliotes, Corfu",
+      "hotel_code": "OLGAGISTE",
+      "nearest_beach": "Arillas Beach",
+      "drive_time_minutes": 2.6,
+      "walk_time_minutes": 26.4,
+      "distance_km": 2.2
+    },
+    {
+      "hotel_name": "Pegasus Hotel in Roda, Corfu",
+      "hotel_code": "PEGRODCOR",
+      "nearest_beach": "Roda Beach",
+      "drive_time_minutes": 0.7,
+      "walk_time_minutes": 6.6,
+      "distance_km": 0.55
+    },
+    {
+      "hotel_name": "Prassino Nissi Rooms in Moraitika, Corfu",
+      "hotel_code": "PRANISROO",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 1.2,
+      "walk_time_minutes": 11.9,
+      "distance_km": 0.99
+    },
+    {
+      "hotel_name": "Telesilla Hotel in Kontokali, Corfu",
+      "hotel_code": "TELKONCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 5.1,
+      "walk_time_minutes": 51.4,
+      "distance_km": 4.28
+    },
+    {
+      "hotel_name": "Sun Sea Side Apartments in Benitses, Corfu",
+      "hotel_code": "SUNSEASID",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 5.5,
+      "walk_time_minutes": 55.0,
+      "distance_km": 4.58
+    },
+    {
+      "hotel_name": "Villa Panorea Villas in Moraitika, Corfu",
+      "hotel_code": "PANVILMOR",
+      "nearest_beach": "Messonghi Beach",
+      "drive_time_minutes": 0.3,
+      "walk_time_minutes": 3.1,
+      "distance_km": 0.26
+    },
+    {
+      "hotel_name": "Sebastian's Family Apartments in Agios Gordios, Corfu",
+      "hotel_code": "SEBFAMAGI",
+      "nearest_beach": "Agios Gordios Beach",
+      "drive_time_minutes": 0.5,
+      "walk_time_minutes": 4.7,
+      "distance_km": 0.39
+    },
+    {
+      "hotel_name": "Roza Studios in Benitses, Corfu",
+      "hotel_code": "ROZSTUBEN",
+      "nearest_beach": "Benitses Beach",
+      "drive_time_minutes": 5.4,
+      "walk_time_minutes": 53.5,
+      "distance_km": 4.46
+    },
+    {
+      "hotel_name": "Saint Spiridon Rooms in Kasiopi, Corfu",
+      "hotel_code": "SAISPIROO",
+      "nearest_beach": "Kasssiopi Beach",
+      "drive_time_minutes": 4.2,
+      "walk_time_minutes": 42.0,
+      "distance_km": 3.5
+    },
+    {
+      "hotel_name": "San Marina Hotel in Kavos, Corfu",
+      "hotel_code": "SANMARKAV",
+      "nearest_beach": "Kavos Beach",
+      "drive_time_minutes": 0.2,
+      "walk_time_minutes": 1.9,
+      "distance_km": 0.16
+    },
+    {
+      "hotel_name": "Villa Kerkyra Villas in Gouvia, Corfu",
+      "hotel_code": "KERVILGOU",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 5.5,
+      "walk_time_minutes": 54.7,
+      "distance_km": 4.56
+    },
+    {
+      "hotel_name": "Semeli Hotel in Roda, Corfu",
+      "hotel_code": "SEMRODCOR",
+      "nearest_beach": "Roda Beach",
+      "drive_time_minutes": 0.9,
+      "walk_time_minutes": 9.4,
+      "distance_km": 0.78
+    },
+    {
+      "hotel_name": "Sugar And Almond Apartments in Agios Stefanos, Corfu",
+      "hotel_code": "SUGALMAGI",
+      "nearest_beach": "Arillas Beach",
+      "drive_time_minutes": 2.6,
+      "walk_time_minutes": 26.3,
+      "distance_km": 2.19
+    },
+    {
+      "hotel_name": "Villa Vozos Villas in Afionas, Corfu",
+      "hotel_code": "VOZVILAFI",
+      "nearest_beach": "Arillas Beach",
+      "drive_time_minutes": 0.6,
+      "walk_time_minutes": 6.1,
+      "distance_km": 0.51
+    },
+    {
+      "hotel_name": "Solea Apartments in Kommeno, Corfu",
+      "hotel_code": "SOLKOMCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 2.7,
+      "walk_time_minutes": 27.5,
+      "distance_km": 2.29
+    },
+    {
+      "hotel_name": "Tassos Hotel in Acharavi, Corfu",
+      "hotel_code": "TASACHCOR",
+      "nearest_beach": "Acharavi Beach",
+      "drive_time_minutes": 0.5,
+      "walk_time_minutes": 5.4,
+      "distance_km": 0.45
+    },
+    {
+      "hotel_name": "Yannis Hotel in Ipsos, Corfu",
+      "hotel_code": "YANIPSCOR",
+      "nearest_beach": "Ipsos Beach",
+      "drive_time_minutes": 0.5,
+      "walk_time_minutes": 5.3,
+      "distance_km": 0.45
+    },
+    {
+      "hotel_name": "The Wave Apartments in Sidari, Corfu",
+      "hotel_code": "WAVSIDCOR",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 1.4,
+      "walk_time_minutes": 14.2,
+      "distance_km": 1.18
+    },
+    {
+      "hotel_name": "Pyrros Hotel in Kontokali, Corfu",
+      "hotel_code": "PYRKONCOR",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 5.1,
+      "walk_time_minutes": 51.5,
+      "distance_km": 4.29
+    },
+    {
+      "hotel_name": "Toni's Apartments in Kavos, Corfu",
+      "hotel_code": "TONKAVCOR",
+      "nearest_beach": "Kavos Beach",
+      "drive_time_minutes": 0.5,
+      "walk_time_minutes": 4.8,
+      "distance_km": 0.4
+    },
+    {
+      "hotel_name": "Toulas Apartments in Sidari, Corfu",
+      "hotel_code": "TOUSIDCOR",
+      "nearest_beach": "Sidari Beach",
+      "drive_time_minutes": 0.8,
+      "walk_time_minutes": 8.2,
+      "distance_km": 0.68
+    },
+    {
+      "hotel_name": "Victoria Hill Hotel in Dassia, Corfu",
+      "hotel_code": "VICHILDAS",
+      "nearest_beach": "Dassia Beach",
+      "drive_time_minutes": 1.3,
+      "walk_time_minutes": 12.7,
+      "distance_km": 1.06
+    }
+  ],
+  "hotel_summaries": [
+    {
+      "name": "Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu",
+      "code": "DELBLUAGI",
+      "rating": "4",
+      "coordinates": [
+        39.75687374887841,
+        19.644466638565063
+      ]
+    },
+    {
+      "name": "Oceanis Apartments in Barbati, Corfu",
+      "code": "OCEBARCOR",
+      "rating": "",
+      "coordinates": [
+        39.72266511339484,
+        19.881632924079895
+      ]
+    },
+    {
+      "name": "Fedra Mare Apartments in Agios Stefanos Avliotes, Corfu",
+      "code": "FEDMARAGI",
+      "rating": "",
+      "coordinates": [
+        39.75358454392243,
+        19.638726346254458
+      ]
+    },
+    {
+      "name": "Spiti Nikos Apartments in Danilia, Corfu",
+      "code": "SPINIKDAN",
+      "rating": "",
+      "coordinates": [
+        39.638282,
+        19.837331
+      ]
+    },
+    {
+      "name": "Stevens on the Hill Apartments in Agios Gordios, Corfu",
+      "code": "STEHILAGI",
+      "rating": "",
+      "coordinates": [
+        39.545129576886474,
+        19.85351800918579
+      ]
+    },
+    {
+      "name": "Siora Vittoria Boutique Hotel in Town, Corfu",
+      "code": "SIOVITBOU",
+      "rating": "4",
+      "coordinates": [
+        39.622526,
+        19.921493
+      ]
+    },
+    {
+      "name": "Kairaba Mythos Palace Hotel in Kouspades, Corfu",
+      "code": "KAIMYTPAL",
+      "rating": "",
+      "coordinates": [
+        39.46071,
+        19.966194
+      ]
+    },
+    {
+      "name": "Porta Spilea Apartments in Town, Corfu",
+      "code": "PORSPITOW",
+      "rating": "",
+      "coordinates": [
+        39.625811,
+        19.919514
+      ]
+    },
+    {
+      "name": "Dreams Resort & Spa Hotel in Gouvia, Corfu",
+      "code": "DRESPAGOU",
+      "rating": "4",
+      "coordinates": [
+        39.65078121740967,
+        19.84296016395092
+      ]
+    },
+    {
+      "name": "Grecotel Eva Palace Hotel in Kommeno, Corfu",
+      "code": "GREEVAPAL",
+      "rating": "",
+      "coordinates": [
+        39.667094996809794,
+        19.856158643960953
+      ]
+    },
+    {
+      "name": "Grecotel Daphnila Bay Hotel in Dassia, Corfu",
+      "code": "GREDAPBAY",
+      "rating": "4",
+      "coordinates": [
+        39.666129,
+        19.84919
+      ]
+    },
+    {
+      "name": "Grecotel Imperial Hotel in Kommeno, Corfu",
+      "code": "GREIMPKOM",
+      "rating": "",
+      "coordinates": [
+        39.666361104522814,
+        19.860763996839523
+      ]
+    },
+    {
+      "name": "Ikos Dassia Hotel in Dassia, Corfu",
+      "code": "IKODASDAS",
+      "rating": "4",
+      "coordinates": [
+        39.67798064916928,
+        19.839677810668945
+      ]
+    },
+    {
+      "name": "Aeolos Beach Hotel in Perama, Corfu",
+      "code": "AEOBEAPER",
+      "rating": "4",
+      "coordinates": [
+        39.567422,
+        19.908127
+      ]
+    },
+    {
+      "name": "Akrotiri Beach Hotel in Paleokastritsa, Corfu",
+      "code": "AKRBEAPAL",
+      "rating": "4",
+      "coordinates": [
+        39.672973905998255,
+        19.716519489884377
+      ]
+    },
+    {
+      "name": "Divani Palace Hotel in Town, Corfu",
+      "code": "DIVPALTOW",
+      "rating": "4",
+      "coordinates": [
+        39.59846835359944,
+        19.922293201088905
+      ]
+    },
+    {
+      "name": "Angsana Resort & Spa Hotel in Benitses, Corfu",
+      "code": "ANGSPABEN",
+      "rating": "",
+      "coordinates": [
+        39.553416,
+        19.909083
+      ]
+    },
+    {
+      "name": "Acanthus Blue Hotel in Town, Corfu",
+      "code": "ACABLUTOW",
+      "rating": "",
+      "coordinates": [
+        39.612799,
+        19.919928
+      ]
+    },
+    {
+      "name": "Mayor Pelekas Monastery Hotel in Pelekas, Corfu",
+      "code": "MAYPELMON",
+      "rating": "",
+      "coordinates": [
+        39.583221,
+        19.820893
+      ]
+    },
+    {
+      "name": "Holiday Palace Hotel in Kanoni Kassiopi, Corfu",
+      "code": "HOLPALKAN",
+      "rating": "",
+      "coordinates": [
+        39.591575488537345,
+        19.9185997992754
+      ]
+    },
+    {
+      "name": "Corfu Palace Hotel in Town, Corfu",
+      "code": "CORPALTOW",
+      "rating": "",
+      "coordinates": [
+        39.61926483668208,
+        19.92288865149021
+      ]
+    },
+    {
+      "name": "Elea Hotel in Dassia, Corfu",
+      "code": "ELEDASCOR",
+      "rating": "4",
+      "coordinates": [
+        39.68406979655199,
+        19.84098806977272
+      ]
+    },
+    {
+      "name": "Paleo ArtNouveau Hotel in Paleokastritsa, Corfu",
+      "code": "PALARTPAL",
+      "rating": "4",
+      "coordinates": [
+        39.67430972673714,
+        19.71818581223488
+      ]
+    },
+    {
+      "name": "Delfinia Hotel in Moraitika, Corfu",
+      "code": "DELMORCOR",
+      "rating": "4",
+      "coordinates": [
+        39.486517,
+        19.927822
+      ]
+    },
+    {
+      "name": "Dassia Beach Hotel in Dassia, Corfu",
+      "code": "DASBEADAS",
+      "rating": "2",
+      "coordinates": [
+        39.68218508342815,
+        19.841159731149673
+      ]
+    },
+    {
+      "name": "Olivar Suites Hotel in Messonghi, Corfu",
+      "code": "OLIMESCOR",
+      "rating": "",
+      "coordinates": [
+        39.47560492309906,
+        19.932223581996293
+      ]
+    },
+    {
+      "name": "Kontokali Bay Hotel in Kontokali, Corfu",
+      "code": "KONBAYKON",
+      "rating": "",
+      "coordinates": [
+        39.64928912216484,
+        19.86073113977909
+      ]
+    },
+    {
+      "name": "Rodostamo Hotel in Kommeno, Corfu",
+      "code": "RODKOMCOR",
+      "rating": "",
+      "coordinates": [
+        39.66442671541247,
+        19.845975637435913
+      ]
+    },
+    {
+      "name": "Marbella Hotel in Agios Ioannis Peristeron, Corfu",
+      "code": "MARAGIIOA",
+      "rating": "",
+      "coordinates": [
+        39.50759918521683,
+        19.922350198030472
+      ]
+    },
+    {
+      "name": "Atlantica Grand Mediterraneo Hotel in Ermones, Corfu",
+      "code": "ATLGRAMED",
+      "rating": "",
+      "coordinates": [
+        39.61269715976721,
+        19.778810776770115
+      ]
+    },
+    {
+      "name": "Mareblue Beach Hotel in Agios Spiridon, Corfu",
+      "code": "MARBEAAGI",
+      "rating": "4",
+      "coordinates": [
+        39.813002,
+        19.86463
+      ]
+    },
+    {
+      "name": "Mayor Capo Di Corfu Hotel in Lefkimi, Corfu",
+      "code": "MAYCAPCOR",
+      "rating": "4",
+      "coordinates": [
+        39.42309,
+        20.071861
+      ]
+    },
+    {
+      "name": "Kerkyra Blue Hotel in Alykes, Corfu",
+      "code": "KERBLUALY",
+      "rating": "",
+      "coordinates": [
+        39.63463390001306,
+        19.885968044400215
+      ]
+    },
+    {
+      "name": "Mega Lithari Villas in Arillas, Corfu",
+      "code": "MEGLITVIL",
+      "rating": "",
+      "coordinates": [
+        39.742065499457865,
+        19.67060626533558
+      ]
+    },
+    {
+      "name": "Palms & Spas Suites in Messonghi, Corfu",
+      "code": "PALSPAMES",
+      "rating": "",
+      "coordinates": [
+        39.47127116108039,
+        19.937642142176628
+      ]
+    },
+    {
+      "name": "Sunshine Hotel in Nissaki, Corfu",
+      "code": "SUNNISCOR",
+      "rating": "4",
+      "coordinates": [
+        39.72586270864284,
+        19.904194995760918
+      ]
+    },
+    {
+      "name": "Villa The Editor's Villas in Viros, Corfu",
+      "code": "EDIVILVIR",
+      "rating": "",
+      "coordinates": [
+        39.59336785444335,
+        19.88954644650221
+      ]
+    },
+    {
+      "name": "LOC Hospitality Suites in Town, Corfu",
+      "code": "LOCHOSTOW",
+      "rating": "",
+      "coordinates": [
+        39.62421452495007,
+        19.92103088647127
+      ]
+    },
+    {
+      "name": "Domes Miramare Hotel in Moraitika, Corfu",
+      "code": "DOMMIRMOR",
+      "rating": "",
+      "coordinates": [
+        39.489513283514206,
+        19.92741221538852
+      ]
+    },
+    {
+      "name": "Mitsis Roda Beach Hotel in Roda, Corfu",
+      "code": "MITRODBEA",
+      "rating": "4",
+      "coordinates": [
+        39.795934,
+        19.779752
+      ]
+    },
+    {
+      "name": "Acharavi Beach Hotel in Acharavi, Corfu",
+      "code": "ACHBEAACH",
+      "rating": "4",
+      "coordinates": [
+        39.79656,
+        19.817596
+      ]
+    },
+    {
+      "name": "Aquamarine Apartments in Nissaki, Corfu",
+      "code": "AQUNISCOR",
+      "rating": "",
+      "coordinates": [
+        39.723998838083695,
+        19.89110179245472
+      ]
+    },
+    {
+      "name": "Aqualand Hotel in Agios Ioannis Afra, Corfu",
+      "code": "AQUAGIIOA",
+      "rating": "4",
+      "coordinates": [
+        39.617760955923266,
+        19.83819756656885
+      ]
+    },
+    {
+      "name": "Labranda Sandy Beach Hotel in Agios Georgios Argyradon, Corfu",
+      "code": "LABSANBEA",
+      "rating": "4",
+      "coordinates": [
+        39.43109926848816,
+        19.940709248185158
+      ]
+    },
+    {
+      "name": "Ariti Hotel in Town, Corfu",
+      "code": "ARITOWCOR",
+      "rating": "4",
+      "coordinates": [
+        39.59331272052179,
+        19.91820015013218
+      ]
+    },
+    {
+      "name": "Albatros Hotel in Moraitika, Corfu",
+      "code": "ALBMORCOR",
+      "rating": "3",
+      "coordinates": [
+        39.48337174304366,
+        19.92955058813095
+      ]
+    },
+    {
+      "name": "Saint Nicholas Hotel in Gouvia, Corfu",
+      "code": "SAINICGOU",
+      "rating": "3",
+      "coordinates": [
+        39.65699180820766,
+        19.835500940680504
+      ]
+    },
+    {
+      "name": "Messonghi Beach Hotel in Messonghi, Corfu",
+      "code": "MESBEAMES",
+      "rating": "3",
+      "coordinates": [
+        39.48108315073304,
+        19.93152067065239
+      ]
+    },
+    {
+      "name": "Archontiko Petrettini Boutique Hotel in Agios Ioannis Afra, Corfu",
+      "code": "ARCPETBOU",
+      "rating": "3",
+      "coordinates": [
+        39.616192,
+        19.848242
+      ]
+    },
+    {
+      "name": "Bella Vista Hotel in Benitses, Corfu",
+      "code": "BELVISBEN",
+      "rating": "4",
+      "coordinates": [
+        39.54177613846055,
+        19.91374634206295
+      ]
+    },
+    {
+      "name": "Alexandros & Gerekos Apartments in Kontokali, Corfu",
+      "code": "ALEGERKON",
+      "rating": "",
+      "coordinates": [
+        39.65101664516137,
+        19.85777735710144
+      ]
+    },
+    {
+      "name": "Angelina Hotel in Sidari, Corfu",
+      "code": "ANGSIDCOR",
+      "rating": "3",
+      "coordinates": [
+        39.79438347501337,
+        19.699543118476868
+      ]
+    },
+    {
+      "name": "Cavalieri Hotel in Town, Corfu",
+      "code": "CAVTOWCOR",
+      "rating": "4",
+      "coordinates": [
+        39.62115426170691,
+        19.923641346395016
+      ]
+    },
+    {
+      "name": "Barbati Beach Apartments in Barbati, Corfu",
+      "code": "BARBEABAR",
+      "rating": "",
+      "coordinates": [
+        39.716877707880755,
+        19.867757856845856
+      ]
+    },
+    {
+      "name": "Bella Venezia Hotel in Town, Corfu",
+      "code": "BELVENTOW",
+      "rating": "3",
+      "coordinates": [
+        39.6211134572828,
+        19.922309294342995
+      ]
+    },
+    {
+      "name": "Aquarius Hotel in Moraitika, Corfu",
+      "code": "AQUMORCOR",
+      "rating": "3",
+      "coordinates": [
+        39.47502645378512,
+        19.934410750865936
+      ]
+    },
+    {
+      "name": "Corfu Mare Hotel in Town, Corfu",
+      "code": "CORMARTOW",
+      "rating": "3",
+      "coordinates": [
+        39.62818,
+        19.89704
+      ]
+    },
+    {
+      "name": "Apraos Bay Hotel in Kasiopi, Corfu",
+      "code": "APRBAYKAS",
+      "rating": "3",
+      "coordinates": [
+        39.79677156426121,
+        19.890435934066772
+      ]
+    },
+    {
+      "name": "Benitses Arches Hotel in Benitses, Corfu",
+      "code": "BENARCBEN",
+      "rating": "2",
+      "coordinates": [
+        39.5423703912258,
+        19.914071559906006
+      ]
+    },
+    {
+      "name": "Blue Dream Apartments in Velonades, Corfu",
+      "code": "BLUDREVEL",
+      "rating": "",
+      "coordinates": [
+        39.757331,
+        19.719595
+      ]
+    },
+    {
+      "name": "Century Hotel in Acharavi, Corfu",
+      "code": "CENACHCOR",
+      "rating": "4",
+      "coordinates": [
+        39.791715014883806,
+        19.820865467190742
+      ]
+    },
+    {
+      "name": "ABC Sweet Rooms Apartments in Sidari, Corfu",
+      "code": "ABCSWEROO",
+      "rating": "",
+      "coordinates": [
+        39.78643,
+        19.72266
+      ]
+    },
+    {
+      "name": "Chrismos Suites in Acharavi, Corfu",
+      "code": "CHRACHCOR",
+      "rating": "",
+      "coordinates": [
+        39.79766687025803,
+        19.88534577190876
+      ]
+    },
+    {
+      "name": "City Marina Hotel in Town, Corfu",
+      "code": "CITMARTOW",
+      "rating": "3",
+      "coordinates": [
+        39.626748785323954,
+        19.920673817396164
+      ]
+    },
+    {
+      "name": "The Pink Palace Beach Resort Rooms in Agios Gordios, Corfu",
+      "code": "PINPALBEA",
+      "rating": "",
+      "coordinates": [
+        39.549448967897995,
+        19.84862533457015
+      ]
+    },
+    {
+      "name": "Debono Hotel in Gouvia, Corfu",
+      "code": "DEBGOUCOR",
+      "rating": "4",
+      "coordinates": [
+        39.64839488217711,
+        19.843679666519165
+      ]
+    },
+    {
+      "name": "Corfu Club Hotel in Gouvia, Corfu",
+      "code": "CORCLUGOU",
+      "rating": "3",
+      "coordinates": [
+        39.66142589199939,
+        19.839380085468292
+      ]
+    },
+    {
+      "name": "Luxury Villas in Barbati, Corfu",
+      "code": "LUXVILBAR",
+      "rating": "",
+      "coordinates": [
+        39.709460569360104,
+        19.857495725154877
+      ]
+    },
+    {
+      "name": "Ibiscus Rooms in Roda, Corfu",
+      "code": "IBIROOROD",
+      "rating": "",
+      "coordinates": [
+        39.796584,
+        19.774125
+      ]
+    },
+    {
+      "name": "Glyfa Villas in Barbati, Corfu",
+      "code": "GLYVILBAR",
+      "rating": "",
+      "coordinates": [
+        39.72422873256708,
+        19.88397560849611
+      ]
+    },
+    {
+      "name": "Arion Hotel in Town, Corfu",
+      "code": "ARITOWCOR",
+      "rating": "3",
+      "coordinates": [
+        39.608672,
+        19.924821
+      ]
+    },
+    {
+      "name": "Green Hill Apartments in Pelekas, Corfu",
+      "code": "GREHILPEL",
+      "rating": "",
+      "coordinates": [
+        39.587488,
+        19.818541
+      ]
+    },
+    {
+      "name": "Corfu Secret Hotel in Agios Markos, Corfu",
+      "code": "CORSECAGI",
+      "rating": "3",
+      "coordinates": [
+        39.708292,
+        19.838095
+      ]
+    },
+    {
+      "name": "Eleni Apartments in Sidari, Corfu",
+      "code": "ELESIDCOR",
+      "rating": "",
+      "coordinates": [
+        39.781053,
+        19.709789
+      ]
+    },
+    {
+      "name": "Dimitra Apartments in Benitses, Corfu",
+      "code": "DIMBENCOR",
+      "rating": "",
+      "coordinates": [
+        39.549969,
+        19.911818
+      ]
+    },
+    {
+      "name": "Coral Beach Hotel in Roda, Corfu",
+      "code": "CORBEAROD",
+      "rating": "3",
+      "coordinates": [
+        39.789768424566155,
+        19.793641716241837
+      ]
+    },
+    {
+      "name": "Evgenios Studios in Kavos, Corfu",
+      "code": "EVGSTUKAV",
+      "rating": "",
+      "coordinates": [
+        39.39172527340063,
+        20.107461512088776
+      ]
+    },
+    {
+      "name": "Folies Hotel in Town, Corfu",
+      "code": "FOLTOWCOR",
+      "rating": "3",
+      "coordinates": [
+        39.615969,
+        19.898702
+      ]
+    },
+    {
+      "name": "Fouxia Apartments in Perama, Corfu",
+      "code": "FOUPERCOR",
+      "rating": "",
+      "coordinates": [
+        39.57415511624823,
+        19.91166230437293
+      ]
+    },
+    {
+      "name": "Fundana Suites in Paleokastritsa, Corfu",
+      "code": "FUNPALCOR",
+      "rating": "",
+      "coordinates": [
+        39.65789,
+        19.76211
+      ]
+    },
+    {
+      "name": "Golden Sunset Hotel in Boukari, Corfu",
+      "code": "GOLSUNBOU",
+      "rating": "2",
+      "coordinates": [
+        39.459587824909335,
+        19.979398101568222
+      ]
+    },
+    {
+      "name": "Island Beach Hotel in Kavos, Corfu",
+      "code": "ISLBEAKAV",
+      "rating": "3",
+      "coordinates": [
+        39.38613242223974,
+        20.11351928114891
+      ]
+    },
+    {
+      "name": "Helion Apartments in Gouvia, Corfu",
+      "code": "HELGOUCOR",
+      "rating": "",
+      "coordinates": [
+        39.657463,
+        19.84133
+      ]
+    },
+    {
+      "name": "Aegli Hotel in Perama, Corfu",
+      "code": "AEGPERCOR",
+      "rating": "2",
+      "coordinates": [
+        39.58599569255351,
+        19.914103746414185
+      ]
+    },
+    {
+      "name": "Hellinis Hotel in Kanoni Kassiopi, Corfu",
+      "code": "HELKANKAS",
+      "rating": "3",
+      "coordinates": [
+        39.593910975518305,
+        19.916602224111557
+      ]
+    },
+    {
+      "name": "Iliada Beach Hotel in Gouvia, Corfu",
+      "code": "ILIBEAGOU",
+      "rating": "3",
+      "coordinates": [
+        39.65432659573907,
+        19.842231273651123
+      ]
+    },
+    {
+      "name": "Aurora Hotel in Agios Ioannis Peristeron, Corfu",
+      "code": "AURAGIIOA",
+      "rating": "2",
+      "coordinates": [
+        39.515983,
+        19.92384
+      ]
+    },
+    {
+      "name": "Villa Infinity Villas in Agios Gordios, Corfu",
+      "code": "INFVILAGI",
+      "rating": "",
+      "coordinates": [
+        39.52587,
+        19.868523
+      ]
+    },
+    {
+      "name": "Ipsia Rooms in Paleokastritsa, Corfu",
+      "code": "IPSROOPAL",
+      "rating": "",
+      "coordinates": [
+        39.675817,
+        19.704055
+      ]
+    },
+    {
+      "name": "Christakis Hotel in Sidari, Corfu",
+      "code": "CHRSIDCOR",
+      "rating": "2",
+      "coordinates": [
+        39.791631,
+        19.699784
+      ]
+    },
+    {
+      "name": "Irene Apartments in Agios Gordios, Corfu",
+      "code": "IREAGIGOR",
+      "rating": "",
+      "coordinates": [
+        39.56039205499584,
+        19.840739965438843
+      ]
+    },
+    {
+      "name": "Helios Splendid Apartments in Boukari, Corfu",
+      "code": "HELSPLBOU",
+      "rating": "",
+      "coordinates": [
+        39.458996,
+        19.970311
+      ]
+    },
+    {
+      "name": "Kaiser Bridge Hotel in Benitses, Corfu",
+      "code": "KAIBRIBEN",
+      "rating": "3",
+      "coordinates": [
+        39.562823,
+        19.909629
+      ]
+    },
+    {
+      "name": "Amalia Complex Apartments in Nissaki, Corfu",
+      "code": "AMACOMNIS",
+      "rating": "",
+      "coordinates": [
+        39.7271417052227,
+        19.899088740348816
+      ]
+    },
+    {
+      "name": "Katia Hotel in Kasiopi, Corfu",
+      "code": "KATKASCOR",
+      "rating": "2",
+      "coordinates": [
+        39.781661626418334,
+        19.928312527099095
+      ]
+    },
+    {
+      "name": "Lena Mare Hotel in Acharavi, Corfu",
+      "code": "LENMARACH",
+      "rating": "4",
+      "coordinates": [
+        39.79300878265701,
+        19.820356881771644
+      ]
+    },
+    {
+      "name": "Livadi Nafsika Hotel in Dassia, Corfu",
+      "code": "LIVNAFDAS",
+      "rating": "3",
+      "coordinates": [
+        39.6778428537474,
+        19.8382468521595
+      ]
+    },
+    {
+      "name": "Aronis Apartments in Benitses, Corfu",
+      "code": "AROBENCOR",
+      "rating": "",
+      "coordinates": [
+        39.534182,
+        19.915062
+      ]
+    },
+    {
+      "name": "Egrypos Rooms in Petriti, Corfu",
+      "code": "EGRROOPET",
+      "rating": "",
+      "coordinates": [
+        39.45303790034459,
+        20.001272186636925
+      ]
+    },
+    {
+      "name": "Maria Apartments in Sidari, Corfu",
+      "code": "MARSIDCOR",
+      "rating": "",
+      "coordinates": [
+        39.79039352410162,
+        19.6975314617157
+      ]
+    },
+    {
+      "name": "Louvre Hotel in Gouvia, Corfu",
+      "code": "LOUGOUCOR",
+      "rating": "3",
+      "coordinates": [
+        39.652514171912564,
+        19.843209425841007
+      ]
+    },
+    {
+      "name": "Makis Apartments in Moraitika, Corfu",
+      "code": "MAKMORCOR",
+      "rating": "",
+      "coordinates": [
+        39.47788415375905,
+        19.925200653593038
+      ]
+    },
+    {
+      "name": "Lofos Apartments in Agios Stefanos, Corfu",
+      "code": "LOFAGISTE",
+      "rating": "",
+      "coordinates": [
+        39.758928,
+        19.647844
+      ]
+    },
+    {
+      "name": "Marias Beach Apartments in Sidari, Corfu",
+      "code": "MARBEASID",
+      "rating": "",
+      "coordinates": [
+        39.79497700165496,
+        19.701635241508484
+      ]
+    },
+    {
+      "name": "Seafront Apartments in Kavos, Corfu",
+      "code": "SEAKAVCOR",
+      "rating": "",
+      "coordinates": [
+        39.39164,
+        20.107265
+      ]
+    },
+    {
+      "name": "Marina Apartments in Agios Gordios, Corfu",
+      "code": "MARAGIGOR",
+      "rating": "",
+      "coordinates": [
+        39.547057,
+        19.855309
+      ]
+    },
+    {
+      "name": "Royal Hotel in Kanoni Kassiopi, Corfu",
+      "code": "ROYKANKAS",
+      "rating": "2",
+      "coordinates": [
+        39.59247252988253,
+        19.917032048106194
+      ]
+    },
+    {
+      "name": "Maltezos Hotel in Gouvia, Corfu",
+      "code": "MALGOUCOR",
+      "rating": "3",
+      "coordinates": [
+        39.653423,
+        19.843174
+      ]
+    },
+    {
+      "name": "Ninos on The Beach Studios in Roda, Corfu",
+      "code": "NINBEASTU",
+      "rating": "",
+      "coordinates": [
+        39.790121,
+        19.796247
+      ]
+    },
+    {
+      "name": "Mediterranean Blue Hotel in Kavos, Corfu",
+      "code": "MEDBLUKAV",
+      "rating": "3",
+      "coordinates": [
+        39.37664681962919,
+        20.11788558214903
+      ]
+    },
+    {
+      "name": "Mimosa Hotel in Sidari, Corfu",
+      "code": "MIMSIDCOR",
+      "rating": "2",
+      "coordinates": [
+        39.79220613637739,
+        19.70579333603382
+      ]
+    },
+    {
+      "name": "Napoleon On The Beach Apartments in Paleokastritsa, Corfu",
+      "code": "NAPBEAPAL",
+      "rating": "",
+      "coordinates": [
+        39.67344368099752,
+        19.706624150276184
+      ]
+    },
+    {
+      "name": "Nissaki Sea View Apartments in Nissaki, Corfu",
+      "code": "NISSEAVIE",
+      "rating": "",
+      "coordinates": [
+        39.72464480335559,
+        19.895528443157673
+      ]
+    },
+    {
+      "name": "Liberty's Studios in Acharavi, Corfu",
+      "code": "LIBSTUACH",
+      "rating": "",
+      "coordinates": [
+        39.807349,
+        19.83453
+      ]
+    },
+    {
+      "name": "Oasis Hotel in Perama, Corfu",
+      "code": "OASPERCOR",
+      "rating": "3",
+      "coordinates": [
+        39.58017616126724,
+        19.913787245750427
+      ]
+    },
+    {
+      "name": "Panorama Hideaway Apartments in Dassia, Corfu",
+      "code": "PANHIDDAS",
+      "rating": "",
+      "coordinates": [
+        39.68251184915915,
+        19.83452796936035
+      ]
+    },
+    {
+      "name": "Opera Blue Hotel in Gouvia, Corfu",
+      "code": "OPEBLUGOU",
+      "rating": "4",
+      "coordinates": [
+        39.653572,
+        19.842462
+      ]
+    },
+    {
+      "name": "Paradise Hotel in Gouvia, Corfu",
+      "code": "PARGOUCOR",
+      "rating": "3",
+      "coordinates": [
+        39.65612523564432,
+        19.837118983268738
+      ]
+    },
+    {
+      "name": "Villa Pelekas Villas in Pelekas, Corfu",
+      "code": "PELVILPEL",
+      "rating": "",
+      "coordinates": [
+        39.597121,
+        19.818813
+      ]
+    },
+    {
+      "name": "Olga Hotel in Agios Stefanos Avliotes, Corfu",
+      "code": "OLGAGISTE",
+      "rating": "1",
+      "coordinates": [
+        39.75710661872119,
+        19.64659753793446
+      ]
+    },
+    {
+      "name": "Pegasus Hotel in Roda, Corfu",
+      "code": "PEGRODCOR",
+      "rating": "3",
+      "coordinates": [
+        39.78632339499139,
+        19.786921493946274
+      ]
+    },
+    {
+      "name": "Prassino Nissi Rooms in Moraitika, Corfu",
+      "code": "PRANISROO",
+      "rating": "",
+      "coordinates": [
+        39.489734586126204,
+        19.926203191239438
+      ]
+    },
+    {
+      "name": "Telesilla Hotel in Kontokali, Corfu",
+      "code": "TELKONCOR",
+      "rating": "3",
+      "coordinates": [
+        39.64505139610231,
+        19.856731295585632
+      ]
+    },
+    {
+      "name": "Sun Sea Side Apartments in Benitses, Corfu",
+      "code": "SUNSEASID",
+      "rating": "",
+      "coordinates": [
+        39.54488,
+        19.912183
+      ]
+    },
+    {
+      "name": "Villa Panorea Villas in Moraitika, Corfu",
+      "code": "PANVILMOR",
+      "rating": "",
+      "coordinates": [
+        39.483009465243605,
+        19.927942603826523
+      ]
+    },
+    {
+      "name": "Sebastian's Family Apartments in Agios Gordios, Corfu",
+      "code": "SEBFAMAGI",
+      "rating": "",
+      "coordinates": [
+        39.54653446491543,
+        19.852175563573837
+      ]
+    },
+    {
+      "name": "Roza Studios in Benitses, Corfu",
+      "code": "ROZSTUBEN",
+      "rating": "",
+      "coordinates": [
+        39.546078512850954,
+        19.910796582698822
+      ]
+    },
+    {
+      "name": "Saint Spiridon Rooms in Kasiopi, Corfu",
+      "code": "SAISPIROO",
+      "rating": "",
+      "coordinates": [
+        39.78308797550717,
+        19.924418181180954
+      ]
+    },
+    {
+      "name": "San Marina Hotel in Kavos, Corfu",
+      "code": "SANMARKAV",
+      "rating": "3",
+      "coordinates": [
+        39.385728,
+        20.114765
+      ]
+    },
+    {
+      "name": "Villa Kerkyra Villas in Gouvia, Corfu",
+      "code": "KERVILGOU",
+      "rating": "",
+      "coordinates": [
+        39.6494,
+        19.81832
+      ]
+    },
+    {
+      "name": "Semeli Hotel in Roda, Corfu",
+      "code": "SEMRODCOR",
+      "rating": "2",
+      "coordinates": [
+        39.78817329235979,
+        19.79604296386242
+      ]
+    },
+    {
+      "name": "Sugar And Almond Apartments in Agios Stefanos, Corfu",
+      "code": "SUGALMAGI",
+      "rating": "",
+      "coordinates": [
+        39.75328631058346,
+        19.642930403310856
+      ]
+    },
+    {
+      "name": "Villa Vozos Villas in Afionas, Corfu",
+      "code": "VOZVILAFI",
+      "rating": "",
+      "coordinates": [
+        39.74411916791848,
+        19.658976048231125
+      ]
+    },
+    {
+      "name": "Solea Apartments in Kommeno, Corfu",
+      "code": "SOLKOMCOR",
+      "rating": "",
+      "coordinates": [
+        39.66285173200878,
+        19.84356726620103
+      ]
+    },
+    {
+      "name": "Tassos Hotel in Acharavi, Corfu",
+      "code": "TASACHCOR",
+      "rating": "2",
+      "coordinates": [
+        39.794221902978876,
+        19.81263041496277
+      ]
+    },
+    {
+      "name": "Yannis Hotel in Ipsos, Corfu",
+      "code": "YANIPSCOR",
+      "rating": "3",
+      "coordinates": [
+        39.700200987256004,
+        19.837260344065726
+      ]
+    },
+    {
+      "name": "The Wave Apartments in Sidari, Corfu",
+      "code": "WAVSIDCOR",
+      "rating": "",
+      "coordinates": [
+        39.78970102971371,
+        19.720153212547302
+      ]
+    },
+    {
+      "name": "Pyrros Hotel in Kontokali, Corfu",
+      "code": "PYRKONCOR",
+      "rating": "2",
+      "coordinates": [
+        39.644494,
+        19.849913
+      ]
+    },
+    {
+      "name": "Toni's Apartments in Kavos, Corfu",
+      "code": "TONKAVCOR",
+      "rating": "",
+      "coordinates": [
+        39.383592,
+        20.116434
+      ]
+    },
+    {
+      "name": "Toulas Apartments in Sidari, Corfu",
+      "code": "TOUSIDCOR",
+      "rating": "",
+      "coordinates": [
+        39.79457657782276,
+        19.70037192106247
+      ]
+    },
+    {
+      "name": "Victoria Hill Hotel in Dassia, Corfu",
+      "code": "VICHILDAS",
+      "rating": "3",
+      "coordinates": [
+        39.685192694107535,
+        19.836531579330767
+      ]
+    }
+  ],
+  "statistics": {
+    "average_drive_to_beach_minutes": 2.7,
+    "average_walk_to_beach_minutes": 27.0,
+    "shortest_drive_to_beach_minutes": 0.1,
+    "longest_drive_to_beach_minutes": 8.3,
+    "hotels_within_15min_drive": 141,
+    "hotels_within_60min_walk": 132
+  }
+}

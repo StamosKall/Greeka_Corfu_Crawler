@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Spiti Nikos Apartments in Danilia, Corfu",
+    "lat": 39.638282,
+    "lon": 19.837331,
+    "rating": "",
+    "code": "SPINIKDAN"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 6.1,
+    "walk_time_minutes": 60.8,
+    "distance_km": 5.07
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

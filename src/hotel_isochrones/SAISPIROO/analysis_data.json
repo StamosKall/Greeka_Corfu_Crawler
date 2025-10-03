@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Saint Spiridon Rooms in Kasiopi, Corfu",
+    "lat": 39.78308797550717,
+    "lon": 19.924418181180954,
+    "rating": "",
+    "code": "SAISPIROO"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Kasssiopi Beach",
+    "drive_time_minutes": 4.2,
+    "walk_time_minutes": 42.0,
+    "distance_km": 3.5
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

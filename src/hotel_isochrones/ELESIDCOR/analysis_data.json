@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Eleni Apartments in Sidari, Corfu",
+    "lat": 39.781053,
+    "lon": 19.709789,
+    "rating": "",
+    "code": "ELESIDCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Sidari Beach",
+    "drive_time_minutes": 1.3,
+    "walk_time_minutes": 13.2,
+    "distance_km": 1.1
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

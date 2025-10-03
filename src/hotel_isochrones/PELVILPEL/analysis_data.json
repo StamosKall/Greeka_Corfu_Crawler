@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Villa Pelekas Villas in Pelekas, Corfu",
+    "lat": 39.597121,
+    "lon": 19.818813,
+    "rating": "",
+    "code": "PELVILPEL"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Glyfada Beach",
+    "drive_time_minutes": 4.0,
+    "walk_time_minutes": 40.1,
+    "distance_km": 3.34
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

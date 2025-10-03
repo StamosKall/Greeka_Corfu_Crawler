@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Irene Apartments in Agios Gordios, Corfu",
+    "lat": 39.56039205499584,
+    "lon": 19.840739965438843,
+    "rating": "",
+    "code": "IREAGIGOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Glyfada Beach",
+    "drive_time_minutes": 1.5,
+    "walk_time_minutes": 15.4,
+    "distance_km": 1.29
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Porta Spilea Apartments in Town, Corfu",
+    "lat": 39.625811,
+    "lon": 19.919514,
+    "rating": "",
+    "code": "PORSPITOW"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 5.3,
+    "walk_time_minutes": 53.1,
+    "distance_km": 4.43
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

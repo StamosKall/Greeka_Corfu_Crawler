@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Sunshine Hotel in Nissaki, Corfu",
+    "lat": 39.72586270864284,
+    "lon": 19.904194995760918,
+    "rating": "4",
+    "code": "SUNNISCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Barbati Beach",
+    "drive_time_minutes": 4.6,
+    "walk_time_minutes": 46.0,
+    "distance_km": 3.83
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

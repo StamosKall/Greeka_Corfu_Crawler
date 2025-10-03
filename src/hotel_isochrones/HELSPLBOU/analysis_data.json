@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Helios Splendid Apartments in Boukari, Corfu",
+    "lat": 39.458996,
+    "lon": 19.970311,
+    "rating": "",
+    "code": "HELSPLBOU"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Messonghi Beach",
+    "drive_time_minutes": 5.1,
+    "walk_time_minutes": 51.1,
+    "distance_km": 4.26
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

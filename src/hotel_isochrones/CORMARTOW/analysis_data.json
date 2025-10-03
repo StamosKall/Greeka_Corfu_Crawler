@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Corfu Mare Hotel in Town, Corfu",
+    "lat": 39.62818,
+    "lon": 19.89704,
+    "rating": "3",
+    "code": "CORMARTOW"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 6.0,
+    "walk_time_minutes": 59.7,
+    "distance_km": 4.98
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

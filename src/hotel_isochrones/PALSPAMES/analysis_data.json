@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Palms & Spas Suites in Messonghi, Corfu",
+    "lat": 39.47127116108039,
+    "lon": 19.937642142176628,
+    "rating": "",
+    "code": "PALSPAMES"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Messonghi Beach",
+    "drive_time_minutes": 1.6,
+    "walk_time_minutes": 15.5,
+    "distance_km": 1.29
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

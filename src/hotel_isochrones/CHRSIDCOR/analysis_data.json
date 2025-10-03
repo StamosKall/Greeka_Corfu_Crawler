@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Christakis Hotel in Sidari, Corfu",
+    "lat": 39.791631,
+    "lon": 19.699784,
+    "rating": "2",
+    "code": "CHRSIDCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Sidari Beach",
+    "drive_time_minutes": 0.7,
+    "walk_time_minutes": 6.9,
+    "distance_km": 0.58
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

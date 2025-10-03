@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Grecotel Eva Palace Hotel in Kommeno, Corfu",
+    "lat": 39.667094996809794,
+    "lon": 19.856158643960953,
+    "rating": "",
+    "code": "GREEVAPAL"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 2.3,
+    "walk_time_minutes": 22.7,
+    "distance_km": 1.89
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

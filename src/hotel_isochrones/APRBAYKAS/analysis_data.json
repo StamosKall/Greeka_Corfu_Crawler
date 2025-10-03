@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Apraos Bay Hotel in Kasiopi, Corfu",
+    "lat": 39.79677156426121,
+    "lon": 19.890435934066772,
+    "rating": "3",
+    "code": "APRBAYKAS"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Kasssiopi Beach",
+    "drive_time_minutes": 0.3,
+    "walk_time_minutes": 2.7,
+    "distance_km": 0.22
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Villa The Editor's Villas in Viros, Corfu",
+    "lat": 39.59336785444335,
+    "lon": 19.88954644650221,
+    "rating": "",
+    "code": "EDIVILVIR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 3.0,
+    "walk_time_minutes": 29.7,
+    "distance_km": 2.47
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

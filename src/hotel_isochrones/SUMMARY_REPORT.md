@@ -1,0 +1,157 @@
+# Hotel Isochrone Analysis Summary Report
+
+**Analysis Date:** 2025-10-03 18:36:30
+
+**Hotels Processed:** 141
+
+## Beach Accessibility Statistics
+
+- **Average drive to beach:** 2.7 minutes
+- **Average walk to beach:** 27.0 minutes
+- **Shortest drive to beach:** 0.1 minutes
+- **Hotels within 15min drive to beach:** 141
+- **Hotels within 60min walk to beach:** 132
+
+## Hotel Directory
+
+- **Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu** (`DELBLUAGI`) - 4 stars
+- **Oceanis Apartments in Barbati, Corfu** (`OCEBARCOR`) -  stars
+- **Fedra Mare Apartments in Agios Stefanos Avliotes, Corfu** (`FEDMARAGI`) -  stars
+- **Spiti Nikos Apartments in Danilia, Corfu** (`SPINIKDAN`) -  stars
+- **Stevens on the Hill Apartments in Agios Gordios, Corfu** (`STEHILAGI`) -  stars
+- **Siora Vittoria Boutique Hotel in Town, Corfu** (`SIOVITBOU`) - 4 stars
+- **Kairaba Mythos Palace Hotel in Kouspades, Corfu** (`KAIMYTPAL`) -  stars
+- **Porta Spilea Apartments in Town, Corfu** (`PORSPITOW`) -  stars
+- **Dreams Resort & Spa Hotel in Gouvia, Corfu** (`DRESPAGOU`) - 4 stars
+- **Grecotel Eva Palace Hotel in Kommeno, Corfu** (`GREEVAPAL`) -  stars
+- **Grecotel Daphnila Bay Hotel in Dassia, Corfu** (`GREDAPBAY`) - 4 stars
+- **Grecotel Imperial Hotel in Kommeno, Corfu** (`GREIMPKOM`) -  stars
+- **Ikos Dassia Hotel in Dassia, Corfu** (`IKODASDAS`) - 4 stars
+- **Aeolos Beach Hotel in Perama, Corfu** (`AEOBEAPER`) - 4 stars
+- **Akrotiri Beach Hotel in Paleokastritsa, Corfu** (`AKRBEAPAL`) - 4 stars
+- **Divani Palace Hotel in Town, Corfu** (`DIVPALTOW`) - 4 stars
+- **Angsana Resort & Spa Hotel in Benitses, Corfu** (`ANGSPABEN`) -  stars
+- **Acanthus Blue Hotel in Town, Corfu** (`ACABLUTOW`) -  stars
+- **Mayor Pelekas Monastery Hotel in Pelekas, Corfu** (`MAYPELMON`) -  stars
+- **Holiday Palace Hotel in Kanoni Kassiopi, Corfu** (`HOLPALKAN`) -  stars
+- **Corfu Palace Hotel in Town, Corfu** (`CORPALTOW`) -  stars
+- **Elea Hotel in Dassia, Corfu** (`ELEDASCOR`) - 4 stars
+- **Paleo ArtNouveau Hotel in Paleokastritsa, Corfu** (`PALARTPAL`) - 4 stars
+- **Delfinia Hotel in Moraitika, Corfu** (`DELMORCOR`) - 4 stars
+- **Dassia Beach Hotel in Dassia, Corfu** (`DASBEADAS`) - 2 stars
+- **Olivar Suites Hotel in Messonghi, Corfu** (`OLIMESCOR`) -  stars
+- **Kontokali Bay Hotel in Kontokali, Corfu** (`KONBAYKON`) -  stars
+- **Rodostamo Hotel in Kommeno, Corfu** (`RODKOMCOR`) -  stars
+- **Marbella Hotel in Agios Ioannis Peristeron, Corfu** (`MARAGIIOA`) -  stars
+- **Atlantica Grand Mediterraneo Hotel in Ermones, Corfu** (`ATLGRAMED`) -  stars
+- **Mareblue Beach Hotel in Agios Spiridon, Corfu** (`MARBEAAGI`) - 4 stars
+- **Mayor Capo Di Corfu Hotel in Lefkimi, Corfu** (`MAYCAPCOR`) - 4 stars
+- **Kerkyra Blue Hotel in Alykes, Corfu** (`KERBLUALY`) -  stars
+- **Mega Lithari Villas in Arillas, Corfu** (`MEGLITVIL`) -  stars
+- **Palms & Spas Suites in Messonghi, Corfu** (`PALSPAMES`) -  stars
+- **Sunshine Hotel in Nissaki, Corfu** (`SUNNISCOR`) - 4 stars
+- **Villa The Editor's Villas in Viros, Corfu** (`EDIVILVIR`) -  stars
+- **LOC Hospitality Suites in Town, Corfu** (`LOCHOSTOW`) -  stars
+- **Domes Miramare Hotel in Moraitika, Corfu** (`DOMMIRMOR`) -  stars
+- **Mitsis Roda Beach Hotel in Roda, Corfu** (`MITRODBEA`) - 4 stars
+- **Acharavi Beach Hotel in Acharavi, Corfu** (`ACHBEAACH`) - 4 stars
+- **Aquamarine Apartments in Nissaki, Corfu** (`AQUNISCOR`) -  stars
+- **Aqualand Hotel in Agios Ioannis Afra, Corfu** (`AQUAGIIOA`) - 4 stars
+- **Labranda Sandy Beach Hotel in Agios Georgios Argyradon, Corfu** (`LABSANBEA`) - 4 stars
+- **Ariti Hotel in Town, Corfu** (`ARITOWCOR`) - 4 stars
+- **Albatros Hotel in Moraitika, Corfu** (`ALBMORCOR`) - 3 stars
+- **Saint Nicholas Hotel in Gouvia, Corfu** (`SAINICGOU`) - 3 stars
+- **Messonghi Beach Hotel in Messonghi, Corfu** (`MESBEAMES`) - 3 stars
+- **Archontiko Petrettini Boutique Hotel in Agios Ioannis Afra, Corfu** (`ARCPETBOU`) - 3 stars
+- **Bella Vista Hotel in Benitses, Corfu** (`BELVISBEN`) - 4 stars
+- **Alexandros & Gerekos Apartments in Kontokali, Corfu** (`ALEGERKON`) -  stars
+- **Angelina Hotel in Sidari, Corfu** (`ANGSIDCOR`) - 3 stars
+- **Cavalieri Hotel in Town, Corfu** (`CAVTOWCOR`) - 4 stars
+- **Barbati Beach Apartments in Barbati, Corfu** (`BARBEABAR`) -  stars
+- **Bella Venezia Hotel in Town, Corfu** (`BELVENTOW`) - 3 stars
+- **Aquarius Hotel in Moraitika, Corfu** (`AQUMORCOR`) - 3 stars
+- **Corfu Mare Hotel in Town, Corfu** (`CORMARTOW`) - 3 stars
+- **Apraos Bay Hotel in Kasiopi, Corfu** (`APRBAYKAS`) - 3 stars
+- **Benitses Arches Hotel in Benitses, Corfu** (`BENARCBEN`) - 2 stars
+- **Blue Dream Apartments in Velonades, Corfu** (`BLUDREVEL`) -  stars
+- **Century Hotel in Acharavi, Corfu** (`CENACHCOR`) - 4 stars
+- **ABC Sweet Rooms Apartments in Sidari, Corfu** (`ABCSWEROO`) -  stars
+- **Chrismos Suites in Acharavi, Corfu** (`CHRACHCOR`) -  stars
+- **City Marina Hotel in Town, Corfu** (`CITMARTOW`) - 3 stars
+- **The Pink Palace Beach Resort Rooms in Agios Gordios, Corfu** (`PINPALBEA`) -  stars
+- **Debono Hotel in Gouvia, Corfu** (`DEBGOUCOR`) - 4 stars
+- **Corfu Club Hotel in Gouvia, Corfu** (`CORCLUGOU`) - 3 stars
+- **Luxury Villas in Barbati, Corfu** (`LUXVILBAR`) -  stars
+- **Ibiscus Rooms in Roda, Corfu** (`IBIROOROD`) -  stars
+- **Glyfa Villas in Barbati, Corfu** (`GLYVILBAR`) -  stars
+- **Arion Hotel in Town, Corfu** (`ARITOWCOR`) - 3 stars
+- **Green Hill Apartments in Pelekas, Corfu** (`GREHILPEL`) -  stars
+- **Corfu Secret Hotel in Agios Markos, Corfu** (`CORSECAGI`) - 3 stars
+- **Eleni Apartments in Sidari, Corfu** (`ELESIDCOR`) -  stars
+- **Dimitra Apartments in Benitses, Corfu** (`DIMBENCOR`) -  stars
+- **Coral Beach Hotel in Roda, Corfu** (`CORBEAROD`) - 3 stars
+- **Evgenios Studios in Kavos, Corfu** (`EVGSTUKAV`) -  stars
+- **Folies Hotel in Town, Corfu** (`FOLTOWCOR`) - 3 stars
+- **Fouxia Apartments in Perama, Corfu** (`FOUPERCOR`) -  stars
+- **Fundana Suites in Paleokastritsa, Corfu** (`FUNPALCOR`) -  stars
+- **Golden Sunset Hotel in Boukari, Corfu** (`GOLSUNBOU`) - 2 stars
+- **Island Beach Hotel in Kavos, Corfu** (`ISLBEAKAV`) - 3 stars
+- **Helion Apartments in Gouvia, Corfu** (`HELGOUCOR`) -  stars
+- **Aegli Hotel in Perama, Corfu** (`AEGPERCOR`) - 2 stars
+- **Hellinis Hotel in Kanoni Kassiopi, Corfu** (`HELKANKAS`) - 3 stars
+- **Iliada Beach Hotel in Gouvia, Corfu** (`ILIBEAGOU`) - 3 stars
+- **Aurora Hotel in Agios Ioannis Peristeron, Corfu** (`AURAGIIOA`) - 2 stars
+- **Villa Infinity Villas in Agios Gordios, Corfu** (`INFVILAGI`) -  stars
+- **Ipsia Rooms in Paleokastritsa, Corfu** (`IPSROOPAL`) -  stars
+- **Christakis Hotel in Sidari, Corfu** (`CHRSIDCOR`) - 2 stars
+- **Irene Apartments in Agios Gordios, Corfu** (`IREAGIGOR`) -  stars
+- **Helios Splendid Apartments in Boukari, Corfu** (`HELSPLBOU`) -  stars
+- **Kaiser Bridge Hotel in Benitses, Corfu** (`KAIBRIBEN`) - 3 stars
+- **Amalia Complex Apartments in Nissaki, Corfu** (`AMACOMNIS`) -  stars
+- **Katia Hotel in Kasiopi, Corfu** (`KATKASCOR`) - 2 stars
+- **Lena Mare Hotel in Acharavi, Corfu** (`LENMARACH`) - 4 stars
+- **Livadi Nafsika Hotel in Dassia, Corfu** (`LIVNAFDAS`) - 3 stars
+- **Aronis Apartments in Benitses, Corfu** (`AROBENCOR`) -  stars
+- **Egrypos Rooms in Petriti, Corfu** (`EGRROOPET`) -  stars
+- **Maria Apartments in Sidari, Corfu** (`MARSIDCOR`) -  stars
+- **Louvre Hotel in Gouvia, Corfu** (`LOUGOUCOR`) - 3 stars
+- **Makis Apartments in Moraitika, Corfu** (`MAKMORCOR`) -  stars
+- **Lofos Apartments in Agios Stefanos, Corfu** (`LOFAGISTE`) -  stars
+- **Marias Beach Apartments in Sidari, Corfu** (`MARBEASID`) -  stars
+- **Seafront Apartments in Kavos, Corfu** (`SEAKAVCOR`) -  stars
+- **Marina Apartments in Agios Gordios, Corfu** (`MARAGIGOR`) -  stars
+- **Royal Hotel in Kanoni Kassiopi, Corfu** (`ROYKANKAS`) - 2 stars
+- **Maltezos Hotel in Gouvia, Corfu** (`MALGOUCOR`) - 3 stars
+- **Ninos on The Beach Studios in Roda, Corfu** (`NINBEASTU`) -  stars
+- **Mediterranean Blue Hotel in Kavos, Corfu** (`MEDBLUKAV`) - 3 stars
+- **Mimosa Hotel in Sidari, Corfu** (`MIMSIDCOR`) - 2 stars
+- **Napoleon On The Beach Apartments in Paleokastritsa, Corfu** (`NAPBEAPAL`) -  stars
+- **Nissaki Sea View Apartments in Nissaki, Corfu** (`NISSEAVIE`) -  stars
+- **Liberty's Studios in Acharavi, Corfu** (`LIBSTUACH`) -  stars
+- **Oasis Hotel in Perama, Corfu** (`OASPERCOR`) - 3 stars
+- **Panorama Hideaway Apartments in Dassia, Corfu** (`PANHIDDAS`) -  stars
+- **Opera Blue Hotel in Gouvia, Corfu** (`OPEBLUGOU`) - 4 stars
+- **Paradise Hotel in Gouvia, Corfu** (`PARGOUCOR`) - 3 stars
+- **Villa Pelekas Villas in Pelekas, Corfu** (`PELVILPEL`) -  stars
+- **Olga Hotel in Agios Stefanos Avliotes, Corfu** (`OLGAGISTE`) - 1 stars
+- **Pegasus Hotel in Roda, Corfu** (`PEGRODCOR`) - 3 stars
+- **Prassino Nissi Rooms in Moraitika, Corfu** (`PRANISROO`) -  stars
+- **Telesilla Hotel in Kontokali, Corfu** (`TELKONCOR`) - 3 stars
+- **Sun Sea Side Apartments in Benitses, Corfu** (`SUNSEASID`) -  stars
+- **Villa Panorea Villas in Moraitika, Corfu** (`PANVILMOR`) -  stars
+- **Sebastian's Family Apartments in Agios Gordios, Corfu** (`SEBFAMAGI`) -  stars
+- **Roza Studios in Benitses, Corfu** (`ROZSTUBEN`) -  stars
+- **Saint Spiridon Rooms in Kasiopi, Corfu** (`SAISPIROO`) -  stars
+- **San Marina Hotel in Kavos, Corfu** (`SANMARKAV`) - 3 stars
+- **Villa Kerkyra Villas in Gouvia, Corfu** (`KERVILGOU`) -  stars
+- **Semeli Hotel in Roda, Corfu** (`SEMRODCOR`) - 2 stars
+- **Sugar And Almond Apartments in Agios Stefanos, Corfu** (`SUGALMAGI`) -  stars
+- **Villa Vozos Villas in Afionas, Corfu** (`VOZVILAFI`) -  stars
+- **Solea Apartments in Kommeno, Corfu** (`SOLKOMCOR`) -  stars
+- **Tassos Hotel in Acharavi, Corfu** (`TASACHCOR`) - 2 stars
+- **Yannis Hotel in Ipsos, Corfu** (`YANIPSCOR`) - 3 stars
+- **The Wave Apartments in Sidari, Corfu** (`WAVSIDCOR`) -  stars
+- **Pyrros Hotel in Kontokali, Corfu** (`PYRKONCOR`) - 2 stars
+- **Toni's Apartments in Kavos, Corfu** (`TONKAVCOR`) -  stars
+- **Toulas Apartments in Sidari, Corfu** (`TOUSIDCOR`) -  stars
+- **Victoria Hill Hotel in Dassia, Corfu** (`VICHILDAS`) - 3 stars

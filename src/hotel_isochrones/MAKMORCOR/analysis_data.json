@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Makis Apartments in Moraitika, Corfu",
+    "lat": 39.47788415375905,
+    "lon": 19.925200653593038,
+    "rating": "",
+    "code": "MAKMORCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Messonghi Beach",
+    "drive_time_minutes": 0.7,
+    "walk_time_minutes": 6.7,
+    "distance_km": 0.56
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

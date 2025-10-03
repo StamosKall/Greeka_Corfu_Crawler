@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Fundana Suites in Paleokastritsa, Corfu",
+    "lat": 39.65789,
+    "lon": 19.76211,
+    "rating": "",
+    "code": "FUNPALCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Paleokastritsa Beach",
+    "drive_time_minutes": 5.7,
+    "walk_time_minutes": 56.7,
+    "distance_km": 4.72
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

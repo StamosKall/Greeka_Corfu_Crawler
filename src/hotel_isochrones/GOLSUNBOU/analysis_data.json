@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Golden Sunset Hotel in Boukari, Corfu",
+    "lat": 39.459587824909335,
+    "lon": 19.979398101568222,
+    "rating": "2",
+    "code": "GOLSUNBOU"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Messonghi Beach",
+    "drive_time_minutes": 5.9,
+    "walk_time_minutes": 58.6,
+    "distance_km": 4.89
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

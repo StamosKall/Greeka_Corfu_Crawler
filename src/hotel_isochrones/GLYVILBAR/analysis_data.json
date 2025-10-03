@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Glyfa Villas in Barbati, Corfu",
+    "lat": 39.72422873256708,
+    "lon": 19.88397560849611,
+    "rating": "",
+    "code": "GLYVILBAR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Barbati Beach",
+    "drive_time_minutes": 2.6,
+    "walk_time_minutes": 26.5,
+    "distance_km": 2.2
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

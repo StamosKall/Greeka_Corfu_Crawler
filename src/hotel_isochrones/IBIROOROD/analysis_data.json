@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Ibiscus Rooms in Roda, Corfu",
+    "lat": 39.796584,
+    "lon": 19.774125,
+    "rating": "",
+    "code": "IBIROOROD"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Roda Beach",
+    "drive_time_minutes": 1.6,
+    "walk_time_minutes": 15.8,
+    "distance_km": 1.31
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

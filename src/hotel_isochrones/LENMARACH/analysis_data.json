@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Lena Mare Hotel in Acharavi, Corfu",
+    "lat": 39.79300878265701,
+    "lon": 19.820356881771644,
+    "rating": "4",
+    "code": "LENMARACH"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Acharavi Beach",
+    "drive_time_minutes": 0.3,
+    "walk_time_minutes": 2.8,
+    "distance_km": 0.23
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

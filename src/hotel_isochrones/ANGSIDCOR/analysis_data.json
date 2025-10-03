@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Angelina Hotel in Sidari, Corfu",
+    "lat": 39.79438347501337,
+    "lon": 19.699543118476868,
+    "rating": "3",
+    "code": "ANGSIDCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Sidari Beach",
+    "drive_time_minutes": 0.9,
+    "walk_time_minutes": 8.7,
+    "distance_km": 0.72
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

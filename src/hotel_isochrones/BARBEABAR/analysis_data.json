@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Barbati Beach Apartments in Barbati, Corfu",
+    "lat": 39.716877707880755,
+    "lon": 19.867757856845856,
+    "rating": "",
+    "code": "BARBEABAR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Barbati Beach",
+    "drive_time_minutes": 0.7,
+    "walk_time_minutes": 7.2,
+    "distance_km": 0.6
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

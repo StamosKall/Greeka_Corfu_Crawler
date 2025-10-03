@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Divani Palace Hotel in Town, Corfu",
+    "lat": 39.59846835359944,
+    "lon": 19.922293201088905,
+    "rating": "4",
+    "code": "DIVPALTOW"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 1.8,
+    "walk_time_minutes": 17.6,
+    "distance_km": 1.47
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

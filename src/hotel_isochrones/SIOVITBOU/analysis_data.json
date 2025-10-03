@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Siora Vittoria Boutique Hotel in Town, Corfu",
+    "lat": 39.622526,
+    "lon": 19.921493,
+    "rating": "4",
+    "code": "SIOVITBOU"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 4.9,
+    "walk_time_minutes": 48.9,
+    "distance_km": 4.08
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Villa Infinity Villas in Agios Gordios, Corfu",
+    "lat": 39.52587,
+    "lon": 19.868523,
+    "rating": "",
+    "code": "INFVILAGI"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Agios Gordios Beach",
+    "drive_time_minutes": 3.7,
+    "walk_time_minutes": 37.0,
+    "distance_km": 3.08
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

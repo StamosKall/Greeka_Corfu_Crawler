@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Akrotiri Beach Hotel in Paleokastritsa, Corfu",
+    "lat": 39.672973905998255,
+    "lon": 19.716519489884377,
+    "rating": "4",
+    "code": "AKRBEAPAL"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Paleokastritsa Beach",
+    "drive_time_minutes": 0.6,
+    "walk_time_minutes": 5.6,
+    "distance_km": 0.47
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

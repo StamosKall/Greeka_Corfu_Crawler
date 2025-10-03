@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Pyrros Hotel in Kontokali, Corfu",
+    "lat": 39.644494,
+    "lon": 19.849913,
+    "rating": "2",
+    "code": "PYRKONCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 5.1,
+    "walk_time_minutes": 51.5,
+    "distance_km": 4.29
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

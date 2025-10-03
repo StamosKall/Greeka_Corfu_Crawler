@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Grecotel Imperial Hotel in Kommeno, Corfu",
+    "lat": 39.666361104522814,
+    "lon": 19.860763996839523,
+    "rating": "",
+    "code": "GREIMPKOM"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 2.6,
+    "walk_time_minutes": 25.6,
+    "distance_km": 2.13
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

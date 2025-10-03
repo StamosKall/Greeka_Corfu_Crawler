@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "San Marina Hotel in Kavos, Corfu",
+    "lat": 39.385728,
+    "lon": 20.114765,
+    "rating": "3",
+    "code": "SANMARKAV"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Kavos Beach",
+    "drive_time_minutes": 0.2,
+    "walk_time_minutes": 1.9,
+    "distance_km": 0.16
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Mareblue Beach Hotel in Agios Spiridon, Corfu",
+    "lat": 39.813002,
+    "lon": 19.86463,
+    "rating": "4",
+    "code": "MARBEAAGI"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Kasssiopi Beach",
+    "drive_time_minutes": 3.2,
+    "walk_time_minutes": 31.9,
+    "distance_km": 2.66
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

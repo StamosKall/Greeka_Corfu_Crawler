@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Amalia Complex Apartments in Nissaki, Corfu",
+    "lat": 39.7271417052227,
+    "lon": 19.899088740348816,
+    "rating": "",
+    "code": "AMACOMNIS"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Barbati Beach",
+    "drive_time_minutes": 4.2,
+    "walk_time_minutes": 41.9,
+    "distance_km": 3.49
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

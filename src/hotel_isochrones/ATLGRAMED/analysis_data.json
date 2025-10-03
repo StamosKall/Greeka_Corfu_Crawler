@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Atlantica Grand Mediterraneo Hotel in Ermones, Corfu",
+    "lat": 39.61269715976721,
+    "lon": 19.778810776770115,
+    "rating": "",
+    "code": "ATLGRAMED"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Glyfada Beach",
+    "drive_time_minutes": 7.9,
+    "walk_time_minutes": 79.2,
+    "distance_km": 6.6
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

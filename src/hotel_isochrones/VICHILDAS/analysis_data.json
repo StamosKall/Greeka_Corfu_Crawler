@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Victoria Hill Hotel in Dassia, Corfu",
+    "lat": 39.685192694107535,
+    "lon": 19.836531579330767,
+    "rating": "3",
+    "code": "VICHILDAS"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 1.3,
+    "walk_time_minutes": 12.7,
+    "distance_km": 1.06
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

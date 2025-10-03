@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Albatros Hotel in Moraitika, Corfu",
+    "lat": 39.48337174304366,
+    "lon": 19.92955058813095,
+    "rating": "3",
+    "code": "ALBMORCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Messonghi Beach",
+    "drive_time_minutes": 0.3,
+    "walk_time_minutes": 2.8,
+    "distance_km": 0.23
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

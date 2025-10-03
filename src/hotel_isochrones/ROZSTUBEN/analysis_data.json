@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Roza Studios in Benitses, Corfu",
+    "lat": 39.546078512850954,
+    "lon": 19.910796582698822,
+    "rating": "",
+    "code": "ROZSTUBEN"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 5.4,
+    "walk_time_minutes": 53.5,
+    "distance_km": 4.46
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

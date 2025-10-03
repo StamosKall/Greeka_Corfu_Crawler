@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Hellinis Hotel in Kanoni Kassiopi, Corfu",
+    "lat": 39.593910975518305,
+    "lon": 19.916602224111557,
+    "rating": "3",
+    "code": "HELKANKAS"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 1.1,
+    "walk_time_minutes": 10.5,
+    "distance_km": 0.88
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

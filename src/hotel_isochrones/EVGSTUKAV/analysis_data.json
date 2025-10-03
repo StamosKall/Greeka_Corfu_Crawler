@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Evgenios Studios in Kavos, Corfu",
+    "lat": 39.39172527340063,
+    "lon": 20.107461512088776,
+    "rating": "",
+    "code": "EVGSTUKAV"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Kavos Beach",
+    "drive_time_minutes": 1.0,
+    "walk_time_minutes": 9.6,
+    "distance_km": 0.8
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

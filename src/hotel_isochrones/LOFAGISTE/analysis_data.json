@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Lofos Apartments in Agios Stefanos, Corfu",
+    "lat": 39.758928,
+    "lon": 19.647844,
+    "rating": "",
+    "code": "LOFAGISTE"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Arillas Beach",
+    "drive_time_minutes": 2.7,
+    "walk_time_minutes": 27.4,
+    "distance_km": 2.28
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Paradise Hotel in Gouvia, Corfu",
+    "lat": 39.65612523564432,
+    "lon": 19.837118983268738,
+    "rating": "3",
+    "code": "PARGOUCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 3.8,
+    "walk_time_minutes": 37.8,
+    "distance_km": 3.15
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

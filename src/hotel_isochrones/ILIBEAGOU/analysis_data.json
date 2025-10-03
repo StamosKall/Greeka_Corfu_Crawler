@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Iliada Beach Hotel in Gouvia, Corfu",
+    "lat": 39.65432659573907,
+    "lon": 19.842231273651123,
+    "rating": "3",
+    "code": "ILIBEAGOU"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Dassia Beach",
+    "drive_time_minutes": 3.9,
+    "walk_time_minutes": 38.9,
+    "distance_km": 3.24
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

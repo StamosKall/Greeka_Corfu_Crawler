@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Holiday Palace Hotel in Kanoni Kassiopi, Corfu",
+    "lat": 39.591575488537345,
+    "lon": 19.9185997992754,
+    "rating": "",
+    "code": "HOLPALKAN"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 0.8,
+    "walk_time_minutes": 7.7,
+    "distance_km": 0.64
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

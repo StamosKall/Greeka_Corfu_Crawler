@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Labranda Sandy Beach Hotel in Agios Georgios Argyradon, Corfu",
+    "lat": 39.43109926848816,
+    "lon": 19.940709248185158,
+    "rating": "4",
+    "code": "LABSANBEA"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Messonghi Beach",
+    "drive_time_minutes": 6.8,
+    "walk_time_minutes": 67.8,
+    "distance_km": 5.65
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

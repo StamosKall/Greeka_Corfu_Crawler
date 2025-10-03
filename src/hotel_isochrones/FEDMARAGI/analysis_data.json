@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Fedra Mare Apartments in Agios Stefanos Avliotes, Corfu",
+    "lat": 39.75358454392243,
+    "lon": 19.638726346254458,
+    "rating": "",
+    "code": "FEDMARAGI"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Arillas Beach",
+    "drive_time_minutes": 3.0,
+    "walk_time_minutes": 30.2,
+    "distance_km": 2.52
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

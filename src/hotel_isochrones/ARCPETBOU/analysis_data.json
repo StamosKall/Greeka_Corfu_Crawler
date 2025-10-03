@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Archontiko Petrettini Boutique Hotel in Agios Ioannis Afra, Corfu",
+    "lat": 39.616192,
+    "lon": 19.848242,
+    "rating": "3",
+    "code": "ARCPETBOU"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Glyfada Beach",
+    "drive_time_minutes": 6.7,
+    "walk_time_minutes": 66.7,
+    "distance_km": 5.56
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

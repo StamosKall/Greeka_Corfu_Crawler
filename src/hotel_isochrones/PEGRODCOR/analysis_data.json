@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Pegasus Hotel in Roda, Corfu",
+    "lat": 39.78632339499139,
+    "lon": 19.786921493946274,
+    "rating": "3",
+    "code": "PEGRODCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Roda Beach",
+    "drive_time_minutes": 0.7,
+    "walk_time_minutes": 6.6,
+    "distance_km": 0.55
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

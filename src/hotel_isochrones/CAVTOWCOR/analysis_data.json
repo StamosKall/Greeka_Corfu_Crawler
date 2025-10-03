@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Cavalieri Hotel in Town, Corfu",
+    "lat": 39.62115426170691,
+    "lon": 19.923641346395016,
+    "rating": "4",
+    "code": "CAVTOWCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 4.7,
+    "walk_time_minutes": 47.4,
+    "distance_km": 3.95
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Acharavi Beach Hotel in Acharavi, Corfu",
+    "lat": 39.79656,
+    "lon": 19.817596,
+    "rating": "4",
+    "code": "ACHBEAACH"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Acharavi Beach",
+    "drive_time_minutes": 0.4,
+    "walk_time_minutes": 3.6,
+    "distance_km": 0.3
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}

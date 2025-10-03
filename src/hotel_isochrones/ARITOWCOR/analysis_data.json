@@ -1,0 +1,30 @@
+{
+  "hotel_info": {
+    "name": "Arion Hotel in Town, Corfu",
+    "lat": 39.608672,
+    "lon": 19.924821,
+    "rating": "3",
+    "code": "ARITOWCOR"
+  },
+  "beach_analysis": {
+    "nearest_beach": "Benitses Beach",
+    "drive_time_minutes": 3.1,
+    "walk_time_minutes": 31.3,
+    "distance_km": 2.61
+  },
+  "isochrone_summary": {
+    "drive_areas_calculated": 5,
+    "walk_areas_calculated": 5,
+    "time_intervals": [
+      5,
+      10,
+      15,
+      30,
+      60
+    ]
+  },
+  "files_created": {
+    "interactive_map": "isochrone_map.html",
+    "static_map": "isochrone_static.png"
+  }
+}
