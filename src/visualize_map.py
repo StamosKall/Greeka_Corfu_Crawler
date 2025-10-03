@@ -11,7 +11,7 @@ import pandas as pd
 import webbrowser
 import os
 
-def create_hotels_map(json_file: str = "hotels.json", html_file: str = "corfu_hotels_map.html"):
+def create_hotels_map(json_file: str = "../data/hotels.json", html_file: str = "../data/corfu_hotels_map.html"):
     """
     Create an interactive map showing all hotel locations
     
@@ -157,10 +157,10 @@ def create_hotels_map(json_file: str = "hotels.json", html_file: str = "corfu_ho
 def create_coordinate_summary():
     """Create a detailed coordinate summary"""
     try:
-        with open("hotels.json", 'r', encoding='utf-8') as f:
+        with open("../data/hotels.json", 'r', encoding='utf-8') as f:
             hotels = json.load(f)
     except FileNotFoundError:
-        print("Error: hotels.json not found. Please run the crawler first.")
+        print("Error: data/hotels.json not found. Please run the crawler first.")
         return
     
     # Create summary report
@@ -201,8 +201,8 @@ def create_coordinate_summary():
             })
         
         df = pd.DataFrame(coord_data)
-        df.to_csv('hotel_coordinates.csv', index=False)
-        print(f"\nCoordinate data saved to hotel_coordinates.csv")
+        df.to_csv('../data/hotel_coordinates.csv', index=False)
+        print(f"\nCoordinate data saved to data/hotel_coordinates.csv")
 
 if __name__ == "__main__":
     # Install required packages if not available
@@ -223,6 +223,6 @@ if __name__ == "__main__":
     print("\n" + "="*60)
     print("🗺️  VISUALIZATION COMPLETE!")
     print("Files created:")
-    print("  - corfu_hotels_map.html (Interactive map)")
-    print("  - hotel_coordinates.csv (Coordinate data)")
+    print("  - data/corfu_hotels_map.html (Interactive map)")
+    print("  - data/hotel_coordinates.csv (Coordinate data)")
     print("="*60)

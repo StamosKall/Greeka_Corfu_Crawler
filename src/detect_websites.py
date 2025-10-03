@@ -19,7 +19,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('website_detection.log'),
+        logging.FileHandler('../data/website_detection.log'),
         logging.StreamHandler(sys.stdout)
     ]
 )
@@ -248,7 +248,7 @@ class WebsiteDetector:
             logger.info(f"✗ No website found for: {hotel_name}")
             return None
     
-    def update_hotel_websites(self, input_file: str = "hotels.json", output_file: str = "hotels_updated.json"):
+    def update_hotel_websites(self, input_file: str = "../data/hotels.json", output_file: str = "../data/hotels_updated.json"):
         """
         Update hotel data with detected websites
         """
@@ -292,7 +292,7 @@ class WebsiteDetector:
             json.dump(hotels, f, indent=2, ensure_ascii=False)
         
         # Also update the original CSV file
-        self.save_to_csv(hotels, "hotels_updated.csv")
+        self.save_to_csv(hotels, "../data/hotels_updated.csv")
         
         # Print summary
         self.print_summary(hotels)
@@ -350,9 +350,9 @@ def main():
         if updated_hotels:
             print(f"\n🎉 Website detection completed!")
             print(f"📁 Updated files created:")
-            print(f"   - hotels_updated.json")
-            print(f"   - hotels_updated.csv") 
-            print(f"📊 Check website_detection.log for detailed logs")
+            print(f"   - data/hotels_updated.json")
+            print(f"   - data/hotels_updated.csv") 
+            print(f"📊 Check data/website_detection.log for detailed logs")
         
     except KeyboardInterrupt:
         logger.info("Website detection interrupted by user")

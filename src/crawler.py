@@ -24,7 +24,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('crawler.log'),
+        logging.FileHandler('../data/crawler.log'),
         logging.StreamHandler(sys.stdout)
     ]
 )
@@ -553,7 +553,7 @@ class GreekaHotelCrawler:
         
         logger.info(f"Crawling completed. Extracted {len(self.hotels)} hotels.")
     
-    def save_to_csv(self, filename: str = "hotels.csv"):
+    def save_to_csv(self, filename: str = "../data/hotels.csv"):
         """Save hotel data to CSV file"""
         if not self.hotels:
             logger.warning("No hotel data to save")
@@ -578,7 +578,7 @@ class GreekaHotelCrawler:
         except Exception as e:
             logger.error(f"Error saving to CSV: {e}")
     
-    def save_to_json(self, filename: str = "hotels.json"):
+    def save_to_json(self, filename: str = "../data/hotels.json"):
         """Save hotel data to JSON file"""
         if not self.hotels:
             logger.warning("No hotel data to save")

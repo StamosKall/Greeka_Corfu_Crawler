@@ -40,37 +40,38 @@ jobs:
     
     - name: Run crawler
       run: |
+        cd src
         python crawler.py
       timeout-minutes: 30
     
     - name: Check output files exist
       run: |
-        ls -la hotels.csv hotels.json crawler.log
-        echo "CSV file size: $(wc -l < hotels.csv) lines"
-        echo "JSON file size: $(wc -l < hotels.json) lines"
-        echo "Log file size: $(wc -l < crawler.log) lines"
+        ls -la data/hotels.csv data/hotels.json data/crawler.log
+        echo "CSV file size: $(wc -l < data/hotels.csv) lines"
+        echo "JSON file size: $(wc -l < data/hotels.json) lines"
+        echo "Log file size: $(wc -l < data/crawler.log) lines"
     
     - name: Display crawler summary
       run: |
         echo "=== CRAWLER EXECUTION SUMMARY ==="
         echo "Timestamp: $(date)"
-        echo "CSV Records: $(tail -n +2 hotels.csv | wc -l)"
-        echo "JSON Records: $(python -c 'import json; data=json.load(open("hotels.json")); print(len(data))')"
+        echo "CSV Records: $(tail -n +2 data/hotels.csv | wc -l)"
+        echo "JSON Records: $(python -c 'import json; data=json.load(open("data/hotels.json")); print(len(data))')"
         echo ""
         echo "=== SAMPLE CSV OUTPUT ==="
-        head -n 3 hotels.csv
+        head -n 3 data/hotels.csv
         echo ""
         echo "=== LOG SUMMARY ==="
-        tail -n 10 crawler.log
+        tail -n 10 data/crawler.log
     
     - name: Upload hotel data as artifacts
       uses: actions/upload-artifact@v3
       with:
         name: hotel-data
         path: |
-          hotels.csv
-          hotels.json
-          crawler.log
+          data/hotels.csv
+          data/hotels.json
+          data/crawler.log
         retention-days: 30
     
     - name: Upload CSV to release (on manual trigger)
@@ -80,7 +81,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./hotels.csv
+        asset_path: ./data/hotels.csv
         asset_name: greeka-corfu-hotels-${{ github.run_number }}.csv
         asset_content_type: text/csv
       continue-on-error: true
@@ -143,7 +144,7 @@ jobs:
         from collections import Counter
         
         # Load data
-        with open('hotels.json', 'r') as f:
+        with open('data/hotels.json', 'r') as f:
             hotels = json.load(f)
         
         print('=== DATA QUALITY REPORT ===')
@@ -208,12 +209,12 @@ jobs:
         echo "" >> data_report.md
         echo "## Summary" >> data_report.md
         echo "- **Execution Date**: $(date)" >> data_report.md
-        echo "- **Hotels Found**: $(python -c 'import json; print(len(json.load(open("hotels.json"))))')" >> data_report.md
+        echo "- **Hotels Found**: $(python -c 'import json; print(len(json.load(open("data/hotels.json"))))')" >> data_report.md
         echo "- **Workflow Run**: [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> data_report.md
         echo "" >> data_report.md
         echo "## Sample Data" >> data_report.md
         echo "\`\`\`csv" >> data_report.md
-        head -n 3 hotels.csv >> data_report.md
+        head -n 3 data/hotels.csv >> data_report.md
         echo "\`\`\`" >> data_report.md
     
     - name: Upload data report

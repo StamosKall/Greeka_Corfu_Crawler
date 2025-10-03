@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import Dict, List
 
-def analyze_hotel_data(json_file: str = "hotels.json", csv_file: str = "hotels.csv"):
+def analyze_hotel_data(json_file: str = "../data/hotels.json", csv_file: str = "../data/hotels.csv"):
     """
     Analyze the crawled hotel data and generate insights.
     
@@ -157,15 +157,15 @@ def analyze_hotel_data(json_file: str = "hotels.json", csv_file: str = "hotels.c
                 print(f"    {key.replace('_', ' ').title()}: {value}")
     
     print(f"\n" + "="*50)
-    print("Analysis complete! Check hotels.csv and hotels.json for full data.")
+    print("Analysis complete! Check data/hotels.csv and data/hotels.json for full data.")
 
 def create_summary_report():
     """Create a markdown summary report"""
     try:
-        with open("hotels.json", 'r', encoding='utf-8') as f:
+        with open("../data/hotels.json", 'r', encoding='utf-8') as f:
             hotels = json.load(f)
     except FileNotFoundError:
-        print("Error: hotels.json not found. Please run the crawler first.")
+        print("Error: data/hotels.json not found. Please run the crawler first.")
         return
     
     from datetime import datetime
@@ -207,10 +207,10 @@ def create_summary_report():
             report += f"- **{location}**: {count} hotels\n"
     
     # Save report
-    with open("analysis_report.md", 'w', encoding='utf-8') as f:
+    with open("../docs/analysis_report.md", 'w', encoding='utf-8') as f:
         f.write(report)
     
-    print("Summary report saved to analysis_report.md")
+    print("Summary report saved to docs/analysis_report.md")
 
 if __name__ == "__main__":
     analyze_hotel_data()
