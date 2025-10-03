@@ -1,0 +1,224 @@
+name: Greeka Corfu Hotels Crawler
+
+on:
+  # Run daily at 2:00 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # Run on push to main branch
+  push:
+    branches: [ main ]
+  
+  # Allow manual workflow dispatch
+  workflow_dispatch:
+
+jobs:
+  crawl-hotels:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run crawler
+      run: |
+        python crawler.py
+      timeout-minutes: 30
+    
+    - name: Check output files exist
+      run: |
+        ls -la hotels.csv hotels.json crawler.log
+        echo "CSV file size: $(wc -l < hotels.csv) lines"
+        echo "JSON file size: $(wc -l < hotels.json) lines"
+        echo "Log file size: $(wc -l < crawler.log) lines"
+    
+    - name: Display crawler summary
+      run: |
+        echo "=== CRAWLER EXECUTION SUMMARY ==="
+        echo "Timestamp: $(date)"
+        echo "CSV Records: $(tail -n +2 hotels.csv | wc -l)"
+        echo "JSON Records: $(python -c 'import json; data=json.load(open("hotels.json")); print(len(data))')"
+        echo ""
+        echo "=== SAMPLE CSV OUTPUT ==="
+        head -n 3 hotels.csv
+        echo ""
+        echo "=== LOG SUMMARY ==="
+        tail -n 10 crawler.log
+    
+    - name: Upload hotel data as artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: hotel-data
+        path: |
+          hotels.csv
+          hotels.json
+          crawler.log
+        retention-days: 30
+    
+    - name: Upload CSV to release (on manual trigger)
+      if: github.event_name == 'workflow_dispatch'
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./hotels.csv
+        asset_name: greeka-corfu-hotels-${{ github.run_number }}.csv
+        asset_content_type: text/csv
+      continue-on-error: true
+    
+    - name: Create issue on failure
+      if: failure()
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: `Crawler Failed - ${new Date().toISOString().split('T')[0]}`,
+            body: `The Greeka Corfu Hotels crawler failed during execution.
+            
+            **Run Details:**
+            - Workflow Run: ${{ github.run_id }}
+            - Commit: ${{ github.sha }}
+            - Triggered by: ${{ github.event_name }}
+            - Time: ${new Date().toISOString()}
+            
+            Please check the workflow logs for details: 
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            
+            **Common causes:**
+            - Website structure changes
+            - Network connectivity issues  
+            - Rate limiting
+            - Server downtime
+            
+            /cc @StamosKall`,
+            labels: ['bug', 'crawler', 'automated']
+          })
+
+  validate-data:
+    runs-on: ubuntu-latest
+    needs: crawl-hotels
+    if: success()
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Download artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: hotel-data
+    
+    - name: Validate data quality
+      run: |
+        python -c "
+        import json
+        import csv
+        from collections import Counter
+        
+        # Load data
+        with open('hotels.json', 'r') as f:
+            hotels = json.load(f)
+        
+        print('=== DATA QUALITY REPORT ===')
+        print(f'Total hotels: {len(hotels)}')
+        
+        # Check field completeness
+        fields = ['name', 'official_website', 'address', 'star_rating', 
+                 'review_score', 'number_of_reviews', 'phone_number', 
+                 'latitude', 'longitude', 'detail_url']
+        
+        print('\nField completeness:')
+        for field in fields:
+            filled = sum(1 for h in hotels if h.get(field, '').strip())
+            percentage = (filled / len(hotels)) * 100 if hotels else 0
+            print(f'  {field}: {filled}/{len(hotels)} ({percentage:.1f}%)')
+        
+        # Validate coordinates
+        with_coords = sum(1 for h in hotels if h.get('latitude') and h.get('longitude'))
+        print(f'\nHotels with coordinates: {with_coords}/{len(hotels)} ({(with_coords/len(hotels)*100):.1f}%)')
+        
+        # Check for duplicates
+        names = [h.get('name', '') for h in hotels if h.get('name')]
+        duplicates = [name for name, count in Counter(names).items() if count > 1]
+        if duplicates:
+            print(f'\nDuplicate hotels found: {len(duplicates)}')
+            for dup in duplicates[:5]:
+                print(f'  - {dup}')
+        else:
+            print('\nNo duplicate hotels found')
+        
+        # Basic validation
+        errors = []
+        for i, hotel in enumerate(hotels):
+            if not hotel.get('name', '').strip():
+                errors.append(f'Hotel {i+1}: Missing name')
+            if not hotel.get('detail_url', '').startswith('http'):
+                errors.append(f'Hotel {i+1}: Invalid detail URL')
+        
+        if errors:
+            print(f'\nValidation errors found: {len(errors)}')
+            for error in errors[:10]:  # Show first 10 errors
+                print(f'  - {error}')
+        else:
+            print('\nNo validation errors found')
+        
+        print(f'\n=== DATA QUALITY SCORE ===')
+        avg_completeness = sum((sum(1 for h in hotels if h.get(field, '').strip()) / len(hotels)) for field in fields) / len(fields) if hotels else 0
+        quality_score = avg_completeness * 100
+        print(f'Overall completeness: {quality_score:.1f}%')
+        
+        if quality_score < 50:
+            print('⚠️  LOW QUALITY: Consider investigating extraction issues')
+        elif quality_score < 75:
+            print('⚡ MODERATE QUALITY: Some fields may need improvement')
+        else:
+            print('✅ HIGH QUALITY: Data extraction working well')
+        "
+    
+    - name: Generate data report
+      run: |
+        echo "# Crawler Data Report - $(date)" > data_report.md
+        echo "" >> data_report.md
+        echo "## Summary" >> data_report.md
+        echo "- **Execution Date**: $(date)" >> data_report.md
+        echo "- **Hotels Found**: $(python -c 'import json; print(len(json.load(open("hotels.json"))))')" >> data_report.md
+        echo "- **Workflow Run**: [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> data_report.md
+        echo "" >> data_report.md
+        echo "## Sample Data" >> data_report.md
+        echo "\`\`\`csv" >> data_report.md
+        head -n 3 hotels.csv >> data_report.md
+        echo "\`\`\`" >> data_report.md
+    
+    - name: Upload data report
+      uses: actions/upload-artifact@v3
+      with:
+        name: data-report
+        path: data_report.md
+        retention-days: 30
