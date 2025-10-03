@@ -1,0 +1,3013 @@
+{
+  "summary_statistics": {
+    "total_hotels": 141,
+    "clustering_percentage": 93.61702127659575,
+    "avg_competition_intensity": 6.326241134751773,
+    "avg_distance_to_competitors": 0.9782906698862662,
+    "hotelling_evidence_strength": "Strong"
+  },
+  "competition_metrics": [
+    {
+      "hotel_index": 0,
+      "hotel_name": "Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.75687374887841,
+        19.644466638565063
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6936529541921648,
+      "clustering_coefficient": 1.1058620106566752,
+      "competitors": [
+        2,
+        102,
+        119,
+        131,
+        132
+      ]
+    },
+    {
+      "hotel_index": 1,
+      "hotel_name": "Oceanis Apartments in Barbati, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.72266511339484,
+        19.881632924079895
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.1971477983802583,
+      "clustering_coefficient": 1.403782063140707,
+      "competitors": [
+        35,
+        41,
+        53,
+        69,
+        93,
+        112
+      ]
+    },
+    {
+      "hotel_index": 2,
+      "hotel_name": "Fedra Mare Apartments in Agios Stefanos Avliotes, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.75358454392243,
+        19.638726346254458
+      ],
+      "competition_intensity": 4,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6828833029387423,
+      "clustering_coefficient": 0.41397386893903215,
+      "competitors": [
+        0,
+        102,
+        119,
+        131
+      ]
+    },
+    {
+      "hotel_index": 3,
+      "hotel_name": "Spiti Nikos Apartments in Danilia, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.638282,
+        19.837331
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.6459439297654788,
+      "clustering_coefficient": 0.7722375347880607,
+      "competitors": [
+        8,
+        65,
+        85,
+        100,
+        107,
+        116,
+        117,
+        122,
+        137
+      ]
+    },
+    {
+      "hotel_index": 4,
+      "hotel_name": "Stevens on the Hill Apartments in Agios Gordios, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.545129576886474,
+        19.85351800918579
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.36513655337713186,
+      "clustering_coefficient": 0.4504270846566191,
+      "competitors": [
+        64,
+        105,
+        125
+      ]
+    },
+    {
+      "hotel_index": 5,
+      "hotel_name": "Siora Vittoria Boutique Hotel in Town, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.622526,
+        19.921493
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.5648249743309379,
+      "clustering_coefficient": 0.8575861347435657,
+      "competitors": [
+        7,
+        17,
+        20,
+        37,
+        52,
+        54,
+        63,
+        70
+      ]
+    },
+    {
+      "hotel_index": 6,
+      "hotel_name": "Kairaba Mythos Palace Hotel in Kouspades, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.46071,
+        19.966194
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7709872431452677,
+      "clustering_coefficient": 0.7829071508610018,
+      "competitors": [
+        80,
+        91
+      ]
+    },
+    {
+      "hotel_index": 7,
+      "hotel_name": "Porta Spilea Apartments in Town, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.625811,
+        19.919514
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9000737875472543,
+      "clustering_coefficient": 1.1569343425320309,
+      "competitors": [
+        5,
+        17,
+        20,
+        37,
+        52,
+        54,
+        56,
+        63,
+        70
+      ]
+    },
+    {
+      "hotel_index": 8,
+      "hotel_name": "Dreams Resort & Spa Hotel in Gouvia, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.65078121740967,
+        19.84296016395092
+      ],
+      "competition_intensity": 17,
+      "similar_rating_competitors": 3,
+      "avg_distance_to_competitors": 0.9628176432955187,
+      "clustering_coefficient": 1.307110088290238,
+      "competitors": [
+        3,
+        10,
+        26,
+        27,
+        46,
+        50,
+        65,
+        66,
+        82,
+        85,
+        100,
+        107,
+        116,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 9,
+      "hotel_name": "Grecotel Eva Palace Hotel in Kommeno, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.667094996809794,
+        19.856158643960953
+      ],
+      "competition_intensity": 13,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.502992271620389,
+      "clustering_coefficient": 1.4281417208652554,
+      "competitors": [
+        10,
+        11,
+        12,
+        27,
+        50,
+        66,
+        82,
+        85,
+        96,
+        100,
+        107,
+        116,
+        133
+      ]
+    },
+    {
+      "hotel_index": 10,
+      "hotel_name": "Grecotel Daphnila Bay Hotel in Dassia, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.666129,
+        19.84919
+      ],
+      "competition_intensity": 17,
+      "similar_rating_competitors": 3,
+      "avg_distance_to_competitors": 1.3241474593683953,
+      "clustering_coefficient": 1.539965190889462,
+      "competitors": [
+        8,
+        9,
+        11,
+        12,
+        24,
+        27,
+        46,
+        50,
+        66,
+        82,
+        85,
+        96,
+        100,
+        107,
+        116,
+        117,
+        133
+      ]
+    },
+    {
+      "hotel_index": 11,
+      "hotel_name": "Grecotel Imperial Hotel in Kommeno, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.666361104522814,
+        19.860763996839523
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.4588056015904884,
+      "clustering_coefficient": 1.282406562808667,
+      "competitors": [
+        9,
+        10,
+        26,
+        27,
+        50,
+        66,
+        82,
+        133
+      ]
+    },
+    {
+      "hotel_index": 12,
+      "hotel_name": "Ikos Dassia Hotel in Dassia, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.67798064916928,
+        19.839677810668945
+      ],
+      "competition_intensity": 10,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.1373683277907234,
+      "clustering_coefficient": 1.5101655334953674,
+      "competitors": [
+        9,
+        10,
+        21,
+        24,
+        27,
+        66,
+        96,
+        115,
+        133,
+        140
+      ]
+    },
+    {
+      "hotel_index": 13,
+      "hotel_name": "Aeolos Beach Hotel in Perama, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.567422,
+        19.908127
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.2719548318065963,
+      "clustering_coefficient": 1.823806541904203,
+      "competitors": [
+        16,
+        74,
+        78,
+        92,
+        114
+      ]
+    },
+    {
+      "hotel_index": 14,
+      "hotel_name": "Akrotiri Beach Hotel in Paleokastritsa, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.672973905998255,
+        19.716519489884377
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.7223553979807967,
+      "clustering_coefficient": 0.8528730304795574,
+      "competitors": [
+        22,
+        88,
+        111
+      ]
+    },
+    {
+      "hotel_index": 15,
+      "hotel_name": "Divani Palace Hotel in Town, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.59846835359944,
+        19.922293201088905
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.0464340838020858,
+      "clustering_coefficient": 1.292775716565115,
+      "competitors": [
+        17,
+        19,
+        44,
+        70,
+        83,
+        84,
+        106
+      ]
+    },
+    {
+      "hotel_index": 16,
+      "hotel_name": "Angsana Resort & Spa Hotel in Benitses, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.553416,
+        19.909083
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.0751192880851221,
+      "clustering_coefficient": 1.3286859912112121,
+      "competitors": [
+        13,
+        49,
+        58,
+        74,
+        92,
+        123,
+        126
+      ]
+    },
+    {
+      "hotel_index": 17,
+      "hotel_name": "Acanthus Blue Hotel in Town, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.612799,
+        19.919928
+      ],
+      "competition_intensity": 10,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.2133533231396658,
+      "clustering_coefficient": 1.338591004922725,
+      "competitors": [
+        5,
+        7,
+        15,
+        20,
+        37,
+        52,
+        54,
+        63,
+        70,
+        77
+      ]
+    },
+    {
+      "hotel_index": 18,
+      "hotel_name": "Mayor Pelekas Monastery Hotel in Pelekas, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.583221,
+        19.820893
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.0356784489054256,
+      "clustering_coefficient": 1.0713942625601351,
+      "competitors": [
+        71,
+        118
+      ]
+    },
+    {
+      "hotel_index": 19,
+      "hotel_name": "Holiday Palace Hotel in Kanoni Kassiopi, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.591575488537345,
+        19.9185997992754
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7916261632756072,
+      "clustering_coefficient": 1.2691750165439484,
+      "competitors": [
+        15,
+        44,
+        70,
+        83,
+        84,
+        106,
+        114
+      ]
+    },
+    {
+      "hotel_index": 20,
+      "hotel_name": "Corfu Palace Hotel in Town, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.61926483668208,
+        19.92288865149021
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6218128949678272,
+      "clustering_coefficient": 0.8413038717044543,
+      "competitors": [
+        5,
+        7,
+        17,
+        37,
+        52,
+        54,
+        63,
+        70
+      ]
+    },
+    {
+      "hotel_index": 21,
+      "hotel_name": "Elea Hotel in Dassia, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.68406979655199,
+        19.84098806977272
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.738315660422519,
+      "clustering_coefficient": 1.0790268705343415,
+      "competitors": [
+        12,
+        24,
+        96,
+        115,
+        135,
+        140
+      ]
+    },
+    {
+      "hotel_index": 22,
+      "hotel_name": "Paleo ArtNouveau Hotel in Paleokastritsa, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.67430972673714,
+        19.71818581223488
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.8070126147976824,
+      "clustering_coefficient": 0.7682158136626719,
+      "competitors": [
+        14,
+        88,
+        111
+      ]
+    },
+    {
+      "hotel_index": 23,
+      "hotel_name": "Delfinia Hotel in Moraitika, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.486517,
+        19.927822
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.8576223072983177,
+      "clustering_coefficient": 0.9843782321416885,
+      "competitors": [
+        25,
+        34,
+        38,
+        45,
+        47,
+        55,
+        101,
+        121,
+        124
+      ]
+    },
+    {
+      "hotel_index": 24,
+      "hotel_name": "Dassia Beach Hotel in Dassia, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.68218508342815,
+        19.841159731149673
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7063308629502831,
+      "clustering_coefficient": 1.0453791938605614,
+      "competitors": [
+        10,
+        12,
+        21,
+        96,
+        115,
+        140
+      ]
+    },
+    {
+      "hotel_index": 25,
+      "hotel_name": "Olivar Suites Hotel in Messonghi, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.47560492309906,
+        19.932223581996293
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9394252634092572,
+      "clustering_coefficient": 0.9639274931139536,
+      "competitors": [
+        23,
+        34,
+        38,
+        45,
+        47,
+        55,
+        101,
+        121,
+        124
+      ]
+    },
+    {
+      "hotel_index": 26,
+      "hotel_name": "Kontokali Bay Hotel in Kontokali, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.64928912216484,
+        19.86073113977909
+      ],
+      "competition_intensity": 11,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.380312921397981,
+      "clustering_coefficient": 1.0905541291482717,
+      "competitors": [
+        8,
+        11,
+        50,
+        65,
+        82,
+        85,
+        100,
+        107,
+        116,
+        122,
+        137
+      ]
+    },
+    {
+      "hotel_index": 27,
+      "hotel_name": "Rodostamo Hotel in Kommeno, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.66442671541247,
+        19.845975637435913
+      ],
+      "competition_intensity": 17,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.1835362624458996,
+      "clustering_coefficient": 1.4315610665227414,
+      "competitors": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        46,
+        50,
+        65,
+        66,
+        82,
+        85,
+        96,
+        100,
+        107,
+        116,
+        117,
+        133
+      ]
+    },
+    {
+      "hotel_index": 28,
+      "hotel_name": "Marbella Hotel in Agios Ioannis Peristeron, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.50759918521683,
+        19.922350198030472
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9409575140826609,
+      "clustering_coefficient": 0,
+      "competitors": [
+        86
+      ]
+    },
+    {
+      "hotel_index": 29,
+      "hotel_name": "Atlantica Grand Mediterraneo Hotel in Ermones, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.61269715976721,
+        19.778810776770115
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 30,
+      "hotel_name": "Mareblue Beach Hotel in Agios Spiridon, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.813002,
+        19.86463
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 31,
+      "hotel_name": "Mayor Capo Di Corfu Hotel in Lefkimi, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.42309,
+        20.071861
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 32,
+      "hotel_name": "Kerkyra Blue Hotel in Alykes, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.63463390001306,
+        19.885968044400215
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.189142692423802,
+      "clustering_coefficient": 0,
+      "competitors": [
+        56
+      ]
+    },
+    {
+      "hotel_index": 33,
+      "hotel_name": "Mega Lithari Villas in Arillas, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.742065499457865,
+        19.67060626533558
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.020266195016634,
+      "clustering_coefficient": 0,
+      "competitors": [
+        132
+      ]
+    },
+    {
+      "hotel_index": 34,
+      "hotel_name": "Palms & Spas Suites in Messonghi, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.47127116108039,
+        19.937642142176628
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.2334391348800084,
+      "clustering_coefficient": 0.7049770804668282,
+      "competitors": [
+        23,
+        25,
+        45,
+        47,
+        55,
+        101,
+        124
+      ]
+    },
+    {
+      "hotel_index": 35,
+      "hotel_name": "Sunshine Hotel in Nissaki, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.72586270864284,
+        19.904194995760918
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.2104579439536973,
+      "clustering_coefficient": 0.8367080819046079,
+      "competitors": [
+        1,
+        41,
+        69,
+        93,
+        112
+      ]
+    },
+    {
+      "hotel_index": 36,
+      "hotel_name": "Villa The Editor's Villas in Viros, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.59336785444335,
+        19.88954644650221
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 37,
+      "hotel_name": "LOC Hospitality Suites in Town, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.62421452495007,
+        19.92103088647127
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6335657192646673,
+      "clustering_coefficient": 0.8379459219053572,
+      "competitors": [
+        5,
+        7,
+        17,
+        20,
+        52,
+        54,
+        63,
+        70
+      ]
+    },
+    {
+      "hotel_index": 38,
+      "hotel_name": "Domes Miramare Hotel in Moraitika, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.489513283514206,
+        19.92741221538852
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9377223769475971,
+      "clustering_coefficient": 0.8047991526449151,
+      "competitors": [
+        23,
+        25,
+        45,
+        47,
+        55,
+        101,
+        121,
+        124
+      ]
+    },
+    {
+      "hotel_index": 39,
+      "hotel_name": "Mitsis Roda Beach Hotel in Roda, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.795934,
+        19.779752
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.255313420277843,
+      "clustering_coefficient": 1.0639701596237296,
+      "competitors": [
+        68,
+        75,
+        108,
+        120,
+        130
+      ]
+    },
+    {
+      "hotel_index": 40,
+      "hotel_name": "Acharavi Beach Hotel in Acharavi, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.79656,
+        19.817596
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.0806430091709234,
+      "clustering_coefficient": 1.75080619415709,
+      "competitors": [
+        60,
+        95,
+        108,
+        113,
+        134
+      ]
+    },
+    {
+      "hotel_index": 41,
+      "hotel_name": "Aquamarine Apartments in Nissaki, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.723998838083695,
+        19.89110179245472
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7449318907806591,
+      "clustering_coefficient": 1.069471108491127,
+      "competitors": [
+        1,
+        35,
+        69,
+        93,
+        112
+      ]
+    },
+    {
+      "hotel_index": 42,
+      "hotel_name": "Aqualand Hotel in Agios Ioannis Afra, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.617760955923266,
+        19.83819756656885
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.8778773554375048,
+      "clustering_coefficient": 0,
+      "competitors": [
+        48
+      ]
+    },
+    {
+      "hotel_index": 43,
+      "hotel_name": "Labranda Sandy Beach Hotel in Agios Georgios Argyradon, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.43109926848816,
+        19.940709248185158
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 44,
+      "hotel_name": "Ariti Hotel in Town, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.59331272052179,
+        19.91820015013218
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.764565842678263,
+      "clustering_coefficient": 1.27819512340973,
+      "competitors": [
+        15,
+        19,
+        70,
+        83,
+        84,
+        106,
+        114
+      ]
+    },
+    {
+      "hotel_index": 45,
+      "hotel_name": "Albatros Hotel in Moraitika, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.48337174304366,
+        19.92955058813095
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.7156032068401537,
+      "clustering_coefficient": 1.0198830072562295,
+      "competitors": [
+        23,
+        25,
+        34,
+        38,
+        47,
+        55,
+        101,
+        121,
+        124
+      ]
+    },
+    {
+      "hotel_index": 46,
+      "hotel_name": "Saint Nicholas Hotel in Gouvia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.65699180820766,
+        19.835500940680504
+      ],
+      "competition_intensity": 14,
+      "similar_rating_competitors": 5,
+      "avg_distance_to_competitors": 0.9724063158872562,
+      "clustering_coefficient": 1.143305153282703,
+      "competitors": [
+        8,
+        10,
+        27,
+        65,
+        66,
+        82,
+        85,
+        100,
+        107,
+        116,
+        117,
+        129,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 47,
+      "hotel_name": "Messonghi Beach Hotel in Messonghi, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.48108315073304,
+        19.93152067065239
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.735350117499508,
+      "clustering_coefficient": 1.014946279591391,
+      "competitors": [
+        23,
+        25,
+        34,
+        38,
+        45,
+        55,
+        101,
+        121,
+        124
+      ]
+    },
+    {
+      "hotel_index": 48,
+      "hotel_name": "Archontiko Petrettini Boutique Hotel in Agios Ioannis Afra, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.616192,
+        19.848242
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.8778773554375048,
+      "clustering_coefficient": 0,
+      "competitors": [
+        42
+      ]
+    },
+    {
+      "hotel_index": 49,
+      "hotel_name": "Bella Vista Hotel in Benitses, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.54177613846055,
+        19.91374634206295
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6859321977254037,
+      "clustering_coefficient": 0.9278676305304442,
+      "competitors": [
+        16,
+        58,
+        74,
+        97,
+        123,
+        126
+      ]
+    },
+    {
+      "hotel_index": 50,
+      "hotel_name": "Alexandros & Gerekos Apartments in Kontokali, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.65101664516137,
+        19.85777735710144
+      ],
+      "competition_intensity": 17,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.4167299088118663,
+      "clustering_coefficient": 1.3039688563115681,
+      "competitors": [
+        8,
+        9,
+        10,
+        11,
+        26,
+        27,
+        65,
+        66,
+        82,
+        85,
+        100,
+        107,
+        116,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 51,
+      "hotel_name": "Angelina Hotel in Sidari, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.79438347501337,
+        19.699543118476868
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7415961413361639,
+      "clustering_coefficient": 1.0391104912197775,
+      "competitors": [
+        73,
+        89,
+        99,
+        103,
+        110,
+        136,
+        139
+      ]
+    },
+    {
+      "hotel_index": 52,
+      "hotel_name": "Cavalieri Hotel in Town, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.62115426170691,
+        19.923641346395016
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.5815901504732496,
+      "clustering_coefficient": 0.8527960844171909,
+      "competitors": [
+        5,
+        7,
+        17,
+        20,
+        37,
+        54,
+        63,
+        70
+      ]
+    },
+    {
+      "hotel_index": 53,
+      "hotel_name": "Barbati Beach Apartments in Barbati, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.716877707880755,
+        19.867757856845856
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.388145227317166,
+      "clustering_coefficient": 1.8654162693173681,
+      "competitors": [
+        1,
+        67,
+        69
+      ]
+    },
+    {
+      "hotel_index": 54,
+      "hotel_name": "Bella Venezia Hotel in Town, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.6211134572828,
+        19.922309294342995
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.5528569991804761,
+      "clustering_coefficient": 0.8610055562151261,
+      "competitors": [
+        5,
+        7,
+        17,
+        20,
+        37,
+        52,
+        63,
+        70
+      ]
+    },
+    {
+      "hotel_index": 55,
+      "hotel_name": "Aquarius Hotel in Moraitika, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.47502645378512,
+        19.934410750865936
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.0256570945375791,
+      "clustering_coefficient": 0.9423695353318732,
+      "competitors": [
+        23,
+        25,
+        34,
+        38,
+        45,
+        47,
+        101,
+        121,
+        124
+      ]
+    },
+    {
+      "hotel_index": 56,
+      "hotel_name": "Corfu Mare Hotel in Town, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.62818,
+        19.89704
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.4990284754937104,
+      "clustering_coefficient": 2.4906717318642744,
+      "competitors": [
+        7,
+        32,
+        77
+      ]
+    },
+    {
+      "hotel_index": 57,
+      "hotel_name": "Apraos Bay Hotel in Kasiopi, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.79677156426121,
+        19.890435934066772
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.4461160423661549,
+      "clustering_coefficient": 0,
+      "competitors": [
+        62
+      ]
+    },
+    {
+      "hotel_index": 58,
+      "hotel_name": "Benitses Arches Hotel in Benitses, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.5423703912258,
+        19.914071559906006
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6624987087365133,
+      "clustering_coefficient": 0.9372410261260004,
+      "competitors": [
+        16,
+        49,
+        74,
+        97,
+        123,
+        126
+      ]
+    },
+    {
+      "hotel_index": 59,
+      "hotel_name": "Blue Dream Apartments in Velonades, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.757331,
+        19.719595
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 60,
+      "hotel_name": "Century Hotel in Acharavi, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.791715014883806,
+        19.820865467190742
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.5046405113909316,
+      "clustering_coefficient": 0.5437644073998094,
+      "competitors": [
+        40,
+        95,
+        134
+      ]
+    },
+    {
+      "hotel_index": 61,
+      "hotel_name": "ABC Sweet Rooms Apartments in Sidari, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.78643,
+        19.72266
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.0839032624141238,
+      "clustering_coefficient": 1.2839096039333422,
+      "competitors": [
+        73,
+        110,
+        136
+      ]
+    },
+    {
+      "hotel_index": 62,
+      "hotel_name": "Chrismos Suites in Acharavi, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.79766687025803,
+        19.88534577190876
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.4461160423661549,
+      "clustering_coefficient": 0,
+      "competitors": [
+        57
+      ]
+    },
+    {
+      "hotel_index": 63,
+      "hotel_name": "City Marina Hotel in Town, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.626748785323954,
+        19.920673817396164
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.66032897023047,
+      "clustering_coefficient": 0.5705000715899681,
+      "competitors": [
+        5,
+        7,
+        17,
+        20,
+        37,
+        52,
+        54
+      ]
+    },
+    {
+      "hotel_index": 64,
+      "hotel_name": "The Pink Palace Beach Resort Rooms in Agios Gordios, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.549448967897995,
+        19.84862533457015
+      ],
+      "competition_intensity": 4,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.776526973529541,
+      "clustering_coefficient": 1.0862848687247981,
+      "competitors": [
+        4,
+        90,
+        105,
+        125
+      ]
+    },
+    {
+      "hotel_index": 65,
+      "hotel_name": "Debono Hotel in Gouvia, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.64839488217711,
+        19.843679666519165
+      ],
+      "competition_intensity": 16,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.0315326328815673,
+      "clustering_coefficient": 1.2461869358383935,
+      "competitors": [
+        3,
+        8,
+        26,
+        27,
+        46,
+        50,
+        66,
+        82,
+        85,
+        100,
+        107,
+        116,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 66,
+      "hotel_name": "Corfu Club Hotel in Gouvia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.66142589199939,
+        19.839380085468292
+      ],
+      "competition_intensity": 17,
+      "similar_rating_competitors": 6,
+      "avg_distance_to_competitors": 1.1337197018807699,
+      "clustering_coefficient": 1.4377881365933824,
+      "competitors": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        27,
+        46,
+        50,
+        65,
+        82,
+        85,
+        96,
+        100,
+        107,
+        116,
+        117,
+        133
+      ]
+    },
+    {
+      "hotel_index": 67,
+      "hotel_name": "Luxury Villas in Barbati, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.709460569360104,
+        19.857495725154877
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.4345619926871431,
+      "clustering_coefficient": 2.7109563936059335,
+      "competitors": [
+        53,
+        72
+      ]
+    },
+    {
+      "hotel_index": 68,
+      "hotel_name": "Ibiscus Rooms in Roda, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.796584,
+        19.774125
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.2993209991039594,
+      "clustering_coefficient": 1.097511123495281,
+      "competitors": [
+        39,
+        75,
+        120
+      ]
+    },
+    {
+      "hotel_index": 69,
+      "hotel_name": "Glyfa Villas in Barbati, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.72422873256708,
+        19.88397560849611
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.0909295999621236,
+      "clustering_coefficient": 1.446269342507961,
+      "competitors": [
+        1,
+        35,
+        41,
+        53,
+        93,
+        112
+      ]
+    },
+    {
+      "hotel_index": 70,
+      "hotel_name": "Arion Hotel in Town, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.608672,
+        19.924821
+      ],
+      "competition_intensity": 12,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.5435844035921187,
+      "clustering_coefficient": 1.847950757265553,
+      "competitors": [
+        5,
+        7,
+        15,
+        17,
+        19,
+        20,
+        37,
+        44,
+        52,
+        54,
+        84,
+        106
+      ]
+    },
+    {
+      "hotel_index": 71,
+      "hotel_name": "Green Hill Apartments in Pelekas, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.587488,
+        19.818541
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7934494994102717,
+      "clustering_coefficient": 1.5558521615504433,
+      "competitors": [
+        18,
+        118
+      ]
+    },
+    {
+      "hotel_index": 72,
+      "hotel_name": "Corfu Secret Hotel in Agios Markos, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.708292,
+        19.838095
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.2835853778641617,
+      "clustering_coefficient": 2.01414067282527,
+      "competitors": [
+        67,
+        135
+      ]
+    },
+    {
+      "hotel_index": 73,
+      "hotel_name": "Eleni Apartments in Sidari, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.781053,
+        19.709789
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.4874161682140308,
+      "clustering_coefficient": 1.0321511767306437,
+      "competitors": [
+        51,
+        61,
+        89,
+        99,
+        103,
+        110,
+        136,
+        139
+      ]
+    },
+    {
+      "hotel_index": 74,
+      "hotel_name": "Dimitra Apartments in Benitses, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.549969,
+        19.911818
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.054410802584147,
+      "clustering_coefficient": 1.5102014120706893,
+      "competitors": [
+        13,
+        16,
+        49,
+        58,
+        92,
+        97,
+        123,
+        126
+      ]
+    },
+    {
+      "hotel_index": 75,
+      "hotel_name": "Coral Beach Hotel in Roda, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.789768424566155,
+        19.793641716241837
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.0143136839468703,
+      "clustering_coefficient": 1.6032566001628799,
+      "competitors": [
+        39,
+        68,
+        108,
+        120,
+        130,
+        134
+      ]
+    },
+    {
+      "hotel_index": 76,
+      "hotel_name": "Evgenios Studios in Kavos, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.39172527340063,
+        20.107461512088776
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9671281260075271,
+      "clustering_coefficient": 0.854624884581187,
+      "competitors": [
+        81,
+        104,
+        109,
+        128,
+        138
+      ]
+    },
+    {
+      "hotel_index": 77,
+      "hotel_name": "Folies Hotel in Town, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.615969,
+        19.898702
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.608650500812928,
+      "clustering_coefficient": 2.601586407603099,
+      "competitors": [
+        17,
+        56
+      ]
+    },
+    {
+      "hotel_index": 78,
+      "hotel_name": "Fouxia Apartments in Perama, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.57415511624823,
+        19.91166230437293
+      ],
+      "competition_intensity": 4,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.026681974208334,
+      "clustering_coefficient": 1.5615114228935694,
+      "competitors": [
+        13,
+        83,
+        92,
+        114
+      ]
+    },
+    {
+      "hotel_index": 79,
+      "hotel_name": "Fundana Suites in Paleokastritsa, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.65789,
+        19.76211
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 80,
+      "hotel_name": "Golden Sunset Hotel in Boukari, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.459587824909335,
+        19.979398101568222
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9616625754771968,
+      "clustering_coefficient": 0.4015564861971436,
+      "competitors": [
+        6,
+        91
+      ]
+    },
+    {
+      "hotel_index": 81,
+      "hotel_name": "Island Beach Hotel in Kavos, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.38613242223974,
+        20.11351928114891
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.6478091709137735,
+      "clustering_coefficient": 1.014284362128064,
+      "competitors": [
+        76,
+        104,
+        109,
+        128,
+        138
+      ]
+    },
+    {
+      "hotel_index": 82,
+      "hotel_name": "Helion Apartments in Gouvia, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.657463,
+        19.84133
+      ],
+      "competition_intensity": 18,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.014942642256344,
+      "clustering_coefficient": 1.347466679737406,
+      "competitors": [
+        8,
+        9,
+        10,
+        11,
+        26,
+        27,
+        46,
+        50,
+        65,
+        66,
+        85,
+        100,
+        107,
+        116,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 83,
+      "hotel_name": "Aegli Hotel in Perama, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.58599569255351,
+        19.914103746414185
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.9742887392524535,
+      "clustering_coefficient": 1.1515235138034632,
+      "competitors": [
+        15,
+        19,
+        44,
+        78,
+        84,
+        106,
+        114
+      ]
+    },
+    {
+      "hotel_index": 84,
+      "hotel_name": "Hellinis Hotel in Kanoni Kassiopi, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.593910975518305,
+        19.916602224111557
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.7955196667614329,
+      "clustering_coefficient": 1.2678771820486732,
+      "competitors": [
+        15,
+        19,
+        44,
+        70,
+        83,
+        106,
+        114
+      ]
+    },
+    {
+      "hotel_index": 85,
+      "hotel_name": "Iliada Beach Hotel in Gouvia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.65432659573907,
+        19.842231273651123
+      ],
+      "competition_intensity": 18,
+      "similar_rating_competitors": 6,
+      "avg_distance_to_competitors": 0.9454189586268568,
+      "clustering_coefficient": 1.383545048866505,
+      "competitors": [
+        3,
+        8,
+        9,
+        10,
+        26,
+        27,
+        46,
+        50,
+        65,
+        66,
+        82,
+        100,
+        107,
+        116,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 86,
+      "hotel_name": "Aurora Hotel in Agios Ioannis Peristeron, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.515983,
+        19.92384
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9409575140826609,
+      "clustering_coefficient": 0,
+      "competitors": [
+        28
+      ]
+    },
+    {
+      "hotel_index": 87,
+      "hotel_name": "Villa Infinity Villas in Agios Gordios, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.52587,
+        19.868523
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 88,
+      "hotel_name": "Ipsia Rooms in Paleokastritsa, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.675817,
+        19.704055
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.892354404720193,
+      "clustering_coefficient": 0.682874023740161,
+      "competitors": [
+        14,
+        22,
+        111
+      ]
+    },
+    {
+      "hotel_index": 89,
+      "hotel_name": "Christakis Hotel in Sidari, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.791631,
+        19.699784
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.7148575530854544,
+      "clustering_coefficient": 1.0480233539700141,
+      "competitors": [
+        51,
+        73,
+        99,
+        103,
+        110,
+        136,
+        139
+      ]
+    },
+    {
+      "hotel_index": 90,
+      "hotel_name": "Irene Apartments in Agios Gordios, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.56039205499584,
+        19.840739965438843
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.7190441188022954,
+      "clustering_coefficient": 0.4504270846566191,
+      "competitors": [
+        64,
+        105,
+        125
+      ]
+    },
+    {
+      "hotel_index": 91,
+      "hotel_name": "Helios Splendid Apartments in Boukari, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.458996,
+        19.970311
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.5922318185290727,
+      "clustering_coefficient": 1.1404180000933917,
+      "competitors": [
+        6,
+        80
+      ]
+    },
+    {
+      "hotel_index": 92,
+      "hotel_name": "Kaiser Bridge Hotel in Benitses, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.562823,
+        19.909629
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.3524756346203415,
+      "clustering_coefficient": 1.9283511403728633,
+      "competitors": [
+        13,
+        16,
+        74,
+        78,
+        114,
+        126
+      ]
+    },
+    {
+      "hotel_index": 93,
+      "hotel_name": "Amalia Complex Apartments in Nissaki, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.7271417052227,
+        19.899088740348816
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9089443713998893,
+      "clustering_coefficient": 0.9874648681815119,
+      "competitors": [
+        1,
+        35,
+        41,
+        69,
+        112
+      ]
+    },
+    {
+      "hotel_index": 94,
+      "hotel_name": "Katia Hotel in Kasiopi, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.781661626418334,
+        19.928312527099095
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.36863919858509225,
+      "clustering_coefficient": 0,
+      "competitors": [
+        127
+      ]
+    },
+    {
+      "hotel_index": 95,
+      "hotel_name": "Lena Mare Hotel in Acharavi, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.79300878265701,
+        19.820356881771644
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.428003973324473,
+      "clustering_coefficient": 0.6204009454662679,
+      "competitors": [
+        40,
+        60,
+        134
+      ]
+    },
+    {
+      "hotel_index": 96,
+      "hotel_name": "Livadi Nafsika Hotel in Dassia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.6778428537474,
+        19.8382468521595
+      ],
+      "competition_intensity": 10,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.1573251535314095,
+      "clustering_coefficient": 1.5057306833307702,
+      "competitors": [
+        9,
+        10,
+        12,
+        21,
+        24,
+        27,
+        66,
+        115,
+        133,
+        140
+      ]
+    },
+    {
+      "hotel_index": 97,
+      "hotel_name": "Aronis Apartments in Benitses, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.534182,
+        19.915062
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.2262220954935368,
+      "clustering_coefficient": 0.4783957740859477,
+      "competitors": [
+        49,
+        58,
+        74,
+        123,
+        126
+      ]
+    },
+    {
+      "hotel_index": 98,
+      "hotel_name": "Egrypos Rooms in Petriti, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.45303790034459,
+        20.001272186636925
+      ],
+      "competition_intensity": 0,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": Infinity,
+      "clustering_coefficient": 0,
+      "competitors": []
+    },
+    {
+      "hotel_index": 99,
+      "hotel_name": "Maria Apartments in Sidari, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.79039352410162,
+        19.6975314617157
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.8570202402330303,
+      "clustering_coefficient": 1.0006357915874888,
+      "competitors": [
+        51,
+        73,
+        89,
+        103,
+        110,
+        136,
+        139
+      ]
+    },
+    {
+      "hotel_index": 100,
+      "hotel_name": "Louvre Hotel in Gouvia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.652514171912564,
+        19.843209425841007
+      ],
+      "competition_intensity": 18,
+      "similar_rating_competitors": 6,
+      "avg_distance_to_competitors": 0.9562582909357177,
+      "clustering_coefficient": 1.3822698333007568,
+      "competitors": [
+        3,
+        8,
+        9,
+        10,
+        26,
+        27,
+        46,
+        50,
+        65,
+        66,
+        82,
+        85,
+        107,
+        116,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 101,
+      "hotel_name": "Makis Apartments in Moraitika, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.47788415375905,
+        19.925200653593038
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9329347183659245,
+      "clustering_coefficient": 0.9655501293747868,
+      "competitors": [
+        23,
+        25,
+        34,
+        38,
+        45,
+        47,
+        55,
+        121,
+        124
+      ]
+    },
+    {
+      "hotel_index": 102,
+      "hotel_name": "Lofos Apartments in Agios Stefanos, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.758928,
+        19.647844
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.8467788001218974,
+      "clustering_coefficient": 1.029299087691809,
+      "competitors": [
+        0,
+        2,
+        119,
+        131,
+        132
+      ]
+    },
+    {
+      "hotel_index": 103,
+      "hotel_name": "Marias Beach Apartments in Sidari, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.79497700165496,
+        19.701635241508484
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7408094524760062,
+      "clustering_coefficient": 1.0393727208398305,
+      "competitors": [
+        51,
+        73,
+        89,
+        99,
+        110,
+        136,
+        139
+      ]
+    },
+    {
+      "hotel_index": 104,
+      "hotel_name": "Seafront Apartments in Kavos, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.39164,
+        20.107265
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9695766156897158,
+      "clustering_coefficient": 0.853400639740093,
+      "competitors": [
+        76,
+        81,
+        109,
+        128,
+        138
+      ]
+    },
+    {
+      "hotel_index": 105,
+      "hotel_name": "Marina Apartments in Agios Gordios, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.547057,
+        19.855309
+      ],
+      "competition_intensity": 4,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7772727695787398,
+      "clustering_coefficient": 1.0857876713586656,
+      "competitors": [
+        4,
+        64,
+        90,
+        125
+      ]
+    },
+    {
+      "hotel_index": 106,
+      "hotel_name": "Royal Hotel in Kanoni Kassiopi, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.59247252988253,
+        19.917032048106194
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.7645779029939008,
+      "clustering_coefficient": 1.2781911033045172,
+      "competitors": [
+        15,
+        19,
+        44,
+        70,
+        83,
+        84,
+        114
+      ]
+    },
+    {
+      "hotel_index": 107,
+      "hotel_name": "Maltezos Hotel in Gouvia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.653423,
+        19.843174
+      ],
+      "competition_intensity": 18,
+      "similar_rating_competitors": 6,
+      "avg_distance_to_competitors": 0.9368946599901281,
+      "clustering_coefficient": 1.3845479075296496,
+      "competitors": [
+        3,
+        8,
+        9,
+        10,
+        26,
+        27,
+        46,
+        50,
+        65,
+        66,
+        82,
+        85,
+        100,
+        116,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 108,
+      "hotel_name": "Ninos on The Beach Studios in Roda, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.790121,
+        19.796247
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.0545378311702114,
+      "clustering_coefficient": 1.685868934270411,
+      "competitors": [
+        39,
+        40,
+        75,
+        120,
+        130,
+        134
+      ]
+    },
+    {
+      "hotel_index": 109,
+      "hotel_name": "Mediterranean Blue Hotel in Kavos, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.37664681962919,
+        20.11788558214903
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.349652826074069,
+      "clustering_coefficient": 0.6633625345479163,
+      "competitors": [
+        76,
+        81,
+        104,
+        128,
+        138
+      ]
+    },
+    {
+      "hotel_index": 110,
+      "hotel_name": "Mimosa Hotel in Sidari, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.79220613637739,
+        19.70579333603382
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.8704051754882757,
+      "clustering_coefficient": 1.2084400317951454,
+      "competitors": [
+        51,
+        61,
+        73,
+        89,
+        99,
+        103,
+        136,
+        139
+      ]
+    },
+    {
+      "hotel_index": 111,
+      "hotel_name": "Napoleon On The Beach Apartments in Paleokastritsa, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.67344368099752,
+        19.706624150276184
+      ],
+      "competition_intensity": 3,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7287344394220362,
+      "clustering_coefficient": 0.846493989038318,
+      "competitors": [
+        14,
+        22,
+        88
+      ]
+    },
+    {
+      "hotel_index": 112,
+      "hotel_name": "Nissaki Sea View Apartments in Nissaki, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.72464480335559,
+        19.895528443157673
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7497159052029317,
+      "clustering_coefficient": 1.0670791012799907,
+      "competitors": [
+        1,
+        35,
+        41,
+        69,
+        93
+      ]
+    },
+    {
+      "hotel_index": 113,
+      "hotel_name": "Liberty's Studios in Acharavi, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.807349,
+        19.83453
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.879345396005189,
+      "clustering_coefficient": 0,
+      "competitors": [
+        40
+      ]
+    },
+    {
+      "hotel_index": 114,
+      "hotel_name": "Oasis Hotel in Perama, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.58017616126724,
+        19.913787245750427
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.3232368015581324,
+      "clustering_coefficient": 1.6793565248082734,
+      "competitors": [
+        13,
+        19,
+        44,
+        78,
+        83,
+        84,
+        92,
+        106
+      ]
+    },
+    {
+      "hotel_index": 115,
+      "hotel_name": "Panorama Hideaway Apartments in Dassia, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.68251184915915,
+        19.83452796936035
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7918369873908827,
+      "clustering_coefficient": 1.0576183397469963,
+      "competitors": [
+        12,
+        21,
+        24,
+        96,
+        135,
+        140
+      ]
+    },
+    {
+      "hotel_index": 116,
+      "hotel_name": "Opera Blue Hotel in Gouvia, Corfu",
+      "star_rating": "4",
+      "coordinates": [
+        39.653572,
+        19.842462
+      ],
+      "competition_intensity": 18,
+      "similar_rating_competitors": 3,
+      "avg_distance_to_competitors": 0.9418042631733994,
+      "clustering_coefficient": 1.383970307155147,
+      "competitors": [
+        3,
+        8,
+        9,
+        10,
+        26,
+        27,
+        46,
+        50,
+        65,
+        66,
+        82,
+        85,
+        100,
+        107,
+        117,
+        122,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 117,
+      "hotel_name": "Paradise Hotel in Gouvia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.65612523564432,
+        19.837118983268738
+      ],
+      "competition_intensity": 16,
+      "similar_rating_competitors": 5,
+      "avg_distance_to_competitors": 1.0133089276698979,
+      "clustering_coefficient": 1.3298048011737478,
+      "competitors": [
+        3,
+        8,
+        10,
+        27,
+        46,
+        50,
+        65,
+        66,
+        82,
+        85,
+        100,
+        107,
+        116,
+        129,
+        133,
+        137
+      ]
+    },
+    {
+      "hotel_index": 118,
+      "hotel_name": "Villa Pelekas Villas in Pelekas, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.597121,
+        19.818813
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.313623212055289,
+      "clustering_coefficient": 0.5155047362604082,
+      "competitors": [
+        18,
+        71
+      ]
+    },
+    {
+      "hotel_index": 119,
+      "hotel_name": "Olga Hotel in Agios Stefanos Avliotes, Corfu",
+      "star_rating": "1",
+      "coordinates": [
+        39.75710661872119,
+        19.64659753793446
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7019378116897347,
+      "clustering_coefficient": 1.1017195819078904,
+      "competitors": [
+        0,
+        2,
+        102,
+        131,
+        132
+      ]
+    },
+    {
+      "hotel_index": 120,
+      "hotel_name": "Pegasus Hotel in Roda, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.78632339499139,
+        19.786921493946274
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.0420192417378815,
+      "clustering_coefficient": 1.1706172488937105,
+      "competitors": [
+        39,
+        68,
+        75,
+        108,
+        130
+      ]
+    },
+    {
+      "hotel_index": 121,
+      "hotel_name": "Prassino Nissi Rooms in Moraitika, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.489734586126204,
+        19.926203191239438
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.9795608194816787,
+      "clustering_coefficient": 0.7928453119208917,
+      "competitors": [
+        23,
+        25,
+        38,
+        45,
+        47,
+        55,
+        101,
+        124
+      ]
+    },
+    {
+      "hotel_index": 122,
+      "hotel_name": "Telesilla Hotel in Kontokali, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.64505139610231,
+        19.856731295585632
+      ],
+      "competition_intensity": 11,
+      "similar_rating_competitors": 3,
+      "avg_distance_to_competitors": 1.287411550946928,
+      "clustering_coefficient": 1.033201777018474,
+      "competitors": [
+        3,
+        8,
+        26,
+        50,
+        65,
+        82,
+        85,
+        100,
+        107,
+        116,
+        137
+      ]
+    },
+    {
+      "hotel_index": 123,
+      "hotel_name": "Sun Sea Side Apartments in Benitses, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.54488,
+        19.912183
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6064661705649436,
+      "clustering_coefficient": 0.9596540413946282,
+      "competitors": [
+        16,
+        49,
+        58,
+        74,
+        97,
+        126
+      ]
+    },
+    {
+      "hotel_index": 124,
+      "hotel_name": "Villa Panorea Villas in Moraitika, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.483009465243605,
+        19.927942603826523
+      ],
+      "competition_intensity": 9,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7231982867162203,
+      "clustering_coefficient": 1.0179842372872128,
+      "competitors": [
+        23,
+        25,
+        34,
+        38,
+        45,
+        47,
+        55,
+        101,
+        121
+      ]
+    },
+    {
+      "hotel_index": 125,
+      "hotel_name": "Sebastian's Family Apartments in Agios Gordios, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.54653446491543,
+        19.852175563573837
+      ],
+      "competition_intensity": 4,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.6849763880112182,
+      "clustering_coefficient": 1.14731859240368,
+      "competitors": [
+        4,
+        64,
+        90,
+        105
+      ]
+    },
+    {
+      "hotel_index": 126,
+      "hotel_name": "Roza Studios in Benitses, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.546078512850954,
+        19.910796582698822
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.818007630534467,
+      "clustering_coefficient": 1.2647247831969737,
+      "competitors": [
+        16,
+        49,
+        58,
+        74,
+        92,
+        97,
+        123
+      ]
+    },
+    {
+      "hotel_index": 127,
+      "hotel_name": "Saint Spiridon Rooms in Kasiopi, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.78308797550717,
+        19.924418181180954
+      ],
+      "competition_intensity": 1,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.36863919858509225,
+      "clustering_coefficient": 0,
+      "competitors": [
+        94
+      ]
+    },
+    {
+      "hotel_index": 128,
+      "hotel_name": "San Marina Hotel in Kavos, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.385728,
+        20.114765
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.6549595345425663,
+      "clustering_coefficient": 1.0107091803136676,
+      "competitors": [
+        76,
+        81,
+        104,
+        109,
+        138
+      ]
+    },
+    {
+      "hotel_index": 129,
+      "hotel_name": "Villa Kerkyra Villas in Gouvia, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.6494,
+        19.81832
+      ],
+      "competition_intensity": 2,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.7352898849924563,
+      "clustering_coefficient": 0.16873542602177,
+      "competitors": [
+        46,
+        117
+      ]
+    },
+    {
+      "hotel_index": 130,
+      "hotel_name": "Semeli Hotel in Roda, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.78817329235979,
+        19.79604296386242
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 0.9001954889905164,
+      "clustering_coefficient": 1.4320360996426087,
+      "competitors": [
+        39,
+        75,
+        108,
+        120,
+        134
+      ]
+    },
+    {
+      "hotel_index": 131,
+      "hotel_name": "Sugar And Almond Apartments in Agios Stefanos, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.75328631058346,
+        19.642930403310856
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7545688550542825,
+      "clustering_coefficient": 1.0754040602256165,
+      "competitors": [
+        0,
+        2,
+        102,
+        119,
+        132
+      ]
+    },
+    {
+      "hotel_index": 132,
+      "hotel_name": "Villa Vozos Villas in Afionas, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.74411916791848,
+        19.658976048231125
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.6611477322567354,
+      "clustering_coefficient": 1.3284615976288223,
+      "competitors": [
+        0,
+        33,
+        102,
+        119,
+        131
+      ]
+    },
+    {
+      "hotel_index": 133,
+      "hotel_name": "Solea Apartments in Kommeno, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.66285173200878,
+        19.84356726620103
+      ],
+      "competition_intensity": 17,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.1087745447672306,
+      "clustering_coefficient": 1.440906281232575,
+      "competitors": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        27,
+        46,
+        50,
+        65,
+        66,
+        82,
+        85,
+        96,
+        100,
+        107,
+        116,
+        117
+      ]
+    },
+    {
+      "hotel_index": 134,
+      "hotel_name": "Tassos Hotel in Acharavi, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.794221902978876,
+        19.81263041496277
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 1,
+      "avg_distance_to_competitors": 1.1108847356259859,
+      "clustering_coefficient": 1.4188180037479299,
+      "competitors": [
+        40,
+        60,
+        75,
+        95,
+        108,
+        130
+      ]
+    },
+    {
+      "hotel_index": 135,
+      "hotel_name": "Yannis Hotel in Ipsos, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.700200987256004,
+        19.837260344065726
+      ],
+      "competition_intensity": 4,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 1.5937878484983714,
+      "clustering_coefficient": 1.5806748979934593,
+      "competitors": [
+        21,
+        72,
+        115,
+        140
+      ]
+    },
+    {
+      "hotel_index": 136,
+      "hotel_name": "The Wave Apartments in Sidari, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.78970102971371,
+        19.720153212547302
+      ],
+      "competition_intensity": 8,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.4967553351642424,
+      "clustering_coefficient": 1.0294828433162975,
+      "competitors": [
+        51,
+        61,
+        73,
+        89,
+        99,
+        103,
+        110,
+        139
+      ]
+    },
+    {
+      "hotel_index": 137,
+      "hotel_name": "Pyrros Hotel in Kontokali, Corfu",
+      "star_rating": "2",
+      "coordinates": [
+        39.644494,
+        19.849913
+      ],
+      "competition_intensity": 13,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 1.1832181089093614,
+      "clustering_coefficient": 1.1043362126609684,
+      "competitors": [
+        3,
+        8,
+        26,
+        46,
+        50,
+        65,
+        82,
+        85,
+        100,
+        107,
+        116,
+        117,
+        122
+      ]
+    },
+    {
+      "hotel_index": 138,
+      "hotel_name": "Toni's Apartments in Kavos, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.383592,
+        20.116434
+      ],
+      "competition_intensity": 5,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7636295171121511,
+      "clustering_coefficient": 0.9563741890288749,
+      "competitors": [
+        76,
+        81,
+        104,
+        109,
+        128
+      ]
+    },
+    {
+      "hotel_index": 139,
+      "hotel_name": "Toulas Apartments in Sidari, Corfu",
+      "star_rating": "",
+      "coordinates": [
+        39.79457657782276,
+        19.70037192106247
+      ],
+      "competition_intensity": 7,
+      "similar_rating_competitors": 0,
+      "avg_distance_to_competitors": 0.7228713223331942,
+      "clustering_coefficient": 1.045352097554101,
+      "competitors": [
+        51,
+        73,
+        89,
+        99,
+        103,
+        110,
+        136
+      ]
+    },
+    {
+      "hotel_index": 140,
+      "hotel_name": "Victoria Hill Hotel in Dassia, Corfu",
+      "star_rating": "3",
+      "coordinates": [
+        39.685192694107535,
+        19.836531579330767
+      ],
+      "competition_intensity": 6,
+      "similar_rating_competitors": 2,
+      "avg_distance_to_competitors": 0.7683011817420766,
+      "clustering_coefficient": 1.0670326620065185,
+      "competitors": [
+        12,
+        21,
+        24,
+        96,
+        115,
+        135
+      ]
+    }
+  ],
+  "analysis_parameters": {
+    "max_competition_distance_km": 2.0,
+    "total_hotels_analyzed": 141
+  }
+}
