@@ -1,0 +1,2462 @@
+{
+  "total_hotels": [141],
+  "coordinate_validation": {
+    "valid": [47],
+    "suspicious": [94],
+    "details": [
+      {
+        "hotel_id": [1],
+        "name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "location": {},
+        "latitude": [39.7569],
+        "longitude": [19.6445],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [2],
+        "name": ["Oceanis Apartments in Barbati, Corfu"],
+        "location": {},
+        "latitude": [39.7227],
+        "longitude": [19.8816],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [3],
+        "name": ["Fedra Mare Apartments in Agios Stefanos Avliotes, Corfu"],
+        "location": {},
+        "latitude": [39.7536],
+        "longitude": [19.6387],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [4],
+        "name": ["Spiti Nikos Apartments in Danilia, Corfu"],
+        "location": {},
+        "latitude": [39.6383],
+        "longitude": [19.8373],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [5],
+        "name": ["Stevens on the Hill Apartments in Agios Gordios, Corfu"],
+        "location": {},
+        "latitude": [39.5451],
+        "longitude": [19.8535],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [6],
+        "name": ["Siora Vittoria Boutique Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6225],
+        "longitude": [19.9215],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [7],
+        "name": ["Kairaba Mythos Palace Hotel in Kouspades, Corfu"],
+        "location": {},
+        "latitude": [39.4607],
+        "longitude": [19.9662],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [8],
+        "name": ["Porta Spilea Apartments in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6258],
+        "longitude": [19.9195],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [9],
+        "name": ["Dreams Resort & Spa Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6508],
+        "longitude": [19.843],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [10],
+        "name": ["Grecotel Eva Palace Hotel in Kommeno, Corfu"],
+        "location": {},
+        "latitude": [39.6671],
+        "longitude": [19.8562],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [11],
+        "name": ["Grecotel Daphnila Bay Hotel in Dassia, Corfu"],
+        "location": {},
+        "latitude": [39.6661],
+        "longitude": [19.8492],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [12],
+        "name": ["Grecotel Imperial Hotel in Kommeno, Corfu"],
+        "location": {},
+        "latitude": [39.6664],
+        "longitude": [19.8608],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [13],
+        "name": ["Ikos Dassia Hotel in Dassia, Corfu"],
+        "location": {},
+        "latitude": [39.678],
+        "longitude": [19.8397],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [14],
+        "name": ["Aeolos Beach Hotel in Perama, Corfu"],
+        "location": {},
+        "latitude": [39.5674],
+        "longitude": [19.9081],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [15],
+        "name": ["Akrotiri Beach Hotel in Paleokastritsa, Corfu"],
+        "location": {},
+        "latitude": [39.673],
+        "longitude": [19.7165],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [16],
+        "name": ["Divani Palace Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.5985],
+        "longitude": [19.9223],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [17],
+        "name": ["Angsana Resort & Spa Hotel in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.5534],
+        "longitude": [19.9091],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [18],
+        "name": ["Acanthus Blue Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6128],
+        "longitude": [19.9199],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [19],
+        "name": ["Mayor Pelekas Monastery Hotel in Pelekas, Corfu"],
+        "location": {},
+        "latitude": [39.5832],
+        "longitude": [19.8209],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [20],
+        "name": ["Holiday Palace Hotel in Kanoni Kassiopi, Corfu"],
+        "location": {},
+        "latitude": [39.5916],
+        "longitude": [19.9186],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [21],
+        "name": ["Corfu Palace Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6193],
+        "longitude": [19.9229],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [22],
+        "name": ["Elea Hotel in Dassia, Corfu"],
+        "location": {},
+        "latitude": [39.6841],
+        "longitude": [19.841],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [23],
+        "name": ["Paleo ArtNouveau Hotel in Paleokastritsa, Corfu"],
+        "location": {},
+        "latitude": [39.6743],
+        "longitude": [19.7182],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [24],
+        "name": ["Delfinia Hotel in Moraitika, Corfu"],
+        "location": {},
+        "latitude": [39.4865],
+        "longitude": [19.9278],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [25],
+        "name": ["Dassia Beach Hotel in Dassia, Corfu"],
+        "location": {},
+        "latitude": [39.6822],
+        "longitude": [19.8412],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [26],
+        "name": ["Olivar Suites Hotel in Messonghi, Corfu"],
+        "location": {},
+        "latitude": [39.4756],
+        "longitude": [19.9322],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [27],
+        "name": ["Kontokali Bay Hotel in Kontokali, Corfu"],
+        "location": {},
+        "latitude": [39.6493],
+        "longitude": [19.8607],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [28],
+        "name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "location": {},
+        "latitude": [39.6644],
+        "longitude": [19.846],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [29],
+        "name": ["Marbella Hotel in Agios Ioannis Peristeron, Corfu"],
+        "location": {},
+        "latitude": [39.5076],
+        "longitude": [19.9224],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [30],
+        "name": ["Atlantica Grand Mediterraneo Hotel in Ermones, Corfu"],
+        "location": {},
+        "latitude": [39.6127],
+        "longitude": [19.7788],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [31],
+        "name": ["Mareblue Beach Hotel in Agios Spiridon, Corfu"],
+        "location": {},
+        "latitude": [39.813],
+        "longitude": [19.8646],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [32],
+        "name": ["Mayor Capo Di Corfu Hotel in Lefkimi, Corfu"],
+        "location": {},
+        "latitude": [39.4231],
+        "longitude": [20.0719],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [33],
+        "name": ["Kerkyra Blue Hotel in Alykes, Corfu"],
+        "location": {},
+        "latitude": [39.6346],
+        "longitude": [19.886],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [34],
+        "name": ["Mega Lithari Villas in Arillas, Corfu"],
+        "location": {},
+        "latitude": [39.7421],
+        "longitude": [19.6706],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [35],
+        "name": ["Palms & Spas Suites in Messonghi, Corfu"],
+        "location": {},
+        "latitude": [39.4713],
+        "longitude": [19.9376],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [36],
+        "name": ["Sunshine Hotel in Nissaki, Corfu"],
+        "location": {},
+        "latitude": [39.7259],
+        "longitude": [19.9042],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [37],
+        "name": ["Villa The Editor's Villas in Viros, Corfu"],
+        "location": {},
+        "latitude": [39.5934],
+        "longitude": [19.8895],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [38],
+        "name": ["LOC Hospitality Suites in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6242],
+        "longitude": [19.921],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [39],
+        "name": ["Domes Miramare Hotel in Moraitika, Corfu"],
+        "location": {},
+        "latitude": [39.4895],
+        "longitude": [19.9274],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [40],
+        "name": ["Mitsis Roda Beach Hotel in Roda, Corfu"],
+        "location": {},
+        "latitude": [39.7959],
+        "longitude": [19.7798],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [41],
+        "name": ["Acharavi Beach Hotel in Acharavi, Corfu"],
+        "location": {},
+        "latitude": [39.7966],
+        "longitude": [19.8176],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [42],
+        "name": ["Aquamarine Apartments in Nissaki, Corfu"],
+        "location": {},
+        "latitude": [39.724],
+        "longitude": [19.8911],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [43],
+        "name": ["Aqualand Hotel in Agios Ioannis Afra, Corfu"],
+        "location": {},
+        "latitude": [39.6178],
+        "longitude": [19.8382],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [44],
+        "name": ["Labranda Sandy Beach Hotel in Agios Georgios Argyradon, Corfu"],
+        "location": {},
+        "latitude": [39.4311],
+        "longitude": [19.9407],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [45],
+        "name": ["Ariti Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.5933],
+        "longitude": [19.9182],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [46],
+        "name": ["Albatros Hotel in Moraitika, Corfu"],
+        "location": {},
+        "latitude": [39.4834],
+        "longitude": [19.9296],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [47],
+        "name": ["Saint Nicholas Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.657],
+        "longitude": [19.8355],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [48],
+        "name": ["Messonghi Beach Hotel in Messonghi, Corfu"],
+        "location": {},
+        "latitude": [39.4811],
+        "longitude": [19.9315],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [49],
+        "name": ["Archontiko Petrettini Boutique Hotel in Agios Ioannis Afra, Corfu"],
+        "location": {},
+        "latitude": [39.6162],
+        "longitude": [19.8482],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [50],
+        "name": ["Bella Vista Hotel in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.5418],
+        "longitude": [19.9137],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [51],
+        "name": ["Alexandros & Gerekos Apartments in Kontokali, Corfu"],
+        "location": {},
+        "latitude": [39.651],
+        "longitude": [19.8578],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [52],
+        "name": ["Angelina Hotel in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7944],
+        "longitude": [19.6995],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [53],
+        "name": ["Cavalieri Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6212],
+        "longitude": [19.9236],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [54],
+        "name": ["Barbati Beach Apartments in Barbati, Corfu"],
+        "location": {},
+        "latitude": [39.7169],
+        "longitude": [19.8678],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [55],
+        "name": ["Bella Venezia Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6211],
+        "longitude": [19.9223],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [56],
+        "name": ["Aquarius Hotel in Moraitika, Corfu"],
+        "location": {},
+        "latitude": [39.475],
+        "longitude": [19.9344],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [57],
+        "name": ["Corfu Mare Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6282],
+        "longitude": [19.897],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [58],
+        "name": ["Apraos Bay Hotel in Kasiopi, Corfu"],
+        "location": {},
+        "latitude": [39.7968],
+        "longitude": [19.8904],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [59],
+        "name": ["Benitses Arches Hotel in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.5424],
+        "longitude": [19.9141],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [60],
+        "name": ["Blue Dream Apartments in Velonades, Corfu"],
+        "location": {},
+        "latitude": [39.7573],
+        "longitude": [19.7196],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [61],
+        "name": ["Century Hotel in Acharavi, Corfu"],
+        "location": {},
+        "latitude": [39.7917],
+        "longitude": [19.8209],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [62],
+        "name": ["ABC Sweet Rooms Apartments in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7864],
+        "longitude": [19.7227],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [63],
+        "name": ["Chrismos Suites in Acharavi, Corfu"],
+        "location": {},
+        "latitude": [39.7977],
+        "longitude": [19.8853],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [64],
+        "name": ["City Marina Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6267],
+        "longitude": [19.9207],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [65],
+        "name": ["The Pink Palace Beach Resort Rooms in Agios Gordios, Corfu"],
+        "location": {},
+        "latitude": [39.5494],
+        "longitude": [19.8486],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [66],
+        "name": ["Debono Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6484],
+        "longitude": [19.8437],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [67],
+        "name": ["Corfu Club Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6614],
+        "longitude": [19.8394],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [68],
+        "name": ["Luxury Villas in Barbati, Corfu"],
+        "location": {},
+        "latitude": [39.7095],
+        "longitude": [19.8575],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [69],
+        "name": ["Ibiscus Rooms in Roda, Corfu"],
+        "location": {},
+        "latitude": [39.7966],
+        "longitude": [19.7741],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [70],
+        "name": ["Glyfa Villas in Barbati, Corfu"],
+        "location": {},
+        "latitude": [39.7242],
+        "longitude": [19.884],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [71],
+        "name": ["Arion Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.6087],
+        "longitude": [19.9248],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [72],
+        "name": ["Green Hill Apartments in Pelekas, Corfu"],
+        "location": {},
+        "latitude": [39.5875],
+        "longitude": [19.8185],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [73],
+        "name": ["Corfu Secret Hotel in Agios Markos, Corfu"],
+        "location": {},
+        "latitude": [39.7083],
+        "longitude": [19.8381],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [74],
+        "name": ["Eleni Apartments in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7811],
+        "longitude": [19.7098],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [75],
+        "name": ["Dimitra Apartments in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.55],
+        "longitude": [19.9118],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [76],
+        "name": ["Coral Beach Hotel in Roda, Corfu"],
+        "location": {},
+        "latitude": [39.7898],
+        "longitude": [19.7936],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [77],
+        "name": ["Evgenios Studios in Kavos, Corfu"],
+        "location": {},
+        "latitude": [39.3917],
+        "longitude": [20.1075],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [78],
+        "name": ["Folies Hotel in Town, Corfu"],
+        "location": {},
+        "latitude": [39.616],
+        "longitude": [19.8987],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [79],
+        "name": ["Fouxia Apartments in Perama, Corfu"],
+        "location": {},
+        "latitude": [39.5742],
+        "longitude": [19.9117],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [80],
+        "name": ["Fundana Suites in Paleokastritsa, Corfu"],
+        "location": {},
+        "latitude": [39.6579],
+        "longitude": [19.7621],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [81],
+        "name": ["Golden Sunset Hotel in Boukari, Corfu"],
+        "location": {},
+        "latitude": [39.4596],
+        "longitude": [19.9794],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [82],
+        "name": ["Island Beach Hotel in Kavos, Corfu"],
+        "location": {},
+        "latitude": [39.3861],
+        "longitude": [20.1135],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [83],
+        "name": ["Helion Apartments in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6575],
+        "longitude": [19.8413],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [84],
+        "name": ["Aegli Hotel in Perama, Corfu"],
+        "location": {},
+        "latitude": [39.586],
+        "longitude": [19.9141],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [85],
+        "name": ["Hellinis Hotel in Kanoni Kassiopi, Corfu"],
+        "location": {},
+        "latitude": [39.5939],
+        "longitude": [19.9166],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [86],
+        "name": ["Iliada Beach Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6543],
+        "longitude": [19.8422],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [87],
+        "name": ["Aurora Hotel in Agios Ioannis Peristeron, Corfu"],
+        "location": {},
+        "latitude": [39.516],
+        "longitude": [19.9238],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [88],
+        "name": ["Villa Infinity Villas in Agios Gordios, Corfu"],
+        "location": {},
+        "latitude": [39.5259],
+        "longitude": [19.8685],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [89],
+        "name": ["Ipsia Rooms in Paleokastritsa, Corfu"],
+        "location": {},
+        "latitude": [39.6758],
+        "longitude": [19.7041],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [90],
+        "name": ["Christakis Hotel in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7916],
+        "longitude": [19.6998],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [91],
+        "name": ["Irene Apartments in Agios Gordios, Corfu"],
+        "location": {},
+        "latitude": [39.5604],
+        "longitude": [19.8407],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [92],
+        "name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "location": {},
+        "latitude": [39.459],
+        "longitude": [19.9703],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [93],
+        "name": ["Kaiser Bridge Hotel in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.5628],
+        "longitude": [19.9096],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [94],
+        "name": ["Amalia Complex Apartments in Nissaki, Corfu"],
+        "location": {},
+        "latitude": [39.7271],
+        "longitude": [19.8991],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [95],
+        "name": ["Katia Hotel in Kasiopi, Corfu"],
+        "location": {},
+        "latitude": [39.7817],
+        "longitude": [19.9283],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [96],
+        "name": ["Lena Mare Hotel in Acharavi, Corfu"],
+        "location": {},
+        "latitude": [39.793],
+        "longitude": [19.8204],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [97],
+        "name": ["Livadi Nafsika Hotel in Dassia, Corfu"],
+        "location": {},
+        "latitude": [39.6778],
+        "longitude": [19.8382],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [98],
+        "name": ["Aronis Apartments in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.5342],
+        "longitude": [19.9151],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [99],
+        "name": ["Egrypos Rooms in Petriti, Corfu"],
+        "location": {},
+        "latitude": [39.453],
+        "longitude": [20.0013],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [100],
+        "name": ["Maria Apartments in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7904],
+        "longitude": [19.6975],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [101],
+        "name": ["Louvre Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6525],
+        "longitude": [19.8432],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [102],
+        "name": ["Makis Apartments in Moraitika, Corfu"],
+        "location": {},
+        "latitude": [39.4779],
+        "longitude": [19.9252],
+        "issues": ["Suspicious precision: 12 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [103],
+        "name": ["Lofos Apartments in Agios Stefanos, Corfu"],
+        "location": {},
+        "latitude": [39.7589],
+        "longitude": [19.6478],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [104],
+        "name": ["Marias Beach Apartments in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.795],
+        "longitude": [19.7016],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [105],
+        "name": ["Seafront Apartments in Kavos, Corfu"],
+        "location": {},
+        "latitude": [39.3916],
+        "longitude": [20.1073],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [106],
+        "name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "location": {},
+        "latitude": [39.5471],
+        "longitude": [19.8553],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [107],
+        "name": ["Royal Hotel in Kanoni Kassiopi, Corfu"],
+        "location": {},
+        "latitude": [39.5925],
+        "longitude": [19.917],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [108],
+        "name": ["Maltezos Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6534],
+        "longitude": [19.8432],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [109],
+        "name": ["Ninos on The Beach Studios in Roda, Corfu"],
+        "location": {},
+        "latitude": [39.7901],
+        "longitude": [19.7962],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [110],
+        "name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "location": {},
+        "latitude": [39.3766],
+        "longitude": [20.1179],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [111],
+        "name": ["Mimosa Hotel in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7922],
+        "longitude": [19.7058],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [112],
+        "name": ["Napoleon On The Beach Apartments in Paleokastritsa, Corfu"],
+        "location": {},
+        "latitude": [39.6734],
+        "longitude": [19.7066],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [113],
+        "name": ["Nissaki Sea View Apartments in Nissaki, Corfu"],
+        "location": {},
+        "latitude": [39.7246],
+        "longitude": [19.8955],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [114],
+        "name": ["Liberty's Studios in Acharavi, Corfu"],
+        "location": {},
+        "latitude": [39.8073],
+        "longitude": [19.8345],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [115],
+        "name": ["Oasis Hotel in Perama, Corfu"],
+        "location": {},
+        "latitude": [39.5802],
+        "longitude": [19.9138],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [116],
+        "name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "location": {},
+        "latitude": [39.6825],
+        "longitude": [19.8345],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [117],
+        "name": ["Opera Blue Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6536],
+        "longitude": [19.8425],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [118],
+        "name": ["Paradise Hotel in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6561],
+        "longitude": [19.8371],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [119],
+        "name": ["Villa Pelekas Villas in Pelekas, Corfu"],
+        "location": {},
+        "latitude": [39.5971],
+        "longitude": [19.8188],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [120],
+        "name": ["Olga Hotel in Agios Stefanos Avliotes, Corfu"],
+        "location": {},
+        "latitude": [39.7571],
+        "longitude": [19.6466],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [121],
+        "name": ["Pegasus Hotel in Roda, Corfu"],
+        "location": {},
+        "latitude": [39.7863],
+        "longitude": [19.7869],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [122],
+        "name": ["Prassino Nissi Rooms in Moraitika, Corfu"],
+        "location": {},
+        "latitude": [39.4897],
+        "longitude": [19.9262],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [123],
+        "name": ["Telesilla Hotel in Kontokali, Corfu"],
+        "location": {},
+        "latitude": [39.6451],
+        "longitude": [19.8567],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [124],
+        "name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.5449],
+        "longitude": [19.9122],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [125],
+        "name": ["Villa Panorea Villas in Moraitika, Corfu"],
+        "location": {},
+        "latitude": [39.483],
+        "longitude": [19.9279],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [126],
+        "name": ["Sebastian's Family Apartments in Agios Gordios, Corfu"],
+        "location": {},
+        "latitude": [39.5465],
+        "longitude": [19.8522],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [127],
+        "name": ["Roza Studios in Benitses, Corfu"],
+        "location": {},
+        "latitude": [39.5461],
+        "longitude": [19.9108],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [128],
+        "name": ["Saint Spiridon Rooms in Kasiopi, Corfu"],
+        "location": {},
+        "latitude": [39.7831],
+        "longitude": [19.9244],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [129],
+        "name": ["San Marina Hotel in Kavos, Corfu"],
+        "location": {},
+        "latitude": [39.3857],
+        "longitude": [20.1148],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [130],
+        "name": ["Villa Kerkyra Villas in Gouvia, Corfu"],
+        "location": {},
+        "latitude": [39.6494],
+        "longitude": [19.8183],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [131],
+        "name": ["Semeli Hotel in Roda, Corfu"],
+        "location": {},
+        "latitude": [39.7882],
+        "longitude": [19.796],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [132],
+        "name": ["Sugar And Almond Apartments in Agios Stefanos, Corfu"],
+        "location": {},
+        "latitude": [39.7533],
+        "longitude": [19.6429],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [133],
+        "name": ["Villa Vozos Villas in Afionas, Corfu"],
+        "location": {},
+        "latitude": [39.7441],
+        "longitude": [19.659],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [134],
+        "name": ["Solea Apartments in Kommeno, Corfu"],
+        "location": {},
+        "latitude": [39.6629],
+        "longitude": [19.8436],
+        "issues": ["Suspicious precision: 13 lat decimals, 12 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [135],
+        "name": ["Tassos Hotel in Acharavi, Corfu"],
+        "location": {},
+        "latitude": [39.7942],
+        "longitude": [19.8126],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [136],
+        "name": ["Yannis Hotel in Ipsos, Corfu"],
+        "location": {},
+        "latitude": [39.7002],
+        "longitude": [19.8373],
+        "issues": ["Suspicious precision: 12 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [137],
+        "name": ["The Wave Apartments in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7897],
+        "longitude": [19.7202],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [138],
+        "name": ["Pyrros Hotel in Kontokali, Corfu"],
+        "location": {},
+        "latitude": [39.6445],
+        "longitude": [19.8499],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [139],
+        "name": ["Toni's Apartments in Kavos, Corfu"],
+        "location": {},
+        "latitude": [39.3836],
+        "longitude": [20.1164],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      {
+        "hotel_id": [140],
+        "name": ["Toulas Apartments in Sidari, Corfu"],
+        "location": {},
+        "latitude": [39.7946],
+        "longitude": [19.7004],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      },
+      {
+        "hotel_id": [141],
+        "name": ["Victoria Hill Hotel in Dassia, Corfu"],
+        "location": {},
+        "latitude": [39.6852],
+        "longitude": [19.8365],
+        "issues": ["Suspicious precision: 13 lat decimals, 13 lon decimals"],
+        "status": ["SUSPICIOUS"]
+      }
+    ]
+  },
+  "distance_validation": {
+    "valid": [55],
+    "suspicious": [50],
+    "details": {
+      "1_2": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "euclidean_km": [8.342],
+        "haversine_km": [8.331],
+        "walking_time_min": [100],
+        "distance_diff_percent": [0.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_3": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "euclidean_km": [6.318],
+        "haversine_km": [4.888],
+        "walking_time_min": [58.7],
+        "distance_diff_percent": [29.2],
+        "issues": ["Distance calculation methods differ by 29.2%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "1_4": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Oasis Hotel in Perama, Corfu"],
+        "euclidean_km": [3.922],
+        "haversine_km": [3.932],
+        "walking_time_min": [47.2],
+        "distance_diff_percent": [0.2],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_5": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "euclidean_km": [37.905],
+        "haversine_km": [32.916],
+        "walking_time_min": [395],
+        "distance_diff_percent": [15.2],
+        "issues": ["Distance calculation methods differ by 15.2%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "1_6": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "euclidean_km": [17.541],
+        "haversine_km": [16.706],
+        "walking_time_min": [200.5],
+        "distance_diff_percent": [5],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_7": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Elea Hotel in Dassia, Corfu"],
+        "euclidean_km": [17.354],
+        "haversine_km": [16.654],
+        "walking_time_min": [199.8],
+        "distance_diff_percent": [4.2],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_8": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "euclidean_km": [15.169],
+        "haversine_km": [14.469],
+        "walking_time_min": [173.6],
+        "distance_diff_percent": [4.8],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_9": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [6.053],
+        "haversine_km": [6.028],
+        "walking_time_min": [72.3],
+        "distance_diff_percent": [0.4],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_10": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [11.511],
+        "haversine_km": [10.786],
+        "walking_time_min": [129.4],
+        "distance_diff_percent": [6.7],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_11": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [0.203],
+        "haversine_km": [0.179],
+        "walking_time_min": [2.1],
+        "distance_diff_percent": [13.8],
+        "issues": ["Distance calculation methods differ by 13.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "1_12": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [29.497],
+        "haversine_km": [25.754],
+        "walking_time_min": [309],
+        "distance_diff_percent": [14.5],
+        "issues": ["Distance calculation methods differ by 14.5%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "1_13": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [15.149],
+        "haversine_km": [14.391],
+        "walking_time_min": [172.7],
+        "distance_diff_percent": [5.3],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_14": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [28.217],
+        "haversine_km": [28.234],
+        "walking_time_min": [338.8],
+        "distance_diff_percent": [0.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "1_15": {
+        "hotel1_name": ["Sun Sea Side Apartments in Benitses, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [27.536],
+        "haversine_km": [23.917],
+        "walking_time_min": [287],
+        "distance_diff_percent": [15.1],
+        "issues": ["Distance calculation methods differ by 15.1%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "2_3": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "euclidean_km": [10.978],
+        "haversine_km": [9.911],
+        "walking_time_min": [118.9],
+        "distance_diff_percent": [10.8],
+        "issues": ["Distance calculation methods differ by 10.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "2_4": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Oasis Hotel in Perama, Corfu"],
+        "euclidean_km": [4.455],
+        "haversine_km": [4.421],
+        "walking_time_min": [53],
+        "distance_diff_percent": [0.8],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "2_5": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "euclidean_km": [34.474],
+        "haversine_km": [28.346],
+        "walking_time_min": [340.2],
+        "distance_diff_percent": [21.6],
+        "issues": ["Distance calculation methods differ by 21.6%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "2_6": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "euclidean_km": [12.062],
+        "haversine_km": [10.341],
+        "walking_time_min": [124.1],
+        "distance_diff_percent": [16.6],
+        "issues": ["Distance calculation methods differ by 16.6%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "2_7": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Elea Hotel in Dassia, Corfu"],
+        "euclidean_km": [11.593],
+        "haversine_km": [10.066],
+        "walking_time_min": [120.8],
+        "distance_diff_percent": [15.2],
+        "issues": ["Distance calculation methods differ by 15.2%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "2_8": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "euclidean_km": [9.9],
+        "haversine_km": [8.291],
+        "walking_time_min": [99.5],
+        "distance_diff_percent": [19.4],
+        "issues": ["Distance calculation methods differ by 19.4%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "2_9": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [2.309],
+        "haversine_km": [2.316],
+        "walking_time_min": [27.8],
+        "distance_diff_percent": [0.3],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "2_10": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [18.552],
+        "haversine_km": [18.3],
+        "walking_time_min": [219.6],
+        "distance_diff_percent": [1.4],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "2_11": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [8.234],
+        "haversine_km": [8.213],
+        "walking_time_min": [98.6],
+        "distance_diff_percent": [0.3],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "2_12": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [34.551],
+        "haversine_km": [31.781],
+        "walking_time_min": [381.4],
+        "distance_diff_percent": [8.7],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "2_13": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [10.046],
+        "haversine_km": [8.353],
+        "walking_time_min": [100.2],
+        "distance_diff_percent": [20.3],
+        "issues": ["Distance calculation methods differ by 20.3%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "2_14": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [20.236],
+        "haversine_km": [20.118],
+        "walking_time_min": [241.4],
+        "distance_diff_percent": [0.6],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "2_15": {
+        "hotel1_name": ["Corfu Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [32.515],
+        "haversine_km": [29.881],
+        "walking_time_min": [358.6],
+        "distance_diff_percent": [8.8],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "3_4": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Oasis Hotel in Perama, Corfu"],
+        "euclidean_km": [7.46],
+        "haversine_km": [6.227],
+        "walking_time_min": [74.7],
+        "distance_diff_percent": [19.8],
+        "issues": ["Distance calculation methods differ by 19.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "3_5": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "euclidean_km": [33.017],
+        "haversine_km": [29.531],
+        "walking_time_min": [354.4],
+        "distance_diff_percent": [11.8],
+        "issues": ["Distance calculation methods differ by 11.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "3_6": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "euclidean_km": [15.211],
+        "haversine_km": [15.184],
+        "walking_time_min": [182.2],
+        "distance_diff_percent": [0.2],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "3_7": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Elea Hotel in Dassia, Corfu"],
+        "euclidean_km": [15.291],
+        "haversine_km": [15.302],
+        "walking_time_min": [183.6],
+        "distance_diff_percent": [0.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "3_8": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "euclidean_km": [13.069],
+        "haversine_km": [13.09],
+        "walking_time_min": [157.1],
+        "distance_diff_percent": [0.2],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "3_9": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [9.373],
+        "haversine_km": [8.111],
+        "walking_time_min": [97.3],
+        "distance_diff_percent": [15.6],
+        "issues": ["Distance calculation methods differ by 15.6%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "3_10": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [16.078],
+        "haversine_km": [13.917],
+        "walking_time_min": [167],
+        "distance_diff_percent": [15.5],
+        "issues": ["Distance calculation methods differ by 15.5%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "3_11": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [6.16],
+        "haversine_km": [4.764],
+        "walking_time_min": [57.2],
+        "distance_diff_percent": [29.3],
+        "issues": ["Distance calculation methods differ by 29.3%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "3_12": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [34.746],
+        "haversine_km": [29.481],
+        "walking_time_min": [353.8],
+        "distance_diff_percent": [17.9],
+        "issues": ["Distance calculation methods differ by 17.9%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "3_13": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [12.919],
+        "haversine_km": [12.929],
+        "walking_time_min": [155.2],
+        "distance_diff_percent": [0.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "3_14": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [28.017],
+        "haversine_km": [28.016],
+        "walking_time_min": [336.2],
+        "distance_diff_percent": [0],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "3_15": {
+        "hotel1_name": ["Marina Apartments in Agios Gordios, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [32.86],
+        "haversine_km": [27.715],
+        "walking_time_min": [332.6],
+        "distance_diff_percent": [18.6],
+        "issues": ["Distance calculation methods differ by 18.6%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "4_5": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "euclidean_km": [35.754],
+        "haversine_km": [30.323],
+        "walking_time_min": [363.9],
+        "distance_diff_percent": [17.9],
+        "issues": ["Distance calculation methods differ by 17.9%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "4_6": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "euclidean_km": [14.368],
+        "haversine_km": [13.265],
+        "walking_time_min": [159.2],
+        "distance_diff_percent": [8.3],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_7": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Elea Hotel in Dassia, Corfu"],
+        "euclidean_km": [14.082],
+        "haversine_km": [13.142],
+        "walking_time_min": [157.7],
+        "distance_diff_percent": [7.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_8": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "euclidean_km": [12.005],
+        "haversine_km": [11.035],
+        "walking_time_min": [132.4],
+        "distance_diff_percent": [8.8],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_9": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [2.239],
+        "haversine_km": [2.163],
+        "walking_time_min": [26],
+        "distance_diff_percent": [3.5],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_10": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [14.842],
+        "haversine_km": [14.336],
+        "walking_time_min": [172],
+        "distance_diff_percent": [3.5],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_11": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [3.799],
+        "haversine_km": [3.804],
+        "walking_time_min": [45.7],
+        "distance_diff_percent": [0.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_12": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [31.994],
+        "haversine_km": [28.651],
+        "walking_time_min": [343.8],
+        "distance_diff_percent": [11.7],
+        "issues": ["Distance calculation methods differ by 11.7%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "4_13": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [12.04],
+        "haversine_km": [10.998],
+        "walking_time_min": [132],
+        "distance_diff_percent": [9.5],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_14": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [24.347],
+        "haversine_km": [24.333],
+        "walking_time_min": [292],
+        "distance_diff_percent": [0.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "4_15": {
+        "hotel1_name": ["Oasis Hotel in Perama, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [29.986],
+        "haversine_km": [26.773],
+        "walking_time_min": [321.3],
+        "distance_diff_percent": [12],
+        "issues": ["Distance calculation methods differ by 12.0%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_6": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "euclidean_km": [22.654],
+        "haversine_km": [18.258],
+        "walking_time_min": [219.1],
+        "distance_diff_percent": [24.1],
+        "issues": ["Distance calculation methods differ by 24.1%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_7": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Elea Hotel in Dassia, Corfu"],
+        "euclidean_km": [23.263],
+        "haversine_km": [18.677],
+        "walking_time_min": [224.1],
+        "distance_diff_percent": [24.6],
+        "issues": ["Distance calculation methods differ by 24.6%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_8": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "euclidean_km": [24.609],
+        "haversine_km": [20.092],
+        "walking_time_min": [241.1],
+        "distance_diff_percent": [22.5],
+        "issues": ["Distance calculation methods differ by 22.5%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_9": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [35.499],
+        "haversine_km": [29.623],
+        "walking_time_min": [355.5],
+        "distance_diff_percent": [19.8],
+        "issues": ["Distance calculation methods differ by 19.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_10": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [49.004],
+        "haversine_km": [43.365],
+        "walking_time_min": [520.4],
+        "distance_diff_percent": [13],
+        "issues": ["Distance calculation methods differ by 13.0%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_11": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [37.702],
+        "haversine_km": [32.737],
+        "walking_time_min": [392.8],
+        "distance_diff_percent": [15.2],
+        "issues": ["Distance calculation methods differ by 15.2%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_12": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [67.4],
+        "haversine_km": [58.669],
+        "walking_time_min": [704],
+        "distance_diff_percent": [14.9],
+        "issues": ["Distance calculation methods differ by 14.9%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_13": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [24.44],
+        "haversine_km": [20.007],
+        "walking_time_min": [240.1],
+        "distance_diff_percent": [22.2],
+        "issues": ["Distance calculation methods differ by 22.2%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_14": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [27.118],
+        "haversine_km": [21.102],
+        "walking_time_min": [253.2],
+        "distance_diff_percent": [28.5],
+        "issues": ["Distance calculation methods differ by 28.5%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "5_15": {
+        "hotel1_name": ["Delfino Blu Hotel in Agios Stefanos Avliotes, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [65.441],
+        "haversine_km": [56.833],
+        "walking_time_min": [682],
+        "distance_diff_percent": [15.1],
+        "issues": ["Distance calculation methods differ by 15.1%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "6_7": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Elea Hotel in Dassia, Corfu"],
+        "euclidean_km": [0.738],
+        "haversine_km": [0.58],
+        "walking_time_min": [7],
+        "distance_diff_percent": [27.2],
+        "issues": ["Distance calculation methods differ by 27.2%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "6_8": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "euclidean_km": [2.376],
+        "haversine_km": [2.239],
+        "walking_time_min": [26.9],
+        "distance_diff_percent": [6.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "6_9": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [13.488],
+        "haversine_km": [12.005],
+        "walking_time_min": [144.1],
+        "distance_diff_percent": [12.4],
+        "issues": ["Distance calculation methods differ by 12.4%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "6_10": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [29.029],
+        "haversine_km": [27.475],
+        "walking_time_min": [329.7],
+        "distance_diff_percent": [5.7],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "6_11": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [17.35],
+        "haversine_km": [16.536],
+        "walking_time_min": [198.4],
+        "distance_diff_percent": [4.9],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "6_12": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [46.281],
+        "haversine_km": [41.848],
+        "walking_time_min": [502.2],
+        "distance_diff_percent": [10.6],
+        "issues": ["Distance calculation methods differ by 10.6%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "6_13": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [2.402],
+        "haversine_km": [2.322],
+        "walking_time_min": [27.9],
+        "distance_diff_percent": [3.5],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "6_14": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [13.972],
+        "haversine_km": [13.537],
+        "walking_time_min": [162.4],
+        "distance_diff_percent": [3.2],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "6_15": {
+        "hotel1_name": ["Panorama Hideaway Apartments in Dassia, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [44.26],
+        "haversine_km": [39.959],
+        "walking_time_min": [479.5],
+        "distance_diff_percent": [10.8],
+        "issues": ["Distance calculation methods differ by 10.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "7_8": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "euclidean_km": [2.25],
+        "haversine_km": [2.228],
+        "walking_time_min": [26.7],
+        "distance_diff_percent": [1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "7_9": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [13.105],
+        "haversine_km": [11.806],
+        "walking_time_min": [141.7],
+        "distance_diff_percent": [11],
+        "issues": ["Distance calculation methods differ by 11.0%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "7_10": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [28.814],
+        "haversine_km": [27.403],
+        "walking_time_min": [328.8],
+        "distance_diff_percent": [5.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "7_11": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [17.166],
+        "haversine_km": [16.486],
+        "walking_time_min": [197.8],
+        "distance_diff_percent": [4.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "7_12": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [45.925],
+        "haversine_km": [41.67],
+        "walking_time_min": [500],
+        "distance_diff_percent": [10.2],
+        "issues": ["Distance calculation methods differ by 10.2%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "7_13": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [2.373],
+        "haversine_km": [2.372],
+        "walking_time_min": [28.5],
+        "distance_diff_percent": [0],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "7_14": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [13.536],
+        "haversine_km": [13.203],
+        "walking_time_min": [158.4],
+        "distance_diff_percent": [2.5],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "7_15": {
+        "hotel1_name": ["Elea Hotel in Dassia, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [43.9],
+        "haversine_km": [39.778],
+        "walking_time_min": [477.3],
+        "distance_diff_percent": [10.4],
+        "issues": ["Distance calculation methods differ by 10.4%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "8_9": {
+        "hotel1_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "hotel2_name": ["Divani Palace Hotel in Town, Corfu"],
+        "euclidean_km": [11.197],
+        "haversine_km": [9.835],
+        "walking_time_min": [118],
+        "distance_diff_percent": [13.8],
+        "issues": ["Distance calculation methods differ by 13.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "8_10": {
+        "hotel1_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [26.654],
+        "haversine_km": [25.235],
+        "walking_time_min": [302.8],
+        "distance_diff_percent": [5.6],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "8_11": {
+        "hotel1_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [14.978],
+        "haversine_km": [14.299],
+        "walking_time_min": [171.6],
+        "distance_diff_percent": [4.7],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "8_12": {
+        "hotel1_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [43.947],
+        "haversine_km": [39.642],
+        "walking_time_min": [475.7],
+        "distance_diff_percent": [10.9],
+        "issues": ["Distance calculation methods differ by 10.9%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "8_13": {
+        "hotel1_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [0.319],
+        "haversine_km": [0.271],
+        "walking_time_min": [3.2],
+        "distance_diff_percent": [18],
+        "issues": ["Distance calculation methods differ by 18.0%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "8_14": {
+        "hotel1_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [15.422],
+        "haversine_km": [15.21],
+        "walking_time_min": [182.5],
+        "distance_diff_percent": [1.4],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "8_15": {
+        "hotel1_name": ["Rodostamo Hotel in Kommeno, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [41.929],
+        "haversine_km": [37.755],
+        "walking_time_min": [453.1],
+        "distance_diff_percent": [11.1],
+        "issues": ["Distance calculation methods differ by 11.1%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "9_10": {
+        "hotel1_name": ["Divani Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "euclidean_km": [16.373],
+        "haversine_km": [16.064],
+        "walking_time_min": [192.8],
+        "distance_diff_percent": [1.9],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "9_11": {
+        "hotel1_name": ["Divani Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [5.954],
+        "haversine_km": [5.915],
+        "walking_time_min": [71],
+        "distance_diff_percent": [0.7],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "9_12": {
+        "hotel1_name": ["Divani Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [32.827],
+        "haversine_km": [29.868],
+        "walking_time_min": [358.4],
+        "distance_diff_percent": [9.9],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "9_13": {
+        "hotel1_name": ["Divani Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [11.289],
+        "haversine_km": [9.845],
+        "walking_time_min": [118.1],
+        "distance_diff_percent": [14.7],
+        "issues": ["Distance calculation methods differ by 14.7%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "9_14": {
+        "hotel1_name": ["Divani Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [22.488],
+        "haversine_km": [22.399],
+        "walking_time_min": [268.8],
+        "distance_diff_percent": [0.4],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "9_15": {
+        "hotel1_name": ["Divani Palace Hotel in Town, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [30.8],
+        "haversine_km": [27.975],
+        "walking_time_min": [335.7],
+        "distance_diff_percent": [10.1],
+        "issues": ["Distance calculation methods differ by 10.1%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "10_11": {
+        "hotel1_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "hotel2_name": ["Roza Studios in Benitses, Corfu"],
+        "euclidean_km": [11.708],
+        "haversine_km": [10.959],
+        "walking_time_min": [131.5],
+        "distance_diff_percent": [6.8],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "10_12": {
+        "hotel1_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [18.759],
+        "haversine_km": [15.656],
+        "walking_time_min": [187.9],
+        "distance_diff_percent": [19.8],
+        "issues": ["Distance calculation methods differ by 19.8%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "10_13": {
+        "hotel1_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [26.645],
+        "haversine_km": [25.165],
+        "walking_time_min": [302],
+        "distance_diff_percent": [5.9],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "10_14": {
+        "hotel1_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [38.757],
+        "haversine_km": [38.398],
+        "walking_time_min": [460.8],
+        "distance_diff_percent": [0.9],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "10_15": {
+        "hotel1_name": ["Helios Splendid Apartments in Boukari, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [16.941],
+        "haversine_km": [13.961],
+        "walking_time_min": [167.5],
+        "distance_diff_percent": [21.3],
+        "issues": ["Distance calculation methods differ by 21.3%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "11_12": {
+        "hotel1_name": ["Roza Studios in Benitses, Corfu"],
+        "hotel2_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "euclidean_km": [29.7],
+        "haversine_km": [25.933],
+        "walking_time_min": [311.2],
+        "distance_diff_percent": [14.5],
+        "issues": ["Distance calculation methods differ by 14.5%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "11_13": {
+        "hotel1_name": ["Roza Studios in Benitses, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [14.957],
+        "haversine_km": [14.221],
+        "walking_time_min": [170.6],
+        "distance_diff_percent": [5.2],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "11_14": {
+        "hotel1_name": ["Roza Studios in Benitses, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [28.069],
+        "haversine_km": [28.091],
+        "walking_time_min": [337.1],
+        "distance_diff_percent": [0.1],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "11_15": {
+        "hotel1_name": ["Roza Studios in Benitses, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [27.739],
+        "haversine_km": [24.096],
+        "walking_time_min": [289.2],
+        "distance_diff_percent": [15.1],
+        "issues": ["Distance calculation methods differ by 15.1%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "12_13": {
+        "hotel1_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "hotel2_name": ["Solea Apartments in Kommeno, Corfu"],
+        "euclidean_km": [44.005],
+        "haversine_km": [39.623],
+        "walking_time_min": [475.5],
+        "distance_diff_percent": [11.1],
+        "issues": ["Distance calculation methods differ by 11.1%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "12_14": {
+        "hotel1_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [53.388],
+        "haversine_km": [50.937],
+        "walking_time_min": [611.2],
+        "distance_diff_percent": [4.8],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "12_15": {
+        "hotel1_name": ["Mediterranean Blue Hotel in Kavos, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [2.039],
+        "haversine_km": [1.903],
+        "walking_time_min": [22.8],
+        "distance_diff_percent": [7.2],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "13_14": {
+        "hotel1_name": ["Solea Apartments in Kommeno, Corfu"],
+        "hotel2_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "euclidean_km": [15.667],
+        "haversine_km": [15.428],
+        "walking_time_min": [185.1],
+        "distance_diff_percent": [1.5],
+        "issues": {},
+        "status": ["VALID"]
+      },
+      "13_15": {
+        "hotel1_name": ["Solea Apartments in Kommeno, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [41.989],
+        "haversine_km": [37.738],
+        "walking_time_min": [452.9],
+        "distance_diff_percent": [11.3],
+        "issues": ["Distance calculation methods differ by 11.3%"],
+        "status": ["SUSPICIOUS"]
+      },
+      "14_15": {
+        "hotel1_name": ["Chrismos Suites in Acharavi, Corfu"],
+        "hotel2_name": ["Seafront Apartments in Kavos, Corfu"],
+        "euclidean_km": [51.361],
+        "haversine_km": [49.044],
+        "walking_time_min": [588.5],
+        "distance_diff_percent": [4.7],
+        "issues": {},
+        "status": ["VALID"]
+      }
+    }
+  },
+  "walking_time_validation": {
+    "5": {
+      "time_min": [5],
+      "expected_distance_km": [0.417],
+      "expected_distance_m": [417],
+      "reverse_time": [5],
+      "time_diff": [0],
+      "status": ["VALID"]
+    },
+    "10": {
+      "time_min": [10],
+      "expected_distance_km": [0.833],
+      "expected_distance_m": [833],
+      "reverse_time": [10],
+      "time_diff": [0],
+      "status": ["VALID"]
+    },
+    "15": {
+      "time_min": [15],
+      "expected_distance_km": [1.25],
+      "expected_distance_m": [1250],
+      "reverse_time": [15],
+      "time_diff": [0],
+      "status": ["VALID"]
+    },
+    "20": {
+      "time_min": [20],
+      "expected_distance_km": [1.667],
+      "expected_distance_m": [1667],
+      "reverse_time": [20],
+      "time_diff": [0],
+      "status": ["VALID"]
+    },
+    "30": {
+      "time_min": [30],
+      "expected_distance_km": [2.5],
+      "expected_distance_m": [2500],
+      "reverse_time": [30],
+      "time_diff": [0],
+      "status": ["VALID"]
+    },
+    "45": {
+      "time_min": [45],
+      "expected_distance_km": [3.75],
+      "expected_distance_m": [3750],
+      "reverse_time": [45],
+      "time_diff": [0],
+      "status": ["VALID"]
+    },
+    "60": {
+      "time_min": [60],
+      "expected_distance_km": [5],
+      "expected_distance_m": [5000],
+      "reverse_time": [60],
+      "time_diff": [0],
+      "status": ["VALID"]
+    }
+  },
+  "geographical_validation": [
+    {
+      "name": ["Bella Venezia Hotel in Town, Corfu"],
+      "location": {},
+      "coordinates": ["39.6211, 19.9223"],
+      "corfu_found": [true],
+      "nearby_places": ["Blue cave, Άκτρωτήρι Λάκκας, Ακρωτήρι Ρόδα"],
+      "status": ["CONFIRMED"]
+    },
+    {
+      "name": ["Angelina Hotel in Sidari, Corfu"],
+      "location": {},
+      "coordinates": ["39.7944, 19.6995"],
+      "corfu_found": [true],
+      "nearby_places": ["Punta Caderini, Capo Stornello, Punta Cantera"],
+      "status": ["CONFIRMED"]
+    },
+    {
+      "name": ["Royal Hotel in Kanoni Kassiopi, Corfu"],
+      "location": {},
+      "coordinates": ["39.5925, 19.9170"],
+      "corfu_found": [true],
+      "nearby_places": ["Blue cave, Άκτρωτήρι Λάκκας, Ακρωτήρι Ρόδα"],
+      "status": ["CONFIRMED"]
+    },
+    {
+      "name": ["Oceanis Apartments in Barbati, Corfu"],
+      "location": {},
+      "coordinates": ["39.7227, 19.8816"],
+      "corfu_found": [true],
+      "nearby_places": ["Blue cave, Άκτρωτήρι Λάκκας, Ακρωτήρι Ρόδα"],
+      "status": ["CONFIRMED"]
+    },
+    {
+      "name": ["Prassino Nissi Rooms in Moraitika, Corfu"],
+      "location": {},
+      "coordinates": ["39.4897, 19.9262"],
+      "corfu_found": [true],
+      "nearby_places": ["Blue cave, Άκτρωτήρι Λάκκας, Ακρωτήρι Ρόδα"],
+      "status": ["CONFIRMED"]
+    },
+    {
+      "name": ["Paradise Hotel in Gouvia, Corfu"],
+      "location": {},
+      "coordinates": ["39.6561, 19.8371"],
+      "corfu_found": [true],
+      "nearby_places": ["Blue cave, Άκτρωτήρι Λάκκας, Ακρωτήρι Ρόδα"],
+      "status": ["CONFIRMED"]
+    },
+    {
+      "name": ["Toni's Apartments in Kavos, Corfu"],
+      "location": {},
+      "coordinates": ["39.3836, 20.1164"],
+      "corfu_found": [true],
+      "nearby_places": ["Blue cave, Άκτρωτήρι Λάκκας, Ακρωτήρι Ρόδα"],
+      "status": ["CONFIRMED"]
+    },
+    {
+      "name": ["Mimosa Hotel in Sidari, Corfu"],
+      "location": {},
+      "coordinates": ["39.7922, 19.7058"],
+      "corfu_found": [true],
+      "nearby_places": ["Punta Caderini, Capo Stornello, Punta Cantera"],
+      "status": ["CONFIRMED"]
+    }
+  ],
+  "summary": {
+    "total_issues": [144],
+    "validation_passed": [false]
+  }
+}
